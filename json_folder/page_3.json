@@ -1,0 +1,5868 @@
+{
+    "data": {
+        "height": 1072,
+        "text_angel": 1,
+        "text_angel_confidence": 1.0,
+        "text_lines": [
+            {
+                "position": [
+                    [
+                        625,
+                        479
+                    ],
+                    [
+                        630,
+                        274
+                    ],
+                    [
+                        649,
+                        275
+                    ],
+                    [
+                        644,
+                        480
+                    ]
+                ],
+                "text": "古本三國演n日@",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8628,
+                        "position": [
+                            632,
+                            275,
+                            648,
+                            293
+                        ],
+                        "text": "古"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8632,
+                        "position": [
+                            630,
+                            300,
+                            648,
+                            316
+                        ],
+                        "text": "本"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8377,
+                        "position": [
+                            631,
+                            325,
+                            647,
+                            340
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 0.993,
+                        "det_confidence": 0.8011,
+                        "position": [
+                            630,
+                            348,
+                            647,
+                            366
+                        ],
+                        "text": "國"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.6272,
+                        "position": [
+                            629,
+                            373,
+                            647,
+                            392
+                        ],
+                        "text": "演"
+                    },
+                    {
+                        "confidence": 0.297,
+                        "det_confidence": 0.8034,
+                        "position": [
+                            628,
+                            397,
+                            646,
+                            416
+                        ],
+                        "text": "n"
+                    },
+                    {
+                        "confidence": 0.696,
+                        "det_confidence": 0.8047,
+                        "position": [
+                            627,
+                            447,
+                            644,
+                            463
+                        ],
+                        "text": "日"
+                    },
+                    {
+                        "confidence": 0.214,
+                        "det_confidence": 0.8223,
+                        "position": [
+                            626,
+                            463,
+                            644,
+                            480
+                        ],
+                        "text": "@"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        593,
+                        529
+                    ],
+                    [
+                        601,
+                        185
+                    ],
+                    [
+                        625,
+                        186
+                    ],
+                    [
+                        617,
+                        530
+                    ]
+                ],
+                "text": "第十九回下邳域曹操臺兵",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8517,
+                        "position": [
+                            604,
+                            186,
+                            625,
+                            208
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8641,
+                        "position": [
+                            602,
+                            216,
+                            624,
+                            238
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8626,
+                        "position": [
+                            601,
+                            245,
+                            622,
+                            267
+                        ],
+                        "text": "九"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.857,
+                        "position": [
+                            601,
+                            273,
+                            621,
+                            294
+                        ],
+                        "text": "回"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8459,
+                        "position": [
+                            597,
+                            380,
+                            619,
+                            400
+                        ],
+                        "text": "下"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8745,
+                        "position": [
+                            597,
+                            401,
+                            619,
+                            421
+                        ],
+                        "text": "邳"
+                    },
+                    {
+                        "confidence": 0.99,
+                        "det_confidence": 0.8831,
+                        "position": [
+                            596,
+                            422,
+                            619,
+                            444
+                        ],
+                        "text": "域"
+                    },
+                    {
+                        "confidence": 0.74,
+                        "det_confidence": 0.8578,
+                        "position": [
+                            596,
+                            443,
+                            618,
+                            465
+                        ],
+                        "text": "曹"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8681,
+                        "position": [
+                            595,
+                            465,
+                            617,
+                            487
+                        ],
+                        "text": "操"
+                    },
+                    {
+                        "confidence": 0.909,
+                        "det_confidence": 0.8665,
+                        "position": [
+                            595,
+                            487,
+                            618,
+                            508
+                        ],
+                        "text": "臺"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8654,
+                        "position": [
+                            595,
+                            509,
+                            616,
+                            530
+                        ],
+                        "text": "兵"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        587,
+                        806
+                    ],
+                    [
+                        589,
+                        655
+                    ],
+                    [
+                        613,
+                        656
+                    ],
+                    [
+                        610,
+                        807
+                    ]
+                ],
+                "text": "白鬥樓呂布殞命",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8621,
+                        "position": [
+                            593,
+                            656,
+                            612,
+                            678
+                        ],
+                        "text": "白"
+                    },
+                    {
+                        "confidence": 0.993,
+                        "det_confidence": 0.8635,
+                        "position": [
+                            592,
+                            679,
+                            612,
+                            699
+                        ],
+                        "text": "鬥"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8705,
+                        "position": [
+                            590,
+                            700,
+                            612,
+                            721
+                        ],
+                        "text": "樓"
+                    },
+                    {
+                        "confidence": 0.956,
+                        "det_confidence": 0.8555,
+                        "position": [
+                            591,
+                            722,
+                            610,
+                            742
+                        ],
+                        "text": "呂"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8759,
+                        "position": [
+                            589,
+                            743,
+                            611,
+                            763
+                        ],
+                        "text": "布"
+                    },
+                    {
+                        "confidence": 0.424,
+                        "det_confidence": 0.8737,
+                        "position": [
+                            588,
+                            763,
+                            611,
+                            784
+                        ],
+                        "text": "殞"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8762,
+                        "position": [
+                            589,
+                            785,
+                            610,
+                            807
+                        ],
+                        "text": "命"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        572,
+                        293
+                    ],
+                    [
+                        576,
+                        186
+                    ],
+                    [
+                        598,
+                        187
+                    ],
+                    [
+                        594,
+                        294
+                    ]
+                ],
+                "text": "第二十回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8529,
+                        "position": [
+                            577,
+                            187,
+                            598,
+                            208
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 0.988,
+                        "det_confidence": 0.8328,
+                        "position": [
+                            575,
+                            218,
+                            597,
+                            235
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8528,
+                        "position": [
+                            576,
+                            244,
+                            595,
+                            265
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8526,
+                        "position": [
+                            574,
+                            273,
+                            594,
+                            294
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        565,
+                        530
+                    ],
+                    [
+                        570,
+                        378
+                    ],
+                    [
+                        592,
+                        379
+                    ],
+                    [
+                        588,
+                        531
+                    ]
+                ],
+                "text": "會阿滿許田打圍",
+                "words": [
+                    {
+                        "confidence": 0.509,
+                        "det_confidence": 0.8702,
+                        "position": [
+                            570,
+                            379,
+                            592,
+                            402
+                        ],
+                        "text": "會"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8655,
+                        "position": [
+                            570,
+                            403,
+                            591,
+                            423
+                        ],
+                        "text": "阿"
+                    },
+                    {
+                        "confidence": 0.974,
+                        "det_confidence": 0.8694,
+                        "position": [
+                            570,
+                            423,
+                            590,
+                            444
+                        ],
+                        "text": "滿"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8688,
+                        "position": [
+                            569,
+                            445,
+                            589,
+                            466
+                        ],
+                        "text": "許"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8629,
+                        "position": [
+                            569,
+                            467,
+                            588,
+                            486
+                        ],
+                        "text": "田"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8649,
+                        "position": [
+                            567,
+                            488,
+                            588,
+                            509
+                        ],
+                        "text": "打"
+                    },
+                    {
+                        "confidence": 0.96,
+                        "det_confidence": 0.8704,
+                        "position": [
+                            567,
+                            510,
+                            588,
+                            531
+                        ],
+                        "text": "圍"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        560,
+                        807
+                    ],
+                    [
+                        564,
+                        655
+                    ],
+                    [
+                        586,
+                        656
+                    ],
+                    [
+                        582,
+                        808
+                    ]
+                ],
+                "text": "菌國身內開受詔",
+                "words": [
+                    {
+                        "confidence": 0.24,
+                        "det_confidence": 0.8681,
+                        "position": [
+                            565,
+                            656,
+                            586,
+                            679
+                        ],
+                        "text": "菌"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8638,
+                        "position": [
+                            564,
+                            679,
+                            585,
+                            701
+                        ],
+                        "text": "國"
+                    },
+                    {
+                        "confidence": 0.897,
+                        "det_confidence": 0.8607,
+                        "position": [
+                            565,
+                            701,
+                            584,
+                            722
+                        ],
+                        "text": "身"
+                    },
+                    {
+                        "confidence": 0.972,
+                        "det_confidence": 0.8579,
+                        "position": [
+                            564,
+                            723,
+                            584,
+                            743
+                        ],
+                        "text": "內"
+                    },
+                    {
+                        "confidence": 0.283,
+                        "det_confidence": 0.8628,
+                        "position": [
+                            563,
+                            743,
+                            583,
+                            763
+                        ],
+                        "text": "開"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8685,
+                        "position": [
+                            562,
+                            764,
+                            583,
+                            786
+                        ],
+                        "text": "受"
+                    },
+                    {
+                        "confidence": 0.94,
+                        "det_confidence": 0.8663,
+                        "position": [
+                            561,
+                            787,
+                            582,
+                            808
+                        ],
+                        "text": "詔"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        543,
+                        293
+                    ],
+                    [
+                        545,
+                        185
+                    ],
+                    [
+                        569,
+                        186
+                    ],
+                    [
+                        567,
+                        294
+                    ]
+                ],
+                "text": "第二十一回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8679,
+                        "position": [
+                            547,
+                            186,
+                            569,
+                            208
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 0.978,
+                        "det_confidence": 0.8463,
+                        "position": [
+                            545,
+                            211,
+                            568,
+                            228
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8819,
+                        "position": [
+                            545,
+                            230,
+                            567,
+                            252
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.782,
+                        "position": [
+                            544,
+                            256,
+                            566,
+                            267
+                        ],
+                        "text": "一"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8571,
+                        "position": [
+                            545,
+                            273,
+                            565,
+                            294
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        536,
+                        528
+                    ],
+                    [
+                        540,
+                        377
+                    ],
+                    [
+                        563,
+                        378
+                    ],
+                    [
+                        560,
+                        529
+                    ]
+                ],
+                "text": "曹握@酒論英维",
+                "words": [
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8706,
+                        "position": [
+                            540,
+                            378,
+                            563,
+                            401
+                        ],
+                        "text": "曹"
+                    },
+                    {
+                        "confidence": 0.917,
+                        "det_confidence": 0.8862,
+                        "position": [
+                            540,
+                            401,
+                            561,
+                            423
+                        ],
+                        "text": "握"
+                    },
+                    {
+                        "confidence": 0.864,
+                        "det_confidence": 0.8574,
+                        "position": [
+                            539,
+                            424,
+                            560,
+                            445
+                        ],
+                        "text": "@"
+                    },
+                    {
+                        "confidence": 0.762,
+                        "det_confidence": 0.864,
+                        "position": [
+                            540,
+                            444,
+                            560,
+                            464
+                        ],
+                        "text": "酒"
+                    },
+                    {
+                        "confidence": 0.919,
+                        "det_confidence": 0.8735,
+                        "position": [
+                            539,
+                            464,
+                            561,
+                            486
+                        ],
+                        "text": "論"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8589,
+                        "position": [
+                            539,
+                            487,
+                            560,
+                            508
+                        ],
+                        "text": "英"
+                    },
+                    {
+                        "confidence": 0.876,
+                        "det_confidence": 0.8684,
+                        "position": [
+                            538,
+                            509,
+                            559,
+                            529
+                        ],
+                        "text": "维"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        531,
+                        804
+                    ],
+                    [
+                        534,
+                        654
+                    ],
+                    [
+                        557,
+                        655
+                    ],
+                    [
+                        555,
+                        805
+                    ]
+                ],
+                "text": "關公賺域斬車自",
+                "words": [
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8679,
+                        "position": [
+                            536,
+                            655,
+                            557,
+                            678
+                        ],
+                        "text": "關"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8776,
+                        "position": [
+                            534,
+                            678,
+                            556,
+                            698
+                        ],
+                        "text": "公"
+                    },
+                    {
+                        "confidence": 0.348,
+                        "det_confidence": 0.8707,
+                        "position": [
+                            535,
+                            698,
+                            556,
+                            719
+                        ],
+                        "text": "賺"
+                    },
+                    {
+                        "confidence": 0.997,
+                        "det_confidence": 0.8805,
+                        "position": [
+                            533,
+                            720,
+                            556,
+                            742
+                        ],
+                        "text": "域"
+                    },
+                    {
+                        "confidence": 0.989,
+                        "det_confidence": 0.8708,
+                        "position": [
+                            533,
+                            742,
+                            554,
+                            763
+                        ],
+                        "text": "斬"
+                    },
+                    {
+                        "confidence": 0.431,
+                        "det_confidence": 0.8642,
+                        "position": [
+                            534,
+                            763,
+                            554,
+                            782
+                        ],
+                        "text": "車"
+                    },
+                    {
+                        "confidence": 0.248,
+                        "det_confidence": 0.8489,
+                        "position": [
+                            534,
+                            783,
+                            553,
+                            805
+                        ],
+                        "text": "自"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        515,
+                        294
+                    ],
+                    [
+                        519,
+                        185
+                    ],
+                    [
+                        541,
+                        186
+                    ],
+                    [
+                        538,
+                        295
+                    ]
+                ],
+                "text": "第二十二回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8567,
+                        "position": [
+                            520,
+                            186,
+                            541,
+                            208
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 0.996,
+                        "det_confidence": 0.8521,
+                        "position": [
+                            519,
+                            211,
+                            540,
+                            228
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8737,
+                        "position": [
+                            519,
+                            230,
+                            539,
+                            252
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 0.991,
+                        "det_confidence": 0.8349,
+                        "position": [
+                            517,
+                            254,
+                            539,
+                            271
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8523,
+                        "position": [
+                            518,
+                            274,
+                            538,
+                            295
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        510,
+                        550
+                    ],
+                    [
+                        513,
+                        378
+                    ],
+                    [
+                        534,
+                        379
+                    ],
+                    [
+                        532,
+                        551
+                    ]
+                ],
+                "text": "文曹各起馬步一二軍",
+                "words": [
+                    {
+                        "confidence": 0.98,
+                        "det_confidence": 0.8572,
+                        "position": [
+                            513,
+                            379,
+                            534,
+                            402
+                        ],
+                        "text": "文"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8611,
+                        "position": [
+                            514,
+                            401,
+                            534,
+                            423
+                        ],
+                        "text": "曹"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8565,
+                        "position": [
+                            514,
+                            423,
+                            532,
+                            445
+                        ],
+                        "text": "各"
+                    },
+                    {
+                        "confidence": 0.972,
+                        "det_confidence": 0.8538,
+                        "position": [
+                            512,
+                            446,
+                            533,
+                            464
+                        ],
+                        "text": "起"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8462,
+                        "position": [
+                            512,
+                            464,
+                            533,
+                            486
+                        ],
+                        "text": "馬"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8506,
+                        "position": [
+                            512,
+                            486,
+                            532,
+                            508
+                        ],
+                        "text": "步"
+                    },
+                    {
+                        "confidence": 0.957,
+                        "det_confidence": 0.5462,
+                        "position": [
+                            512,
+                            509,
+                            532,
+                            518
+                        ],
+                        "text": "一"
+                    },
+                    {
+                        "confidence": 0.971,
+                        "det_confidence": 0.6344,
+                        "position": [
+                            512,
+                            519,
+                            532,
+                            529
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 0.972,
+                        "det_confidence": 0.8587,
+                        "position": [
+                            512,
+                            531,
+                            532,
+                            551
+                        ],
+                        "text": "軍"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        503,
+                        827
+                    ],
+                    [
+                        506,
+                        655
+                    ],
+                    [
+                        530,
+                        656
+                    ],
+                    [
+                        527,
+                        828
+                    ]
+                ],
+                "text": "關張共擒王劉二將",
+                "words": [
+                    {
+                        "confidence": 0.904,
+                        "det_confidence": 0.8672,
+                        "position": [
+                            509,
+                            656,
+                            530,
+                            678
+                        ],
+                        "text": "關"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8841,
+                        "position": [
+                            508,
+                            678,
+                            529,
+                            699
+                        ],
+                        "text": "張"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8726,
+                        "position": [
+                            508,
+                            699,
+                            529,
+                            719
+                        ],
+                        "text": "共"
+                    },
+                    {
+                        "confidence": 0.996,
+                        "det_confidence": 0.8809,
+                        "position": [
+                            507,
+                            720,
+                            528,
+                            742
+                        ],
+                        "text": "擒"
+                    },
+                    {
+                        "confidence": 0.944,
+                        "det_confidence": 0.6973,
+                        "position": [
+                            506,
+                            742,
+                            527,
+                            762
+                        ],
+                        "text": "王"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8363,
+                        "position": [
+                            505,
+                            763,
+                            527,
+                            784
+                        ],
+                        "text": "劉"
+                    },
+                    {
+                        "confidence": 0.982,
+                        "det_confidence": 0.8261,
+                        "position": [
+                            506,
+                            786,
+                            528,
+                            803
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8527,
+                        "position": [
+                            505,
+                            805,
+                            527,
+                            828
+                        ],
+                        "text": "將"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        489,
+                        293
+                    ],
+                    [
+                        491,
+                        184
+                    ],
+                    [
+                        514,
+                        185
+                    ],
+                    [
+                        511,
+                        294
+                    ]
+                ],
+                "text": "第二十三回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.861,
+                        "position": [
+                            493,
+                            185,
+                            514,
+                            207
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 0.889,
+                        "det_confidence": 0.8415,
+                        "position": [
+                            491,
+                            210,
+                            513,
+                            227
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 0.997,
+                        "det_confidence": 0.8698,
+                        "position": [
+                            491,
+                            230,
+                            512,
+                            252
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8327,
+                        "position": [
+                            490,
+                            252,
+                            511,
+                            272
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8503,
+                        "position": [
+                            490,
+                            273,
+                            510,
+                            294
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        482,
+                        529
+                    ],
+                    [
+                        484,
+                        378
+                    ],
+                    [
+                        508,
+                        379
+                    ],
+                    [
+                        505,
+                        530
+                    ]
+                ],
+                "text": "個正平裸衣爲贼",
+                "words": [
+                    {
+                        "confidence": 0.99,
+                        "det_confidence": 0.8623,
+                        "position": [
+                            487,
+                            379,
+                            508,
+                            401
+                        ],
+                        "text": "個"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8565,
+                        "position": [
+                            487,
+                            402,
+                            507,
+                            421
+                        ],
+                        "text": "正"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8686,
+                        "position": [
+                            487,
+                            422,
+                            507,
+                            443
+                        ],
+                        "text": "平"
+                    },
+                    {
+                        "confidence": 0.787,
+                        "det_confidence": 0.8819,
+                        "position": [
+                            485,
+                            443,
+                            507,
+                            464
+                        ],
+                        "text": "裸"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8796,
+                        "position": [
+                            485,
+                            464,
+                            506,
+                            485
+                        ],
+                        "text": "衣"
+                    },
+                    {
+                        "confidence": 0.543,
+                        "det_confidence": 0.8505,
+                        "position": [
+                            485,
+                            486,
+                            505,
+                            507
+                        ],
+                        "text": "爲"
+                    },
+                    {
+                        "confidence": 0.79,
+                        "det_confidence": 0.8566,
+                        "position": [
+                            483,
+                            507,
+                            506,
+                            530
+                        ],
+                        "text": "贼"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        463,
+                        185
+                    ],
+                    [
+                        486,
+                        185
+                    ],
+                    [
+                        486,
+                        294
+                    ],
+                    [
+                        463,
+                        294
+                    ]
+                ],
+                "text": "第二十四回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8597,
+                        "position": [
+                            465,
+                            185,
+                            486,
+                            207
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 0.985,
+                        "det_confidence": 0.8585,
+                        "position": [
+                            464,
+                            210,
+                            486,
+                            227
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8712,
+                        "position": [
+                            463,
+                            229,
+                            485,
+                            251
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8646,
+                        "position": [
+                            463,
+                            252,
+                            484,
+                            273
+                        ],
+                        "text": "四"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8596,
+                        "position": [
+                            463,
+                            274,
+                            483,
+                            294
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        478,
+                        804
+                    ],
+                    [
+                        480,
+                        655
+                    ],
+                    [
+                        502,
+                        656
+                    ],
+                    [
+                        500,
+                        805
+                    ]
+                ],
+                "text": "吉太醫下@遭刑",
+                "words": [
+                    {
+                        "confidence": 0.881,
+                        "det_confidence": 0.87,
+                        "position": [
+                            482,
+                            656,
+                            502,
+                            677
+                        ],
+                        "text": "吉"
+                    },
+                    {
+                        "confidence": 0.919,
+                        "det_confidence": 0.8863,
+                        "position": [
+                            482,
+                            678,
+                            502,
+                            698
+                        ],
+                        "text": "太"
+                    },
+                    {
+                        "confidence": 0.732,
+                        "det_confidence": 0.8734,
+                        "position": [
+                            480,
+                            698,
+                            502,
+                            720
+                        ],
+                        "text": "醫"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8568,
+                        "position": [
+                            480,
+                            720,
+                            501,
+                            740
+                        ],
+                        "text": "下"
+                    },
+                    {
+                        "confidence": 0.236,
+                        "det_confidence": 0.8726,
+                        "position": [
+                            480,
+                            740,
+                            501,
+                            762
+                        ],
+                        "text": "@"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8597,
+                        "position": [
+                            479,
+                            763,
+                            500,
+                            783
+                        ],
+                        "text": "遭"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8502,
+                        "position": [
+                            479,
+                            784,
+                            500,
+                            805
+                        ],
+                        "text": "刑"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        455,
+                        528
+                    ],
+                    [
+                        459,
+                        378
+                    ],
+                    [
+                        482,
+                        379
+                    ],
+                    [
+                        478,
+                        529
+                    ]
+                ],
+                "text": "國賊行兇殺貴妃",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8714,
+                        "position": [
+                            460,
+                            379,
+                            482,
+                            401
+                        ],
+                        "text": "國"
+                    },
+                    {
+                        "confidence": 0.392,
+                        "det_confidence": 0.8815,
+                        "position": [
+                            459,
+                            401,
+                            481,
+                            422
+                        ],
+                        "text": "賊"
+                    },
+                    {
+                        "confidence": 0.993,
+                        "det_confidence": 0.8694,
+                        "position": [
+                            460,
+                            423,
+                            480,
+                            444
+                        ],
+                        "text": "行"
+                    },
+                    {
+                        "confidence": 0.994,
+                        "det_confidence": 0.8749,
+                        "position": [
+                            459,
+                            444,
+                            479,
+                            466
+                        ],
+                        "text": "兇"
+                    },
+                    {
+                        "confidence": 0.272,
+                        "det_confidence": 0.8676,
+                        "position": [
+                            457,
+                            466,
+                            479,
+                            487
+                        ],
+                        "text": "殺"
+                    },
+                    {
+                        "confidence": 0.995,
+                        "det_confidence": 0.8683,
+                        "position": [
+                            458,
+                            487,
+                            477,
+                            507
+                        ],
+                        "text": "貴"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8584,
+                        "position": [
+                            457,
+                            509,
+                            477,
+                            529
+                        ],
+                        "text": "妃"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        449,
+                        805
+                    ],
+                    [
+                        453,
+                        654
+                    ],
+                    [
+                        476,
+                        655
+                    ],
+                    [
+                        472,
+                        806
+                    ]
+                ],
+                "text": "皇权敗走投責紹",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8573,
+                        "position": [
+                            455,
+                            655,
+                            475,
+                            677
+                        ],
+                        "text": "皇"
+                    },
+                    {
+                        "confidence": 0.561,
+                        "det_confidence": 0.8827,
+                        "position": [
+                            453,
+                            678,
+                            475,
+                            699
+                        ],
+                        "text": "权"
+                    },
+                    {
+                        "confidence": 0.62,
+                        "det_confidence": 0.8822,
+                        "position": [
+                            452,
+                            700,
+                            474,
+                            720
+                        ],
+                        "text": "敗"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8719,
+                        "position": [
+                            453,
+                            721,
+                            474,
+                            742
+                        ],
+                        "text": "走"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8714,
+                        "position": [
+                            451,
+                            743,
+                            472,
+                            763
+                        ],
+                        "text": "投"
+                    },
+                    {
+                        "confidence": 0.896,
+                        "det_confidence": 0.867,
+                        "position": [
+                            452,
+                            764,
+                            472,
+                            785
+                        ],
+                        "text": "責"
+                    },
+                    {
+                        "confidence": 0.869,
+                        "det_confidence": 0.8673,
+                        "position": [
+                            452,
+                            786,
+                            472,
+                            806
+                        ],
+                        "text": "紹"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        431,
+                        294
+                    ],
+                    [
+                        434,
+                        184
+                    ],
+                    [
+                        457,
+                        185
+                    ],
+                    [
+                        453,
+                        295
+                    ]
+                ],
+                "text": "第二十五回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8568,
+                        "position": [
+                            436,
+                            185,
+                            457,
+                            207
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 0.997,
+                        "det_confidence": 0.8531,
+                        "position": [
+                            434,
+                            211,
+                            456,
+                            227
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 0.904,
+                        "det_confidence": 0.8698,
+                        "position": [
+                            434,
+                            229,
+                            455,
+                            250
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8676,
+                        "position": [
+                            434,
+                            251,
+                            454,
+                            272
+                        ],
+                        "text": "五"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8579,
+                        "position": [
+                            434,
+                            274,
+                            454,
+                            295
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        425,
+                        550
+                    ],
+                    [
+                        428,
+                        378
+                    ],
+                    [
+                        451,
+                        379
+                    ],
+                    [
+                        448,
+                        551
+                    ]
+                ],
+                "text": "屯土山關公约二事",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8493,
+                        "position": [
+                            432,
+                            379,
+                            451,
+                            401
+                        ],
+                        "text": "屯"
+                    },
+                    {
+                        "confidence": 0.622,
+                        "det_confidence": 0.8227,
+                        "position": [
+                            430,
+                            402,
+                            451,
+                            423
+                        ],
+                        "text": "土"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8661,
+                        "position": [
+                            430,
+                            423,
+                            450,
+                            442
+                        ],
+                        "text": "山"
+                    },
+                    {
+                        "confidence": 0.583,
+                        "det_confidence": 0.8683,
+                        "position": [
+                            429,
+                            443,
+                            450,
+                            465
+                        ],
+                        "text": "關"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8649,
+                        "position": [
+                            427,
+                            465,
+                            449,
+                            485
+                        ],
+                        "text": "公"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8556,
+                        "position": [
+                            428,
+                            486,
+                            449,
+                            508
+                        ],
+                        "text": "约"
+                    },
+                    {
+                        "confidence": 0.968,
+                        "det_confidence": 0.5748,
+                        "position": [
+                            427,
+                            514,
+                            448,
+                            528
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 0.789,
+                        "det_confidence": 0.8521,
+                        "position": [
+                            426,
+                            529,
+                            449,
+                            551
+                        ],
+                        "text": "事"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        407,
+                        185
+                    ],
+                    [
+                        429,
+                        185
+                    ],
+                    [
+                        429,
+                        294
+                    ],
+                    [
+                        407,
+                        294
+                    ]
+                ],
+                "text": "第二十六回",
+                "words": [
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.856,
+                        "position": [
+                            409,
+                            185,
+                            429,
+                            206
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 0.983,
+                        "det_confidence": 0.847,
+                        "position": [
+                            407,
+                            210,
+                            429,
+                            227
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8626,
+                        "position": [
+                            407,
+                            229,
+                            428,
+                            251
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 0.997,
+                        "det_confidence": 0.8669,
+                        "position": [
+                            407,
+                            253,
+                            428,
+                            271
+                        ],
+                        "text": "六"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8574,
+                        "position": [
+                            407,
+                            273,
+                            426,
+                            294
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        419,
+                        825
+                    ],
+                    [
+                        424,
+                        653
+                    ],
+                    [
+                        447,
+                        654
+                    ],
+                    [
+                        442,
+                        826
+                    ]
+                ],
+                "text": "教白馬曹操解重圍",
+                "words": [
+                    {
+                        "confidence": 0.443,
+                        "det_confidence": 0.8741,
+                        "position": [
+                            424,
+                            654,
+                            446,
+                            677
+                        ],
+                        "text": "教"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8643,
+                        "position": [
+                            426,
+                            677,
+                            445,
+                            698
+                        ],
+                        "text": "白"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8586,
+                        "position": [
+                            424,
+                            698,
+                            445,
+                            719
+                        ],
+                        "text": "馬"
+                    },
+                    {
+                        "confidence": 0.948,
+                        "det_confidence": 0.8638,
+                        "position": [
+                            423,
+                            719,
+                            445,
+                            741
+                        ],
+                        "text": "曹"
+                    },
+                    {
+                        "confidence": 0.712,
+                        "det_confidence": 0.8797,
+                        "position": [
+                            422,
+                            741,
+                            443,
+                            762
+                        ],
+                        "text": "操"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8739,
+                        "position": [
+                            421,
+                            762,
+                            443,
+                            783
+                        ],
+                        "text": "解"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8635,
+                        "position": [
+                            422,
+                            784,
+                            443,
+                            804
+                        ],
+                        "text": "重"
+                    },
+                    {
+                        "confidence": 0.149,
+                        "det_confidence": 0.8519,
+                        "position": [
+                            422,
+                            805,
+                            442,
+                            826
+                        ],
+                        "text": "圍"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        399,
+                        529
+                    ],
+                    [
+                        402,
+                        378
+                    ],
+                    [
+                        425,
+                        379
+                    ],
+                    [
+                        422,
+                        530
+                    ]
+                ],
+                "text": "責本初損兵折將",
+                "words": [
+                    {
+                        "confidence": 0.915,
+                        "det_confidence": 0.8655,
+                        "position": [
+                            402,
+                            379,
+                            424,
+                            401
+                        ],
+                        "text": "責"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8639,
+                        "position": [
+                            402,
+                            401,
+                            424,
+                            421
+                        ],
+                        "text": "本"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8783,
+                        "position": [
+                            402,
+                            422,
+                            424,
+                            443
+                        ],
+                        "text": "初"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8758,
+                        "position": [
+                            402,
+                            444,
+                            423,
+                            465
+                        ],
+                        "text": "損"
+                    },
+                    {
+                        "confidence": 0.997,
+                        "det_confidence": 0.857,
+                        "position": [
+                            402,
+                            466,
+                            422,
+                            486
+                        ],
+                        "text": "兵"
+                    },
+                    {
+                        "confidence": 0.626,
+                        "det_confidence": 0.8582,
+                        "position": [
+                            400,
+                            487,
+                            421,
+                            507
+                        ],
+                        "text": "折"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.867,
+                        "position": [
+                            400,
+                            507,
+                            422,
+                            530
+                        ],
+                        "text": "將"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        392,
+                        805
+                    ],
+                    [
+                        397,
+                        654
+                    ],
+                    [
+                        420,
+                        655
+                    ],
+                    [
+                        416,
+                        806
+                    ]
+                ],
+                "text": "關雲長挂印封金",
+                "words": [
+                    {
+                        "confidence": 0.981,
+                        "det_confidence": 0.8692,
+                        "position": [
+                            397,
+                            655,
+                            419,
+                            677
+                        ],
+                        "text": "關"
+                    },
+                    {
+                        "confidence": 0.521,
+                        "det_confidence": 0.8778,
+                        "position": [
+                            397,
+                            678,
+                            419,
+                            699
+                        ],
+                        "text": "雲"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8667,
+                        "position": [
+                            398,
+                            699,
+                            419,
+                            720
+                        ],
+                        "text": "長"
+                    },
+                    {
+                        "confidence": 0.96,
+                        "det_confidence": 0.8774,
+                        "position": [
+                            396,
+                            720,
+                            417,
+                            741
+                        ],
+                        "text": "挂"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.871,
+                        "position": [
+                            396,
+                            742,
+                            416,
+                            762
+                        ],
+                        "text": "印"
+                    },
+                    {
+                        "confidence": 0.856,
+                        "det_confidence": 0.8632,
+                        "position": [
+                            394,
+                            763,
+                            416,
+                            784
+                        ],
+                        "text": "封"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8781,
+                        "position": [
+                            394,
+                            785,
+                            416,
+                            806
+                        ],
+                        "text": "金"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        375,
+                        293
+                    ],
+                    [
+                        379,
+                        184
+                    ],
+                    [
+                        401,
+                        185
+                    ],
+                    [
+                        398,
+                        294
+                    ]
+                ],
+                "text": "第二十七回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8583,
+                        "position": [
+                            379,
+                            185,
+                            401,
+                            207
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 0.985,
+                        "det_confidence": 0.849,
+                        "position": [
+                            379,
+                            210,
+                            400,
+                            227
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8761,
+                        "position": [
+                            379,
+                            229,
+                            398,
+                            251
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8657,
+                        "position": [
+                            377,
+                            252,
+                            399,
+                            272
+                        ],
+                        "text": "七"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8574,
+                        "position": [
+                            377,
+                            273,
+                            397,
+                            294
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        369,
+                        550
+                    ],
+                    [
+                        372,
+                        377
+                    ],
+                    [
+                        396,
+                        378
+                    ],
+                    [
+                        392,
+                        551
+                    ]
+                ],
+                "text": "美髯公千里走豐騎",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8743,
+                        "position": [
+                            374,
+                            378,
+                            396,
+                            400
+                        ],
+                        "text": "美"
+                    },
+                    {
+                        "confidence": 0.923,
+                        "det_confidence": 0.8736,
+                        "position": [
+                            373,
+                            400,
+                            395,
+                            421
+                        ],
+                        "text": "髯"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8738,
+                        "position": [
+                            372,
+                            421,
+                            394,
+                            442
+                        ],
+                        "text": "公"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8851,
+                        "position": [
+                            373,
+                            443,
+                            394,
+                            464
+                        ],
+                        "text": "千"
+                    },
+                    {
+                        "confidence": 0.99,
+                        "det_confidence": 0.8715,
+                        "position": [
+                            373,
+                            464,
+                            392,
+                            486
+                        ],
+                        "text": "里"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8797,
+                        "position": [
+                            373,
+                            486,
+                            393,
+                            507
+                        ],
+                        "text": "走"
+                    },
+                    {
+                        "confidence": 0.539,
+                        "det_confidence": 0.8656,
+                        "position": [
+                            372,
+                            508,
+                            392,
+                            528
+                        ],
+                        "text": "豐"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8641,
+                        "position": [
+                            370,
+                            529,
+                            393,
+                            551
+                        ],
+                        "text": "騎"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        364,
+                        826
+                    ],
+                    [
+                        368,
+                        653
+                    ],
+                    [
+                        391,
+                        654
+                    ],
+                    [
+                        388,
+                        827
+                    ]
+                ],
+                "text": "淇其侯五關新六將",
+                "words": [
+                    {
+                        "confidence": 0.622,
+                        "det_confidence": 0.8766,
+                        "position": [
+                            368,
+                            654,
+                            389,
+                            676
+                        ],
+                        "text": "淇"
+                    },
+                    {
+                        "confidence": 0.353,
+                        "det_confidence": 0.8786,
+                        "position": [
+                            368,
+                            677,
+                            390,
+                            698
+                        ],
+                        "text": "其"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8863,
+                        "position": [
+                            369,
+                            698,
+                            390,
+                            720
+                        ],
+                        "text": "侯"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8687,
+                        "position": [
+                            368,
+                            721,
+                            388,
+                            741
+                        ],
+                        "text": "五"
+                    },
+                    {
+                        "confidence": 0.951,
+                        "det_confidence": 0.8714,
+                        "position": [
+                            367,
+                            741,
+                            388,
+                            763
+                        ],
+                        "text": "關"
+                    },
+                    {
+                        "confidence": 0.98,
+                        "det_confidence": 0.864,
+                        "position": [
+                            366,
+                            764,
+                            387,
+                            783
+                        ],
+                        "text": "新"
+                    },
+                    {
+                        "confidence": 0.956,
+                        "det_confidence": 0.8547,
+                        "position": [
+                            366,
+                            785,
+                            388,
+                            803
+                        ],
+                        "text": "六"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8595,
+                        "position": [
+                            366,
+                            804,
+                            387,
+                            827
+                        ],
+                        "text": "將"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        349,
+                        292
+                    ],
+                    [
+                        351,
+                        184
+                    ],
+                    [
+                        373,
+                        185
+                    ],
+                    [
+                        371,
+                        293
+                    ]
+                ],
+                "text": "第二十入回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8533,
+                        "position": [
+                            351,
+                            185,
+                            373,
+                            206
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 0.983,
+                        "det_confidence": 0.8529,
+                        "position": [
+                            351,
+                            210,
+                            373,
+                            226
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8709,
+                        "position": [
+                            351,
+                            229,
+                            372,
+                            251
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 0.558,
+                        "det_confidence": 0.8569,
+                        "position": [
+                            350,
+                            251,
+                            371,
+                            270
+                        ],
+                        "text": "入"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8622,
+                        "position": [
+                            350,
+                            272,
+                            370,
+                            293
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        343,
+                        529
+                    ],
+                    [
+                        346,
+                        377
+                    ],
+                    [
+                        368,
+                        378
+                    ],
+                    [
+                        366,
+                        530
+                    ]
+                ],
+                "text": "斬@賜兄弟釋疑",
+                "words": [
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8617,
+                        "position": [
+                            346,
+                            378,
+                            368,
+                            400
+                        ],
+                        "text": "斬"
+                    },
+                    {
+                        "confidence": 0.253,
+                        "det_confidence": 0.8769,
+                        "position": [
+                            347,
+                            400,
+                            368,
+                            421
+                        ],
+                        "text": "@"
+                    },
+                    {
+                        "confidence": 0.499,
+                        "det_confidence": 0.8685,
+                        "position": [
+                            346,
+                            422,
+                            367,
+                            443
+                        ],
+                        "text": "賜"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8652,
+                        "position": [
+                            346,
+                            444,
+                            367,
+                            464
+                        ],
+                        "text": "兄"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8626,
+                        "position": [
+                            345,
+                            464,
+                            366,
+                            485
+                        ],
+                        "text": "弟"
+                    },
+                    {
+                        "confidence": 0.95,
+                        "det_confidence": 0.861,
+                        "position": [
+                            345,
+                            486,
+                            366,
+                            506
+                        ],
+                        "text": "釋"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8732,
+                        "position": [
+                            344,
+                            507,
+                            366,
+                            530
+                        ],
+                        "text": "疑"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        337,
+                        804
+                    ],
+                    [
+                        339,
+                        653
+                    ],
+                    [
+                        362,
+                        654
+                    ],
+                    [
+                        360,
+                        805
+                    ]
+                ],
+                "text": "會古域主臣聚義",
+                "words": [
+                    {
+                        "confidence": 0.928,
+                        "det_confidence": 0.8755,
+                        "position": [
+                            341,
+                            654,
+                            362,
+                            676
+                        ],
+                        "text": "會"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8737,
+                        "position": [
+                            341,
+                            676,
+                            361,
+                            697
+                        ],
+                        "text": "古"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8832,
+                        "position": [
+                            340,
+                            698,
+                            362,
+                            720
+                        ],
+                        "text": "域"
+                    },
+                    {
+                        "confidence": 0.987,
+                        "det_confidence": 0.8636,
+                        "position": [
+                            340,
+                            721,
+                            361,
+                            741
+                        ],
+                        "text": "主"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8612,
+                        "position": [
+                            340,
+                            742,
+                            360,
+                            762
+                        ],
+                        "text": "臣"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8786,
+                        "position": [
+                            340,
+                            763,
+                            360,
+                            783
+                        ],
+                        "text": "聚"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8645,
+                        "position": [
+                            338,
+                            784,
+                            361,
+                            805
+                        ],
+                        "text": "義"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        317,
+                        292
+                    ],
+                    [
+                        321,
+                        183
+                    ],
+                    [
+                        344,
+                        184
+                    ],
+                    [
+                        340,
+                        293
+                    ]
+                ],
+                "text": "第二十九回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8622,
+                        "position": [
+                            323,
+                            184,
+                            344,
+                            206
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 0.976,
+                        "det_confidence": 0.8127,
+                        "position": [
+                            322,
+                            210,
+                            343,
+                            226
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.86,
+                        "position": [
+                            320,
+                            229,
+                            342,
+                            251
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8661,
+                        "position": [
+                            321,
+                            251,
+                            341,
+                            272
+                        ],
+                        "text": "九"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8606,
+                        "position": [
+                            321,
+                            273,
+                            341,
+                            293
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        313,
+                        528
+                    ],
+                    [
+                        317,
+                        377
+                    ],
+                    [
+                        340,
+                        378
+                    ],
+                    [
+                        336,
+                        529
+                    ]
+                ],
+                "text": "小霸王怒斬于吉",
+                "words": [
+                    {
+                        "confidence": 0.972,
+                        "det_confidence": 0.8543,
+                        "position": [
+                            318,
+                            378,
+                            339,
+                            399
+                        ],
+                        "text": "小"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8669,
+                        "position": [
+                            318,
+                            399,
+                            339,
+                            421
+                        ],
+                        "text": "霸"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8485,
+                        "position": [
+                            316,
+                            423,
+                            338,
+                            442
+                        ],
+                        "text": "王"
+                    },
+                    {
+                        "confidence": 0.758,
+                        "det_confidence": 0.8588,
+                        "position": [
+                            316,
+                            443,
+                            337,
+                            464
+                        ],
+                        "text": "怒"
+                    },
+                    {
+                        "confidence": 0.972,
+                        "det_confidence": 0.8631,
+                        "position": [
+                            316,
+                            464,
+                            337,
+                            485
+                        ],
+                        "text": "斬"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8729,
+                        "position": [
+                            315,
+                            486,
+                            337,
+                            506
+                        ],
+                        "text": "于"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8685,
+                        "position": [
+                            314,
+                            507,
+                            336,
+                            529
+                        ],
+                        "text": "吉"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        309,
+                        653
+                    ],
+                    [
+                        331,
+                        653
+                    ],
+                    [
+                        331,
+                        803
+                    ],
+                    [
+                        309,
+                        803
+                    ]
+                ],
+                "text": "碧眼兒坐領江東",
+                "words": [
+                    {
+                        "confidence": 0.975,
+                        "det_confidence": 0.8652,
+                        "position": [
+                            311,
+                            654,
+                            332,
+                            676
+                        ],
+                        "text": "碧"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8745,
+                        "position": [
+                            311,
+                            677,
+                            332,
+                            697
+                        ],
+                        "text": "眼"
+                    },
+                    {
+                        "confidence": 0.977,
+                        "det_confidence": 0.8651,
+                        "position": [
+                            312,
+                            698,
+                            332,
+                            719
+                        ],
+                        "text": "兒"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8754,
+                        "position": [
+                            310,
+                            719,
+                            332,
+                            741
+                        ],
+                        "text": "坐"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8642,
+                        "position": [
+                            310,
+                            741,
+                            332,
+                            763
+                        ],
+                        "text": "領"
+                    },
+                    {
+                        "confidence": 0.992,
+                        "det_confidence": 0.8534,
+                        "position": [
+                            310,
+                            763,
+                            330,
+                            783
+                        ],
+                        "text": "江"
+                    },
+                    {
+                        "confidence": 0.743,
+                        "det_confidence": 0.8506,
+                        "position": [
+                            311,
+                            784,
+                            330,
+                            804
+                        ],
+                        "text": "東"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        292,
+                        292
+                    ],
+                    [
+                        294,
+                        183
+                    ],
+                    [
+                        316,
+                        184
+                    ],
+                    [
+                        314,
+                        293
+                    ]
+                ],
+                "text": "第=二十回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8603,
+                        "position": [
+                            295,
+                            184,
+                            316,
+                            207
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 0.55,
+                        "det_confidence": 0.5557,
+                        "position": [
+                            294,
+                            213,
+                            315,
+                            225
+                        ],
+                        "text": "="
+                    },
+                    {
+                        "confidence": 0.879,
+                        "det_confidence": 0.58,
+                        "position": [
+                            294,
+                            225,
+                            315,
+                            235
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8647,
+                        "position": [
+                            294,
+                            241,
+                            315,
+                            264
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8533,
+                        "position": [
+                            294,
+                            271,
+                            314,
+                            293
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        285,
+                        527
+                    ],
+                    [
+                        289,
+                        376
+                    ],
+                    [
+                        312,
+                        377
+                    ],
+                    [
+                        308,
+                        528
+                    ]
+                ],
+                "text": "戰官渡本初敗讀",
+                "words": [
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8737,
+                        "position": [
+                            290,
+                            377,
+                            312,
+                            400
+                        ],
+                        "text": "戰"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8754,
+                        "position": [
+                            289,
+                            400,
+                            310,
+                            420
+                        ],
+                        "text": "官"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8696,
+                        "position": [
+                            288,
+                            420,
+                            311,
+                            442
+                        ],
+                        "text": "渡"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8796,
+                        "position": [
+                            289,
+                            442,
+                            310,
+                            463
+                        ],
+                        "text": "本"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8798,
+                        "position": [
+                            287,
+                            464,
+                            310,
+                            485
+                        ],
+                        "text": "初"
+                    },
+                    {
+                        "confidence": 0.473,
+                        "det_confidence": 0.8785,
+                        "position": [
+                            287,
+                            485,
+                            309,
+                            506
+                        ],
+                        "text": "敗"
+                    },
+                    {
+                        "confidence": 0.576,
+                        "det_confidence": 0.8786,
+                        "position": [
+                            286,
+                            506,
+                            309,
+                            528
+                        ],
+                        "text": "讀"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        261,
+                        281
+                    ],
+                    [
+                        291,
+                        281
+                    ],
+                    [
+                        291,
+                        336
+                    ],
+                    [
+                        261,
+                        336
+                    ]
+                ],
+                "text": "卷一一",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8393,
+                        "position": [
+                            261,
+                            281,
+                            290,
+                            310
+                        ],
+                        "text": "卷"
+                    },
+                    {
+                        "confidence": 0.996,
+                        "det_confidence": 0.5531,
+                        "position": [
+                            261,
+                            312,
+                            290,
+                            320
+                        ],
+                        "text": "一"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.5856,
+                        "position": [
+                            261,
+                            325,
+                            291,
+                            336
+                        ],
+                        "text": "一"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        280,
+                        804
+                    ],
+                    [
+                        283,
+                        653
+                    ],
+                    [
+                        306,
+                        654
+                    ],
+                    [
+                        303,
+                        805
+                    ]
+                ],
+                "text": "劫鳥異孟信第粮",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8792,
+                        "position": [
+                            283,
+                            654,
+                            306,
+                            677
+                        ],
+                        "text": "劫"
+                    },
+                    {
+                        "confidence": 0.958,
+                        "det_confidence": 0.8717,
+                        "position": [
+                            285,
+                            677,
+                            304,
+                            697
+                        ],
+                        "text": "鳥"
+                    },
+                    {
+                        "confidence": 0.52,
+                        "det_confidence": 0.8781,
+                        "position": [
+                            283,
+                            697,
+                            305,
+                            719
+                        ],
+                        "text": "異"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8725,
+                        "position": [
+                            283,
+                            720,
+                            304,
+                            741
+                        ],
+                        "text": "孟"
+                    },
+                    {
+                        "confidence": 0.733,
+                        "det_confidence": 0.8427,
+                        "position": [
+                            282,
+                            741,
+                            304,
+                            762
+                        ],
+                        "text": "信"
+                    },
+                    {
+                        "confidence": 0.115,
+                        "det_confidence": 0.8639,
+                        "position": [
+                            281,
+                            762,
+                            303,
+                            783
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 0.613,
+                        "det_confidence": 0.8549,
+                        "position": [
+                            281,
+                            783,
+                            303,
+                            805
+                        ],
+                        "text": "粮"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        236,
+                        291
+                    ],
+                    [
+                        240,
+                        183
+                    ],
+                    [
+                        263,
+                        184
+                    ],
+                    [
+                        260,
+                        292
+                    ]
+                ],
+                "text": "第三十一回",
+                "words": [
+                    {
+                        "confidence": 0.785,
+                        "det_confidence": 0.8579,
+                        "position": [
+                            241,
+                            184,
+                            263,
+                            206
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8457,
+                        "position": [
+                            240,
+                            208,
+                            262,
+                            227
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.855,
+                        "position": [
+                            239,
+                            228,
+                            261,
+                            250
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.7737,
+                        "position": [
+                            239,
+                            254,
+                            261,
+                            265
+                        ],
+                        "text": "一"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8384,
+                        "position": [
+                            239,
+                            271,
+                            260,
+                            292
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        234,
+                        377
+                    ],
+                    [
+                        258,
+                        377
+                    ],
+                    [
+                        258,
+                        529
+                    ],
+                    [
+                        234,
+                        529
+                    ]
+                ],
+                "text": "曹操倉亭破本初",
+                "words": [
+                    {
+                        "confidence": 0.222,
+                        "det_confidence": 0.8627,
+                        "position": [
+                            236,
+                            377,
+                            258,
+                            399
+                        ],
+                        "text": "曹"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8816,
+                        "position": [
+                            235,
+                            399,
+                            258,
+                            421
+                        ],
+                        "text": "操"
+                    },
+                    {
+                        "confidence": 0.906,
+                        "det_confidence": 0.8655,
+                        "position": [
+                            236,
+                            422,
+                            258,
+                            442
+                        ],
+                        "text": "倉"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8651,
+                        "position": [
+                            234,
+                            442,
+                            257,
+                            463
+                        ],
+                        "text": "亭"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8702,
+                        "position": [
+                            234,
+                            464,
+                            257,
+                            486
+                        ],
+                        "text": "破"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8728,
+                        "position": [
+                            234,
+                            486,
+                            256,
+                            506
+                        ],
+                        "text": "本"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8749,
+                        "position": [
+                            234,
+                            507,
+                            256,
+                            529
+                        ],
+                        "text": "初"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        226,
+                        804
+                    ],
+                    [
+                        229,
+                        655
+                    ],
+                    [
+                        252,
+                        656
+                    ],
+                    [
+                        249,
+                        805
+                    ]
+                ],
+                "text": "玄德荆州依劉表",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.873,
+                        "position": [
+                            230,
+                            656,
+                            252,
+                            677
+                        ],
+                        "text": "玄"
+                    },
+                    {
+                        "confidence": 0.533,
+                        "det_confidence": 0.8705,
+                        "position": [
+                            230,
+                            677,
+                            252,
+                            698
+                        ],
+                        "text": "德"
+                    },
+                    {
+                        "confidence": 0.97,
+                        "det_confidence": 0.8687,
+                        "position": [
+                            229,
+                            697,
+                            251,
+                            719
+                        ],
+                        "text": "荆"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8851,
+                        "position": [
+                            229,
+                            719,
+                            251,
+                            741
+                        ],
+                        "text": "州"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8932,
+                        "position": [
+                            228,
+                            741,
+                            250,
+                            762
+                        ],
+                        "text": "依"
+                    },
+                    {
+                        "confidence": 0.981,
+                        "det_confidence": 0.8777,
+                        "position": [
+                            228,
+                            762,
+                            250,
+                            784
+                        ],
+                        "text": "劉"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8677,
+                        "position": [
+                            229,
+                            784,
+                            250,
+                            805
+                        ],
+                        "text": "表"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        212,
+                        292
+                    ],
+                    [
+                        212,
+                        184
+                    ],
+                    [
+                        234,
+                        184
+                    ],
+                    [
+                        234,
+                        292
+                    ]
+                ],
+                "text": "第三十二回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8551,
+                        "position": [
+                            212,
+                            184,
+                            234,
+                            206
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8058,
+                        "position": [
+                            212,
+                            207,
+                            233,
+                            227
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8554,
+                        "position": [
+                            212,
+                            229,
+                            232,
+                            249
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 0.968,
+                        "det_confidence": 0.8454,
+                        "position": [
+                            212,
+                            252,
+                            233,
+                            269
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8603,
+                        "position": [
+                            212,
+                            271,
+                            232,
+                            292
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        204,
+                        527
+                    ],
+                    [
+                        207,
+                        376
+                    ],
+                    [
+                        230,
+                        377
+                    ],
+                    [
+                        227,
+                        528
+                    ]
+                ],
+                "text": "奪其州食尙爭@",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8827,
+                        "position": [
+                            207,
+                            377,
+                            230,
+                            398
+                        ],
+                        "text": "奪"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8753,
+                        "position": [
+                            208,
+                            399,
+                            229,
+                            421
+                        ],
+                        "text": "其"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8541,
+                        "position": [
+                            207,
+                            421,
+                            228,
+                            442
+                        ],
+                        "text": "州"
+                    },
+                    {
+                        "confidence": 0.927,
+                        "det_confidence": 0.8735,
+                        "position": [
+                            206,
+                            442,
+                            228,
+                            464
+                        ],
+                        "text": "食"
+                    },
+                    {
+                        "confidence": 0.918,
+                        "det_confidence": 0.8645,
+                        "position": [
+                            206,
+                            463,
+                            228,
+                            485
+                        ],
+                        "text": "尙"
+                    },
+                    {
+                        "confidence": 0.995,
+                        "det_confidence": 0.8541,
+                        "position": [
+                            206,
+                            485,
+                            227,
+                            504
+                        ],
+                        "text": "爭"
+                    },
+                    {
+                        "confidence": 0.965,
+                        "det_confidence": 0.8586,
+                        "position": [
+                            205,
+                            506,
+                            227,
+                            528
+                        ],
+                        "text": "@"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        184,
+                        184
+                    ],
+                    [
+                        206,
+                        184
+                    ],
+                    [
+                        206,
+                        293
+                    ],
+                    [
+                        184,
+                        293
+                    ]
+                ],
+                "text": "第三十三回",
+                "words": [
+                    {
+                        "confidence": 0.995,
+                        "det_confidence": 0.8549,
+                        "position": [
+                            185,
+                            184,
+                            206,
+                            206
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8312,
+                        "position": [
+                            184,
+                            208,
+                            205,
+                            227
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8477,
+                        "position": [
+                            184,
+                            228,
+                            205,
+                            249
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8008,
+                        "position": [
+                            184,
+                            250,
+                            205,
+                            270
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8551,
+                        "position": [
+                            184,
+                            272,
+                            204,
+                            293
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        198,
+                        803
+                    ],
+                    [
+                        202,
+                        653
+                    ],
+                    [
+                        224,
+                        654
+                    ],
+                    [
+                        221,
+                        804
+                    ]
+                ],
+                "text": "決漳河許攸獻計",
+                "words": [
+                    {
+                        "confidence": 0.994,
+                        "det_confidence": 0.8697,
+                        "position": [
+                            202,
+                            654,
+                            224,
+                            676
+                        ],
+                        "text": "決"
+                    },
+                    {
+                        "confidence": 0.945,
+                        "det_confidence": 0.864,
+                        "position": [
+                            202,
+                            676,
+                            223,
+                            697
+                        ],
+                        "text": "漳"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8552,
+                        "position": [
+                            202,
+                            698,
+                            223,
+                            718
+                        ],
+                        "text": "河"
+                    },
+                    {
+                        "confidence": 0.97,
+                        "det_confidence": 0.8717,
+                        "position": [
+                            201,
+                            719,
+                            222,
+                            740
+                        ],
+                        "text": "許"
+                    },
+                    {
+                        "confidence": 0.588,
+                        "det_confidence": 0.8677,
+                        "position": [
+                            200,
+                            740,
+                            221,
+                            761
+                        ],
+                        "text": "攸"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.877,
+                        "position": [
+                            200,
+                            761,
+                            221,
+                            783
+                        ],
+                        "text": "獻"
+                    },
+                    {
+                        "confidence": 0.827,
+                        "det_confidence": 0.8732,
+                        "position": [
+                            200,
+                            783,
+                            221,
+                            804
+                        ],
+                        "text": "計"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        176,
+                        527
+                    ],
+                    [
+                        180,
+                        376
+                    ],
+                    [
+                        203,
+                        377
+                    ],
+                    [
+                        199,
+                        528
+                    ]
+                ],
+                "text": "曹不乘亂纳瓢氏",
+                "words": [
+                    {
+                        "confidence": 0.201,
+                        "det_confidence": 0.8561,
+                        "position": [
+                            181,
+                            377,
+                            202,
+                            399
+                        ],
+                        "text": "曹"
+                    },
+                    {
+                        "confidence": 0.518,
+                        "det_confidence": 0.8507,
+                        "position": [
+                            180,
+                            400,
+                            202,
+                            422
+                        ],
+                        "text": "不"
+                    },
+                    {
+                        "confidence": 0.963,
+                        "det_confidence": 0.8668,
+                        "position": [
+                            180,
+                            422,
+                            201,
+                            442
+                        ],
+                        "text": "乘"
+                    },
+                    {
+                        "confidence": 0.919,
+                        "det_confidence": 0.8676,
+                        "position": [
+                            179,
+                            443,
+                            201,
+                            464
+                        ],
+                        "text": "亂"
+                    },
+                    {
+                        "confidence": 0.997,
+                        "det_confidence": 0.8663,
+                        "position": [
+                            178,
+                            464,
+                            200,
+                            485
+                        ],
+                        "text": "纳"
+                    },
+                    {
+                        "confidence": 0.281,
+                        "det_confidence": 0.8722,
+                        "position": [
+                            179,
+                            485,
+                            199,
+                            505
+                        ],
+                        "text": "瓢"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8702,
+                        "position": [
+                            179,
+                            506,
+                            199,
+                            528
+                        ],
+                        "text": "氏"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        171,
+                        803
+                    ],
+                    [
+                        175,
+                        652
+                    ],
+                    [
+                        197,
+                        653
+                    ],
+                    [
+                        194,
+                        804
+                    ]
+                ],
+                "text": "郭嘉遺計定遼東",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.872,
+                        "position": [
+                            175,
+                            653,
+                            197,
+                            676
+                        ],
+                        "text": "郭"
+                    },
+                    {
+                        "confidence": 0.631,
+                        "det_confidence": 0.8761,
+                        "position": [
+                            175,
+                            677,
+                            195,
+                            698
+                        ],
+                        "text": "嘉"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8752,
+                        "position": [
+                            175,
+                            699,
+                            196,
+                            719
+                        ],
+                        "text": "遺"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.883,
+                        "position": [
+                            174,
+                            719,
+                            195,
+                            740
+                        ],
+                        "text": "計"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8727,
+                        "position": [
+                            173,
+                            740,
+                            194,
+                            761
+                        ],
+                        "text": "定"
+                    },
+                    {
+                        "confidence": 0.325,
+                        "det_confidence": 0.8864,
+                        "position": [
+                            173,
+                            761,
+                            194,
+                            783
+                        ],
+                        "text": "遼"
+                    },
+                    {
+                        "confidence": 0.671,
+                        "det_confidence": 0.8581,
+                        "position": [
+                            174,
+                            784,
+                            193,
+                            804
+                        ],
+                        "text": "東"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        157,
+                        292
+                    ],
+                    [
+                        157,
+                        184
+                    ],
+                    [
+                        180,
+                        184
+                    ],
+                    [
+                        180,
+                        292
+                    ]
+                ],
+                "text": "第三十四回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8687,
+                        "position": [
+                            158,
+                            184,
+                            180,
+                            205
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8476,
+                        "position": [
+                            157,
+                            207,
+                            178,
+                            226
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8594,
+                        "position": [
+                            157,
+                            228,
+                            177,
+                            249
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.871,
+                        "position": [
+                            157,
+                            250,
+                            177,
+                            270
+                        ],
+                        "text": "四"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.859,
+                        "position": [
+                            157,
+                            272,
+                            176,
+                            292
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        150,
+                        547
+                    ],
+                    [
+                        152,
+                        375
+                    ],
+                    [
+                        175,
+                        376
+                    ],
+                    [
+                        172,
+                        548
+                    ]
+                ],
+                "text": "放夫人隔屏聽密爵",
+                "words": [
+                    {
+                        "confidence": 0.75,
+                        "det_confidence": 0.8727,
+                        "position": [
+                            153,
+                            376,
+                            175,
+                            398
+                        ],
+                        "text": "放"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8772,
+                        "position": [
+                            153,
+                            400,
+                            174,
+                            421
+                        ],
+                        "text": "夫"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8713,
+                        "position": [
+                            154,
+                            421,
+                            174,
+                            442
+                        ],
+                        "text": "人"
+                    },
+                    {
+                        "confidence": 0.824,
+                        "det_confidence": 0.8757,
+                        "position": [
+                            153,
+                            442,
+                            173,
+                            463
+                        ],
+                        "text": "隔"
+                    },
+                    {
+                        "confidence": 0.42,
+                        "det_confidence": 0.8737,
+                        "position": [
+                            152,
+                            463,
+                            172,
+                            485
+                        ],
+                        "text": "屏"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.878,
+                        "position": [
+                            151,
+                            485,
+                            173,
+                            506
+                        ],
+                        "text": "聽"
+                    },
+                    {
+                        "confidence": 0.963,
+                        "det_confidence": 0.8723,
+                        "position": [
+                            151,
+                            506,
+                            173,
+                            527
+                        ],
+                        "text": "密"
+                    },
+                    {
+                        "confidence": 0.65,
+                        "det_confidence": 0.8744,
+                        "position": [
+                            151,
+                            527,
+                            172,
+                            548
+                        ],
+                        "text": "爵"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        128,
+                        184
+                    ],
+                    [
+                        150,
+                        184
+                    ],
+                    [
+                        150,
+                        293
+                    ],
+                    [
+                        128,
+                        293
+                    ]
+                ],
+                "text": "第三十五回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8654,
+                        "position": [
+                            129,
+                            184,
+                            150,
+                            206
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8217,
+                        "position": [
+                            128,
+                            208,
+                            149,
+                            227
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8648,
+                        "position": [
+                            128,
+                            228,
+                            149,
+                            249
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.877,
+                        "position": [
+                            128,
+                            250,
+                            149,
+                            270
+                        ],
+                        "text": "五"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8723,
+                        "position": [
+                            128,
+                            272,
+                            149,
+                            293
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        143,
+                        825
+                    ],
+                    [
+                        146,
+                        652
+                    ],
+                    [
+                        169,
+                        653
+                    ],
+                    [
+                        166,
+                        826
+                    ]
+                ],
+                "text": "劉皇奴陽馬過檀溪",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8791,
+                        "position": [
+                            147,
+                            653,
+                            169,
+                            676
+                        ],
+                        "text": "劉"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.872,
+                        "position": [
+                            148,
+                            676,
+                            168,
+                            697
+                        ],
+                        "text": "皇"
+                    },
+                    {
+                        "confidence": 0.741,
+                        "det_confidence": 0.876,
+                        "position": [
+                            147,
+                            698,
+                            168,
+                            719
+                        ],
+                        "text": "奴"
+                    },
+                    {
+                        "confidence": 0.873,
+                        "det_confidence": 0.8725,
+                        "position": [
+                            147,
+                            720,
+                            167,
+                            740
+                        ],
+                        "text": "陽"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8733,
+                        "position": [
+                            145,
+                            740,
+                            166,
+                            761
+                        ],
+                        "text": "馬"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8733,
+                        "position": [
+                            145,
+                            762,
+                            166,
+                            783
+                        ],
+                        "text": "過"
+                    },
+                    {
+                        "confidence": 0.982,
+                        "det_confidence": 0.8611,
+                        "position": [
+                            145,
+                            783,
+                            167,
+                            805
+                        ],
+                        "text": "檀"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8615,
+                        "position": [
+                            145,
+                            805,
+                            167,
+                            826
+                        ],
+                        "text": "溪"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        120,
+                        527
+                    ],
+                    [
+                        124,
+                        376
+                    ],
+                    [
+                        147,
+                        377
+                    ],
+                    [
+                        143,
+                        528
+                    ]
+                ],
+                "text": "玄德南漳逢稅治",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8806,
+                        "position": [
+                            125,
+                            377,
+                            146,
+                            399
+                        ],
+                        "text": "玄"
+                    },
+                    {
+                        "confidence": 0.714,
+                        "det_confidence": 0.8828,
+                        "position": [
+                            125,
+                            399,
+                            146,
+                            421
+                        ],
+                        "text": "德"
+                    },
+                    {
+                        "confidence": 0.992,
+                        "det_confidence": 0.8599,
+                        "position": [
+                            125,
+                            421,
+                            145,
+                            440
+                        ],
+                        "text": "南"
+                    },
+                    {
+                        "confidence": 0.942,
+                        "det_confidence": 0.8693,
+                        "position": [
+                            123,
+                            441,
+                            145,
+                            462
+                        ],
+                        "text": "漳"
+                    },
+                    {
+                        "confidence": 0.657,
+                        "det_confidence": 0.8636,
+                        "position": [
+                            122,
+                            463,
+                            144,
+                            484
+                        ],
+                        "text": "逢"
+                    },
+                    {
+                        "confidence": 0.689,
+                        "det_confidence": 0.8777,
+                        "position": [
+                            123,
+                            485,
+                            143,
+                            506
+                        ],
+                        "text": "稅"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8626,
+                        "position": [
+                            122,
+                            507,
+                            142,
+                            528
+                        ],
+                        "text": "治"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        101,
+                        184
+                    ],
+                    [
+                        123,
+                        184
+                    ],
+                    [
+                        123,
+                        293
+                    ],
+                    [
+                        101,
+                        293
+                    ]
+                ],
+                "text": "第三十六回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8525,
+                        "position": [
+                            103,
+                            184,
+                            123,
+                            206
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8114,
+                        "position": [
+                            101,
+                            207,
+                            122,
+                            227
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8672,
+                        "position": [
+                            101,
+                            228,
+                            122,
+                            249
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8647,
+                        "position": [
+                            101,
+                            251,
+                            122,
+                            271
+                        ],
+                        "text": "六"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8654,
+                        "position": [
+                            101,
+                            272,
+                            121,
+                            293
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        115,
+                        803
+                    ],
+                    [
+                        118,
+                        653
+                    ],
+                    [
+                        141,
+                        654
+                    ],
+                    [
+                        138,
+                        804
+                    ]
+                ],
+                "text": "單福新野遇英主",
+                "words": [
+                    {
+                        "confidence": 0.582,
+                        "det_confidence": 0.8539,
+                        "position": [
+                            120,
+                            654,
+                            140,
+                            675
+                        ],
+                        "text": "單"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8524,
+                        "position": [
+                            119,
+                            675,
+                            140,
+                            695
+                        ],
+                        "text": "福"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8671,
+                        "position": [
+                            118,
+                            696,
+                            140,
+                            717
+                        ],
+                        "text": "新"
+                    },
+                    {
+                        "confidence": 0.63,
+                        "det_confidence": 0.8607,
+                        "position": [
+                            119,
+                            719,
+                            140,
+                            739
+                        ],
+                        "text": "野"
+                    },
+                    {
+                        "confidence": 0.938,
+                        "det_confidence": 0.8826,
+                        "position": [
+                            117,
+                            740,
+                            138,
+                            761
+                        ],
+                        "text": "遇"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8802,
+                        "position": [
+                            117,
+                            761,
+                            138,
+                            782
+                        ],
+                        "text": "英"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8692,
+                        "position": [
+                            116,
+                            783,
+                            138,
+                            804
+                        ],
+                        "text": "主"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        94,
+                        527
+                    ],
+                    [
+                        96,
+                        377
+                    ],
+                    [
+                        119,
+                        378
+                    ],
+                    [
+                        116,
+                        528
+                    ]
+                ],
+                "text": "玄値用計傳樊城",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8647,
+                        "position": [
+                            98,
+                            378,
+                            119,
+                            399
+                        ],
+                        "text": "玄"
+                    },
+                    {
+                        "confidence": 0.413,
+                        "det_confidence": 0.8612,
+                        "position": [
+                            97,
+                            399,
+                            118,
+                            421
+                        ],
+                        "text": "値"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8665,
+                        "position": [
+                            97,
+                            421,
+                            117,
+                            442
+                        ],
+                        "text": "用"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8812,
+                        "position": [
+                            96,
+                            442,
+                            117,
+                            463
+                        ],
+                        "text": "計"
+                    },
+                    {
+                        "confidence": 0.365,
+                        "det_confidence": 0.8718,
+                        "position": [
+                            97,
+                            464,
+                            117,
+                            484
+                        ],
+                        "text": "傳"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8864,
+                        "position": [
+                            96,
+                            485,
+                            117,
+                            507
+                        ],
+                        "text": "樊"
+                    },
+                    {
+                        "confidence": 0.906,
+                        "det_confidence": 0.8713,
+                        "position": [
+                            95,
+                            507,
+                            117,
+                            528
+                        ],
+                        "text": "城"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        73,
+                        184
+                    ],
+                    [
+                        96,
+                        184
+                    ],
+                    [
+                        96,
+                        293
+                    ],
+                    [
+                        73,
+                        293
+                    ]
+                ],
+                "text": "第三十七囘",
+                "words": [
+                    {
+                        "confidence": 0.893,
+                        "det_confidence": 0.8672,
+                        "position": [
+                            74,
+                            184,
+                            96,
+                            206
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8426,
+                        "position": [
+                            73,
+                            208,
+                            94,
+                            227
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8614,
+                        "position": [
+                            73,
+                            228,
+                            94,
+                            250
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 0.973,
+                        "det_confidence": 0.8536,
+                        "position": [
+                            75,
+                            251,
+                            95,
+                            272
+                        ],
+                        "text": "七"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8535,
+                        "position": [
+                            74,
+                            273,
+                            94,
+                            293
+                        ],
+                        "text": "囘"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        88,
+                        802
+                    ],
+                    [
+                        92,
+                        652
+                    ],
+                    [
+                        115,
+                        653
+                    ],
+                    [
+                        110,
+                        803
+                    ]
+                ],
+                "text": "元直走馬觴諸葛",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8723,
+                        "position": [
+                            93,
+                            653,
+                            114,
+                            675
+                        ],
+                        "text": "元"
+                    },
+                    {
+                        "confidence": 0.994,
+                        "det_confidence": 0.8634,
+                        "position": [
+                            92,
+                            675,
+                            112,
+                            696
+                        ],
+                        "text": "直"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8734,
+                        "position": [
+                            92,
+                            697,
+                            113,
+                            718
+                        ],
+                        "text": "走"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.864,
+                        "position": [
+                            91,
+                            718,
+                            112,
+                            739
+                        ],
+                        "text": "馬"
+                    },
+                    {
+                        "confidence": 0.516,
+                        "det_confidence": 0.8665,
+                        "position": [
+                            90,
+                            739,
+                            111,
+                            761
+                        ],
+                        "text": "觴"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8735,
+                        "position": [
+                            90,
+                            761,
+                            111,
+                            781
+                        ],
+                        "text": "諸"
+                    },
+                    {
+                        "confidence": 0.954,
+                        "det_confidence": 0.8546,
+                        "position": [
+                            91,
+                            781,
+                            110,
+                            803
+                        ],
+                        "text": "葛"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        67,
+                        528
+                    ],
+                    [
+                        70,
+                        377
+                    ],
+                    [
+                        91,
+                        378
+                    ],
+                    [
+                        89,
+                        529
+                    ]
+                ],
+                "text": "司馬徵再薦名±",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8676,
+                        "position": [
+                            72,
+                            378,
+                            91,
+                            397
+                        ],
+                        "text": "司"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8653,
+                        "position": [
+                            70,
+                            398,
+                            90,
+                            420
+                        ],
+                        "text": "馬"
+                    },
+                    {
+                        "confidence": 0.928,
+                        "det_confidence": 0.8691,
+                        "position": [
+                            70,
+                            422,
+                            91,
+                            443
+                        ],
+                        "text": "徵"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8578,
+                        "position": [
+                            70,
+                            443,
+                            90,
+                            462
+                        ],
+                        "text": "再"
+                    },
+                    {
+                        "confidence": 0.899,
+                        "det_confidence": 0.859,
+                        "position": [
+                            69,
+                            463,
+                            89,
+                            485
+                        ],
+                        "text": "薦"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8759,
+                        "position": [
+                            69,
+                            486,
+                            88,
+                            506
+                        ],
+                        "text": "名"
+                    },
+                    {
+                        "confidence": 0.983,
+                        "det_confidence": 0.8584,
+                        "position": [
+                            69,
+                            507,
+                            89,
+                            529
+                        ],
+                        "text": "±"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        46,
+                        185
+                    ],
+                    [
+                        68,
+                        185
+                    ],
+                    [
+                        68,
+                        293
+                    ],
+                    [
+                        46,
+                        293
+                    ]
+                ],
+                "text": "第三十八囘",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8639,
+                        "position": [
+                            47,
+                            185,
+                            68,
+                            206
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.7974,
+                        "position": [
+                            46,
+                            208,
+                            67,
+                            228
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8634,
+                        "position": [
+                            47,
+                            228,
+                            67,
+                            250
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8795,
+                        "position": [
+                            47,
+                            250,
+                            68,
+                            270
+                        ],
+                        "text": "八"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.871,
+                        "position": [
+                            47,
+                            272,
+                            67,
+                            293
+                        ],
+                        "text": "囘"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        60,
+                        803
+                    ],
+                    [
+                        63,
+                        652
+                    ],
+                    [
+                        86,
+                        653
+                    ],
+                    [
+                        84,
+                        804
+                    ]
+                ],
+                "text": "劉玄德一二顧草口",
+                "words": [
+                    {
+                        "confidence": 0.996,
+                        "det_confidence": 0.8769,
+                        "position": [
+                            63,
+                            653,
+                            86,
+                            677
+                        ],
+                        "text": "劉"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8749,
+                        "position": [
+                            64,
+                            677,
+                            86,
+                            697
+                        ],
+                        "text": "玄"
+                    },
+                    {
+                        "confidence": 0.994,
+                        "det_confidence": 0.8339,
+                        "position": [
+                            64,
+                            697,
+                            85,
+                            720
+                        ],
+                        "text": "德"
+                    },
+                    {
+                        "confidence": 0.968,
+                        "det_confidence": 0.657,
+                        "position": [
+                            64,
+                            719,
+                            84,
+                            727
+                        ],
+                        "text": "一"
+                    },
+                    {
+                        "confidence": 0.974,
+                        "det_confidence": 0.7339,
+                        "position": [
+                            63,
+                            727,
+                            84,
+                            739
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 0.97,
+                        "det_confidence": 0.8639,
+                        "position": [
+                            62,
+                            740,
+                            83,
+                            760
+                        ],
+                        "text": "顧"
+                    },
+                    {
+                        "confidence": 0.962,
+                        "det_confidence": 0.8718,
+                        "position": [
+                            62,
+                            760,
+                            83,
+                            780
+                        ],
+                        "text": "草"
+                    },
+                    {
+                        "confidence": 0.245,
+                        "det_confidence": 0.8584,
+                        "position": [
+                            61,
+                            782,
+                            83,
+                            804
+                        ],
+                        "text": "口"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        39,
+                        528
+                    ],
+                    [
+                        42,
+                        377
+                    ],
+                    [
+                        65,
+                        378
+                    ],
+                    [
+                        62,
+                        529
+                    ]
+                ],
+                "text": "定三分隆中決策",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8628,
+                        "position": [
+                            43,
+                            378,
+                            65,
+                            400
+                        ],
+                        "text": "定"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.6543,
+                        "position": [
+                            43,
+                            402,
+                            63,
+                            420
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8666,
+                        "position": [
+                            42,
+                            421,
+                            63,
+                            442
+                        ],
+                        "text": "分"
+                    },
+                    {
+                        "confidence": 0.581,
+                        "det_confidence": 0.8779,
+                        "position": [
+                            42,
+                            443,
+                            62,
+                            465
+                        ],
+                        "text": "隆"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8671,
+                        "position": [
+                            43,
+                            466,
+                            62,
+                            485
+                        ],
+                        "text": "中"
+                    },
+                    {
+                        "confidence": 0.553,
+                        "det_confidence": 0.8874,
+                        "position": [
+                            41,
+                            486,
+                            63,
+                            506
+                        ],
+                        "text": "決"
+                    },
+                    {
+                        "confidence": 0.911,
+                        "det_confidence": 0.872,
+                        "position": [
+                            41,
+                            506,
+                            62,
+                            529
+                        ],
+                        "text": "策"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        34,
+                        805
+                    ],
+                    [
+                        37,
+                        654
+                    ],
+                    [
+                        59,
+                        655
+                    ],
+                    [
+                        57,
+                        806
+                    ]
+                ],
+                "text": "戰長江孫氏報仇",
+                "words": [
+                    {
+                        "confidence": 0.967,
+                        "det_confidence": 0.87,
+                        "position": [
+                            37,
+                            655,
+                            59,
+                            678
+                        ],
+                        "text": "戰"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8774,
+                        "position": [
+                            37,
+                            678,
+                            59,
+                            699
+                        ],
+                        "text": "長"
+                    },
+                    {
+                        "confidence": 0.969,
+                        "det_confidence": 0.8621,
+                        "position": [
+                            37,
+                            699,
+                            58,
+                            720
+                        ],
+                        "text": "江"
+                    },
+                    {
+                        "confidence": 0.996,
+                        "det_confidence": 0.8729,
+                        "position": [
+                            36,
+                            720,
+                            58,
+                            741
+                        ],
+                        "text": "孫"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8775,
+                        "position": [
+                            36,
+                            742,
+                            57,
+                            762
+                        ],
+                        "text": "氏"
+                    },
+                    {
+                        "confidence": 0.744,
+                        "det_confidence": 0.8655,
+                        "position": [
+                            35,
+                            763,
+                            56,
+                            785
+                        ],
+                        "text": "報"
+                    },
+                    {
+                        "confidence": 0.958,
+                        "det_confidence": 0.8576,
+                        "position": [
+                            35,
+                            786,
+                            57,
+                            806
+                        ],
+                        "text": "仇"
+                    }
+                ]
+            }
+        ],
+        "texts": [
+            "古本三國演n日@",
+            "第十九回下邳域曹操臺兵",
+            "白鬥樓呂布殞命",
+            "第二十回",
+            "會阿滿許田打圍",
+            "菌國身內開受詔",
+            "第二十一回",
+            "曹握@酒論英维",
+            "關公賺域斬車自",
+            "第二十二回",
+            "文曹各起馬步一二軍",
+            "關張共擒王劉二將",
+            "第二十三回",
+            "個正平裸衣爲贼",
+            "第二十四回",
+            "吉太醫下@遭刑",
+            "國賊行兇殺貴妃",
+            "皇权敗走投責紹",
+            "第二十五回",
+            "屯土山關公约二事",
+            "第二十六回",
+            "教白馬曹操解重圍",
+            "責本初損兵折將",
+            "關雲長挂印封金",
+            "第二十七回",
+            "美髯公千里走豐騎",
+            "淇其侯五關新六將",
+            "第二十入回",
+            "斬@賜兄弟釋疑",
+            "會古域主臣聚義",
+            "第二十九回",
+            "小霸王怒斬于吉",
+            "碧眼兒坐領江東",
+            "第=二十回",
+            "戰官渡本初敗讀",
+            "卷一一",
+            "劫鳥異孟信第粮",
+            "第三十一回",
+            "曹操倉亭破本初",
+            "玄德荆州依劉表",
+            "第三十二回",
+            "奪其州食尙爭@",
+            "第三十三回",
+            "決漳河許攸獻計",
+            "曹不乘亂纳瓢氏",
+            "郭嘉遺計定遼東",
+            "第三十四回",
+            "放夫人隔屏聽密爵",
+            "第三十五回",
+            "劉皇奴陽馬過檀溪",
+            "玄德南漳逢稅治",
+            "第三十六回",
+            "單福新野遇英主",
+            "玄値用計傳樊城",
+            "第三十七囘",
+            "元直走馬觴諸葛",
+            "司馬徵再薦名±",
+            "第三十八囘",
+            "劉玄德一二顧草口",
+            "定三分隆中決策",
+            "戰長江孫氏報仇"
+        ],
+        "width": 736
+    },
+    "id": "8d8cb6ec-5130-45a1-b954-a107e0912fd5",
+    "info": "",
+    "message": "success"
+}
