@@ -38,9 +38,10 @@ class BBox:
         self._position = box["position"]
         self._words = [ Words(box_word) for box_word in box["words"] if box_word["text"] in self._cleaned_text ]
         self._page_name = page_name
-        self._id_page = f".{id_page}"
-        self._id_box = f".0{id_box}" if id_box < 10 else f".{id_box}"
-
+        # self._id_page = f".{id_page}"
+        # self._id_box = f".0{id_box}" if id_box < 10 else f".{id_box}"
+        self._id_page = id_page
+        self._id_box = id_box
 
     def get_position(self):
         return self._position
@@ -83,16 +84,16 @@ def BBoxes_of_JSON(json_file, file_name):
         return
     
     page_name = file_name[:7]
-    id_page = file_name[-8:-5]
+    id_page = int(file_name[-8:-5])
 
     result = []
     i = 1
     for idx, text_line in enumerate(data["data"]["text_lines"]):
         temp = BBox(text_line,page_name,id_page, i)
-        print(temp.get_height())
-        if temp.get_height() >= 65:
-            result.append(temp)
-            i += 1
+        # print(temp.get_height())
+        # if temp.get_height() >= 65:
+        result.append(temp)
+        i += 1
 
     return result
 
