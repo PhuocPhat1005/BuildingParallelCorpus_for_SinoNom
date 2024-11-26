@@ -6,6 +6,16 @@ import os
 
 URL_WEBSITE = "https://www.gutenberg.org/cache/epub/23962/pg23962-images.html"
 
+def is_cjk(char):
+    # if character is Sino-Nom/Chinese (CJK blocks)
+    return any([
+        '\u4E00' <= char <= '\u9FFF',    # CJK Unified Ideographs
+        '\u3400' <= char <= '\u4DBF',    # CJK Unified Ideographs Extension A
+        '\u20000' <= char <= '\u2A6DF',  # CJK Unified Ideographs Extension B
+        '\u2A700' <= char <= '\u2EBEF',  # CJK Unified Ideographs Extension C-F
+        '\uF900' <= char <= '\uFAFF',    # CJK Compatibility Ideographs
+    ])
+
 
 def crawl_text_from_web(raw_text_path="./data/raw_text.txt"):
     headers = {
@@ -38,9 +48,16 @@ def clean_text(raw_text_path="./data/raw_text.txt", clean_text_path = "./data/cl
         raw_text = file.read()
     clean_text = raw_text.replace('\t', '').replace('\n', '').strip()
     clean_text = "".join(raw_text.split()) 
+    clean_text = ''.join(char for char in clean_text if is_cjk(char))
 
     with open(clean_text_path, "w", encoding='utf-8') as file:
         file.write(clean_text)
+
+
+
+
+
+
 
 
 def main():
