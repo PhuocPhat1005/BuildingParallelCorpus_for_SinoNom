@@ -1,7 +1,16 @@
+# @Contributors: Thai
+
+
 from bs4 import BeautifulSoup
 import re
 import requests
 import os
+from difflib import SequenceMatcher
+from BBox import BBoxes_of_JSON
+from rapidfuzz import fuzz, process
+from multiprocessing import Pool
+import json
+
 
 
 URL_WEBSITE = "https://www.gutenberg.org/cache/epub/23962/pg23962-images.html"
@@ -56,16 +65,80 @@ def clean_text(raw_text_path="./data/raw_text.txt", clean_text_path = "./data/cl
 
 
 
+def find_best_match_rapidfuzz(ocr_text, ground_text, start_idx):
+    max_search_len = len(ocr_text)+0
+    ground_window = ground_text[start_idx: start_idx + max_search_len]
 
+    best_match = process.extractOne(ocr_text, [ground_window], scorer=fuzz.partial_ratio)
+    if best_match:
+        match_text, score, match_idx = best_match
+        return match_text, start_idx + match_idx + len(match_text)
+    return "", start_idx
+
+
+def align_bboxes_with_true_text(listBBox, true_ground_text):
+
+    list_pair_boxes = []
+    current_index = 0
+
+    for box in listBBox:
+        ocr_text = box.get_clean_text()
+        best_match, new_index = find_best_match_rapidfuzz(ocr_text, true_ground_text, current_index)
+        list_pair_boxes.append((box, best_match))
+        current_index = new_index
+    
+
+    return list_pair_boxes
+
+
+def dump_aligned_boxes_to_json(aligned_pairs):
+    enriched_boxes = []
+
+    for bbox, true_text in aligned_pairs:
+        enriched_box = {
+            "page_name": bbox.,
+            "id_page": "2",
+            "id_box": idx + 1,  # Use idx+1 to start ID from 1
+            "position": box["position"],
+            "ocr_text": box["ocr_text"],
+            "aligned_text": box["aligned_text"]
+        }
+        enriched_boxes.append(enriched_box)
+    
+
+    with open("output_text.json", 'w', encoding='utf-8') as json_file:
+        json.dump(enriched_boxes, json_file, ensure_ascii=False, indent=4)
 
 
 
 def main():
-    dir_name = "data"
-    os.makedirs(dir_name, exist_ok=True) 
-    print(f"Directory '{dir_name}' created successfully.")
-    crawl_text_from_web("./data/raw_text.txt")
-    clean_text(raw_text_path = "./data/raw_text.txt", clean_text_path="./data/clean_text.txt")
+    # dir_name = "data"
+    # os.makedirs(dir_name, exist_ok=True) 
+    # print(f"Directory '{dir_name}' created successfully.")
+    # crawl_text_from_web("./data/raw_text.txt")
+    # clean_text(raw_text_path = "./data/raw_text.txt", clean_text_path="./data/clean_text.txt")
+
+
+
+    with open("./data/clean_text.txt", 'r', encoding='utf-8') as cleanText:
+        true_ground_text = cleanText.read()
+    
+    with open("page048_TayDuKy.json", "rb") as json_file:
+        listBBox = BBoxes_of_JSON(json_file.read())
+
+
+
+
+    for _bbox in listBBox:
+        print(_bbox.get_position(), _bbox.get_text())
+
+    aligned_boxes = align_bboxes_with_true_text(listBBox, true_ground_text)
+
+
+    # for _align in aligned_boxes:
+    #     print(_align)
+
+    dump_aligned_boxes_to_json(aligned_boxes)
 
 if __name__ == "__main__":
     main()
