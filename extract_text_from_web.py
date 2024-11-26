@@ -1,6 +1,6 @@
 # @Contributors: Thai
 
-
+import ast
 from bs4 import BeautifulSoup
 import re
 import requests
@@ -10,10 +10,12 @@ from BBox import BBoxes_of_JSON
 from rapidfuzz import fuzz, process
 from multiprocessing import Pool
 import json
+import pandas as pd
 
 
 
 URL_WEBSITE = "https://www.gutenberg.org/cache/epub/23962/pg23962-images.html"
+
 
 def is_cjk(char):
     # if character is Sino-Nom/Chinese (CJK blocks)
@@ -65,25 +67,45 @@ def clean_text(raw_text_path="./data/raw_text.txt", clean_text_path = "./data/cl
 
 
 
-def find_best_match_rapidfuzz(ocr_text, ground_text, start_idx):
-    max_search_len = len(ocr_text)+0
-    ground_window = ground_text[start_idx: start_idx + max_search_len]
+def find_best_match_rapidfuzz(ocr_text, ground_text, start_idx, SinoNom_similar_Dictionary):
+    max_search_len = len(ocr_text) + 5 
+    ground_window = ground_text[start_idx : start_idx + max_search_len]
+    best_match_text = ""
+    best_match_score = 0
+    best_match_idx = 0
 
-    best_match = process.extractOne(ocr_text, [ground_window], scorer=fuzz.partial_ratio)
-    if best_match:
-        match_text, score, match_idx = best_match
-        return match_text, start_idx + match_idx + len(match_text)
+    def are_similar(char_a, char_b):
+        setA = set(SinoNom_similar_Dictionary.get(char_a, [char_a]))
+        setB = set(SinoNom_similar_Dictionary.get(char_b, [char_b]))
+        return not setA.isdisjoint(setB) 
+
+    for i in range(len(ground_window) - len(ocr_text) + 1):
+        candidate = ground_window[i : i + len(ocr_text)]
+
+        matching_chars = sum(1 for a, b in zip(ocr_text, candidate) if are_similar(a, b))
+
+        score = matching_chars / len(ocr_text)
+
+        if score > best_match_score:
+            best_match_text = candidate
+            best_match_score = score
+            best_match_idx = i
+
+    if best_match_score > 0.3:  
+        return best_match_text, start_idx + best_match_idx + len(best_match_text)
+
     return "", start_idx
 
 
-def align_bboxes_with_true_text(listBBox, true_ground_text):
+
+def align_bboxes_with_true_text(listBBox, true_ground_text, SinoNom_similar_Dictionary):
 
     list_pair_boxes = []
     current_index = 0
 
     for box in listBBox:
-        ocr_text = box.get_clean_text()
-        best_match, new_index = find_best_match_rapidfuzz(ocr_text, true_ground_text, current_index)
+        ocr_text = box.get_cleaned_text()
+        best_match, new_index = find_best_match_rapidfuzz(ocr_text, true_ground_text, current_index, SinoNom_similar_Dictionary)
         list_pair_boxes.append((box, best_match))
         current_index = new_index
     
@@ -96,18 +118,36 @@ def dump_aligned_boxes_to_json(aligned_pairs):
 
     for bbox, true_text in aligned_pairs:
         enriched_box = {
-            "page_name": bbox.,
-            "id_page": "2",
-            "id_box": idx + 1,  # Use idx+1 to start ID from 1
-            "position": box["position"],
-            "ocr_text": box["ocr_text"],
-            "aligned_text": box["aligned_text"]
+            "page_name": bbox.get_page_name(),
+            "id_page": bbox.get_id_page(),
+            "id_box": bbox.get_id_box(),  
+            "position": bbox.get_position(),
+            "ocr_text": bbox.get_base_text(),
+            "aligned_text": true_text
         }
         enriched_boxes.append(enriched_box)
     
 
     with open("output_text.json", 'w', encoding='utf-8') as json_file:
         json.dump(enriched_boxes, json_file, ensure_ascii=False, indent=4)
+
+
+def load_SinoNom_similar_pairs(file_path="SinoNom_similar_Dic.xlsx"):
+    df = pd.read_excel(file_path, engine='openpyxl')
+    sinonim_dict = {}
+
+    for _, row in df.iterrows():
+        key = row[df.columns[0]]  # The key in the first column
+        try:
+            values = ast.literal_eval(row[df.columns[1]])  # Convert to list of characters
+        except (ValueError, SyntaxError):
+            values = []  
+
+        sinonim_dict[key] = values  
+
+    return sinonim_dict
+
+
 
 
 
@@ -118,21 +158,27 @@ def main():
     # crawl_text_from_web("./data/raw_text.txt")
     # clean_text(raw_text_path = "./data/raw_text.txt", clean_text_path="./data/clean_text.txt")
 
+    SinoNom_dict_path = "SinoNom_similar_Dic.xlsx"
+    SinoNom_similar_Dictionary = load_SinoNom_similar_pairs(SinoNom_dict_path)
+
 
 
     with open("./data/clean_text.txt", 'r', encoding='utf-8') as cleanText:
         true_ground_text = cleanText.read()
     
-    with open("page048_TayDuKy.json", "rb") as json_file:
-        listBBox = BBoxes_of_JSON(json_file.read())
 
+    listBBox = []
+    listPage = ["TayDuKy_page048.json"]
+    for _page in listPage:
+        with open(_page, "rb") as json_file:
+            temp = (BBoxes_of_JSON(json_file.read(), _page))
+            listBBox += temp
 
-
-
+    # print(len(listBBox))
     for _bbox in listBBox:
-        print(_bbox.get_position(), _bbox.get_text())
+        print(_bbox.get_position(), _bbox.get_cleaned_text())
 
-    aligned_boxes = align_bboxes_with_true_text(listBBox, true_ground_text)
+    aligned_boxes = align_bboxes_with_true_text(listBBox, true_ground_text, SinoNom_similar_Dictionary)
 
 
     # for _align in aligned_boxes:
