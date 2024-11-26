@@ -6,7 +6,7 @@ import json
 class Words:
     def __init__(self,box_word) -> None:
         self._text = box_word["text"]
-        self._choices = box_word["choices"]
+        # self._choices = box_word["choices"]
         self._det_confidence = box_word["det_confidence"]
         self._confidence = box_word["det_confidence"]
         self._position = box_word["position"]
@@ -37,19 +37,17 @@ class BBox:
         self._words = [ Words(box_word) for box_word in box["words"] ]
 
 
-    @property
-    def position(self):
+    def get_position(self):
         return self._position
 
-    @property
-    def text(self):
+    
+    def get_text(self):
         return self._text
 
-    @property
-    def words(self):
+    def get_words(self):
         return self._words
     
-    def length(self):
+    def get_length(self):
         return len(self._text)
 
     def __repr__(self):
@@ -67,7 +65,25 @@ def BBoxes_of_JSON(json_file):
     
     return [ BBox(text_line) for text_line in data["data"]["text_lines"] ]
 
+
+
+
+
+
 #testing
-# with open("response.json", "rb") as json_file:
-#     res = BBoxes_of_JSON(json_file.read())
-#     print(res[0])
+def main():
+    res = []
+    with open("example_response.json", "rb") as json_file:
+        res = BBoxes_of_JSON(json_file.read())
+
+    for _sentence in res:
+        print(_sentence.get_text())
+        print(_sentence.get_position())
+        print("=====================")
+
+
+
+if __name__ == "__main__":
+    main()
+
+
