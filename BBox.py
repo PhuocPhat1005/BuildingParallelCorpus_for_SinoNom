@@ -34,7 +34,7 @@ class Words:
 class BBox:
     def __init__(self, box, page_name, id_page, id_box) -> None:
         self._base_text = box["text"]
-        self._cleaned_text = re.sub(r'[^\u4E00-\u9FFF\u3400-\u4DBF\u2000-\u2A6D\u2A70-\u2EBE\uF900-\uFAFF]', '', box["text"])
+        self._cleaned_text = re.sub(r'[^\u4E00-\u9FFF\u3400-\u4DBF\u2000-\u2A6D\u2A70-\u2EBE\uF900-\uFAFF“”]', '', box["text"])
         self._position = box["position"]
         self._words = [ Words(box_word) for box_word in box["words"] if box_word["text"] in self._cleaned_text ]
         self._page_name = page_name
@@ -88,7 +88,7 @@ def BBoxes_of_JSON(json_file, file_name):
 
     result = []
     i = 1
-    for idx, text_line in enumerate(data["data"]["text_lines"]):
+    for idx, text_line in enumerate(data["text_lines"]):
         temp = BBox(text_line,page_name,id_page, i)
         # print(temp.get_height())
         # if temp.get_height() >= 65:
@@ -102,7 +102,7 @@ def BBoxes_of_JSON(json_file, file_name):
 
 
 
-#testing
+#testing 
 def main():
     res = []
     file_name = "TayDuKy_page048.json"
