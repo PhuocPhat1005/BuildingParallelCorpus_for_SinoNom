@@ -110,7 +110,6 @@ def find_best_match_rapidfuzz(ocr_text, ground_text, start_idx, SinoNom_similar_
     print(f"OCR text: {ocr_text}")
     print(f"Need check: {ground_text}")
     if best_match_score > 0.3:
-        print(best_match_text)
         pos1, pos2 = align_strings(ocr_text, best_match_text)
         if pos1 == None or pos2 == None:
             print("======================")
