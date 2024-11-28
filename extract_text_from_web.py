@@ -222,7 +222,7 @@ def main():
 
     with open("./data/clean_text.txt", 'r', encoding='utf-8') as cleanText:
         true_ground_text = cleanText.read()
-    
+    listBBox = []
     directory = '.'
     pattern = r'^TayDuKy_page\d{3}\.json$'
     for filename in os.listdir(directory):
