@@ -171,9 +171,9 @@ def load_SinoNom_similar_pairs(file_path="SinoNom_similar_Dic.xlsx"):
     sinonim_dict = {}
 
     for _, row in df.iterrows():
-        key = row[df.columns[0]]  # The key in the first column
+        key = row[df.columns[0]]  
         try:
-            values = ast.literal_eval(row[df.columns[1]])  # Convert to list of characters
+            values = ast.literal_eval(row[df.columns[1]]) 
         except (ValueError, SyntaxError):
             values = []  
 
@@ -186,23 +186,18 @@ def load_SinoNom_similar_pairs(file_path="SinoNom_similar_Dic.xlsx"):
 
 
 def align_strings(str1, str2):
-    # Dùng difflib để thực hiện căn chỉnh chuỗi
     sequence_matcher = difflib.SequenceMatcher(None, str1, str2)
     
-    # Lấy các khối giống nhau giữa hai chuỗi
     matching_blocks = sequence_matcher.get_matching_blocks()
     
-    # Duyệt qua các khối giống nhau từ cuối lên đầu để tìm ký tự giống nhau cuối cùng
     for block in reversed(matching_blocks):
         a_start, b_start, size = block.a, block.b, block.size
         
-        # Duyệt qua các ký tự trong khối giống nhau
-        for i in range(size - 1, -1, -1):  # Duyệt ngược từ cuối khối
+        for i in range(size - 1, -1, -1): 
             c1 = str1[a_start + i]
             c2 = str2[b_start + i]
             
             if c1 == c2:
-                # Trả về ký tự giống nhau và vị trí của nó trong chuỗi gốc
                 pos_str1 = a_start + i
                 pos_str2 = b_start + i
                 return pos_str1, pos_str2
@@ -229,13 +224,13 @@ def main():
     with open("./data/clean_text.txt", 'r', encoding='utf-8') as cleanText:
         true_ground_text = cleanText.read()
     
-
-    listBBox = []
-    listPage = ["TayDuKy_page001.json", "TayDuKy_page002.json"]
-    for _page in listPage:
-        with open(_page, "rb") as json_file:
-            temp = (BBoxes_of_JSON(json_file.read(), _page))
-            listBBox += temp
+    directory = '.'
+    pattern = r'^TayDuKy_page\d{3}\.json$'
+    for filename in os.listdir(directory):
+        if re.match(pattern, filename):  # Kiểm tra xem file có khớp với mẫu hay không
+            with open(filename, "rb") as json_file:
+                temp = BBoxes_of_JSON(json_file.read(), filename)
+                listBBox += temp
 
     # print(len(listBBox))
     # for _bbox in listBBox:
