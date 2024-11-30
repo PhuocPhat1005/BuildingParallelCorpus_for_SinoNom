@@ -30,7 +30,7 @@ response = requests.post(url, json=payload, headers=headers)
 
 def get_json(image_folder, json_folder):
     for file in os.listdir(image_folder):
-        if file.endswith(".png"):
+        if file.endswith(".png") or file.endswith(".jpg"):
             with open(os.path.join(image_folder, file), "rb") as image_file:
                 base64_image = base64.b64encode(image_file.read()).decode("utf-8")
                 payload["image"] = base64_image
@@ -44,4 +44,4 @@ def get_json(image_folder, json_folder):
                     print(f"Error: {response.status_code}, {response.text}")
 
 if __name__ == "__main__":
-    get_json("output", "json_folder")
+    get_json(r"TayDuKy\images", r"TayDuKy\json")
