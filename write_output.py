@@ -1,3 +1,8 @@
+# @Contributors: Le Phuoc Phat
+# Purpose: READ and WRITE the output.
+# Include: load_alignment_results() -> to read the json file text.
+#          class ExcelExporterProcessing -> process and exporter the excel file (output).
+
 import pandas as pd
 import json
 from xlsxwriter.workbook import Workbook
@@ -49,6 +54,45 @@ class ExcelExporterProcessing:
     def format_bounding_box(bbox):
         return [tuple(point) for point in bbox]
 
+    def write_green_text(self, row, col, text):
+        rich_text = []
+        for char in text:
+            rich_text.extend([self.green_text_format, char]) # Mỗi ký tự kèm định dạng xanh lá
+
+        self.worksheet.write_rich_string(row, col, *rich_text)
+
+    def write_china_ocr(self, row, col, ocr_text, alignment):
+        rich_text = []
+
+        # Nếu có văn bản OCR
+        if ocr_text:
+            for i, char in enumerate(ocr_text):
+                # Lấy status của từng ký tự từ alignment hoặc gán mặc định nếu thiếu
+                status = alignment[i]["status"] if i < len(alignment) else "No Color"
+
+                # Chọn định dạng màu sắc dựa trên status
+                if status == "No Color":
+                    rich_text.append(self.default_format)
+                    rich_text.append(char)  # Ký tự không định dạng
+                elif status == "Red Color":
+                    rich_text.append(self.red_text_format)  # Định dạng đỏ
+                    rich_text.append(char)
+                elif status == "Inserted (No OCR)":
+                    rich_text.append(self.blue_text_format)  # Định dạng xanh dương
+                    rich_text.append("-")
+                elif status == "Deleted (No Text)":
+                    rich_text.append(self.green_text_format)  # Định dạng xanh lá
+                    rich_text.append(char)
+
+        # Kiểm tra nếu rich_text có ít hơn 2 phần tử
+        if len(rich_text) <= 2:
+            # Thêm ký tự ảo và định dạng mặc định
+            rich_text.append(self.default_format)
+            rich_text.append(" ")  # Ký tự ảo (dấu cách)
+
+        # Ghi toàn bộ chuỗi rich text với các định dạng vào Excel
+        self.worksheet.write_rich_string(row, col, *rich_text)
+
     def generate_output_excel(self):
         row_num = 1
 
@@ -56,12 +100,13 @@ class ExcelExporterProcessing:
             page_name = alignment["page_name"]
             id_page = alignment["id_page"]
             id_box = alignment["id_box"]
-            bbox = alignment["position"]
-            formatted_bbox = ExcelExporterProcessing.format_bounding_box(bbox)
-            ocr_text = alignment["ocr_text"]
-            aligned_text = alignment["aligned_text"]
+            bbox = alignment["bounding_box"]
+            formatted_bbox = ExcelExporterProcessing.format_bounding_box(bbox) if bbox is not None else None
+            ocr_text = alignment["china_ocr_text"] or ""
+            aligned_text = alignment["china_origin_text"] or ""
             formatted_id_page = str(id_page).zfill(3) if id_page is not None else "000"
             formatted_id_box = str(id_box).zfill(3) if id_box is not None else "000"
+            alignment_box = alignment["alignment"]
 
             # Column 1: ID
             file_id = f"{page_name}.{formatted_id_page}.{formatted_id_box}"
@@ -71,7 +116,7 @@ class ExcelExporterProcessing:
             self.worksheet.write(row_num, 1, str(formatted_bbox))
 
             # Column 3: Text OCR
-            self.worksheet.write(row_num, 2, ocr_text, self.default_format)
+            self.write_china_ocr(row_num, 2, ocr_text, alignment_box)
 
             # Column 4: Text Char
             self.worksheet.write(row_num, 3, aligned_text, self.default_format)
@@ -83,7 +128,7 @@ class ExcelExporterProcessing:
         print("Close the workbook.")
 
 def main():
-    json_file_path = "output_text.json"
+    json_file_path = "align_text.json"
     alignment_results = load_alignment_results(json_file_path)
 
     output_file_path = "output.xlsx"

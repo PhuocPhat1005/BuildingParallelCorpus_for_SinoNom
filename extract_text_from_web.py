@@ -180,10 +180,6 @@ def load_SinoNom_similar_pairs(file_path="SinoNom_similar_Dic.xlsx"):
 
     return sinonim_dict
 
-
-
-
-
 def align_strings(str1, str2):
     sequence_matcher = difflib.SequenceMatcher(None, str1, str2)
     
@@ -203,11 +199,6 @@ def align_strings(str1, str2):
     
     return None, None
 
-
-
-
-
-
 def main():
     # dir_name = "data"
     # os.makedirs(dir_name, exist_ok=True) 
@@ -217,8 +208,6 @@ def main():
 
     SinoNom_dict_path = "SinoNom_similar_Dic.xlsx"
     SinoNom_similar_Dictionary = load_SinoNom_similar_pairs(SinoNom_dict_path)
-
-
 
     with open("./data/clean_text.txt", 'r', encoding='utf-8') as cleanText:
         true_ground_text = cleanText.read()
