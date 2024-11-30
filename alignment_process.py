@@ -6,7 +6,7 @@ import pandas as pd
 import json
 import os
 import re
-import opencc
+# import opencc
 
 def load_alignment_results(json_file_path: str):
     try:
@@ -43,7 +43,7 @@ class TextAlignment:
     def __init__(self, sinonom_dict, alignment_bbox_results):
         self.sinonom_dict = sinonom_dict
         self.alignment_bbox_results = alignment_bbox_results
-        self.converter = opencc.OpenCC('t2s')
+        # self.converter = opencc.OpenCC('t2s')
 
     def get_similar_set(self, sinonom_char):
         return self.sinonom_dict.get(sinonom_char, set())
@@ -53,8 +53,8 @@ class TextAlignment:
             return ""
         chinese_only = re.findall(r"[\u4e00-\u9fa5]+", text)
         chinese_text = ''.join(chinese_only)
-        simplified_text = self.converter.convert(chinese_text)
-        return simplified_text
+        # simplified_text = self.converter.convert(chinese_text)
+        return chinese_text
 
     def align_characters(self, china_ocr_text, china_origin_text):
         # Xử lý trường hợp chuỗi rỗng
