@@ -66,7 +66,7 @@ def extract_images(pdf_path, output_dir):
             image_bytes = base_image["image"]
             
             # Save image to file
-            image_path = f"{output_dir}/page_{page_num}.png"
+            image_path = f"{output_dir}/TayDuKy_page{str(page_num).zfill(3)}.png"
             with open(image_path, "wb") as image_file:
                 image_file.write(image_bytes)
             
@@ -80,7 +80,7 @@ def extract_images(pdf_path, output_dir):
 # Test main
 if __name__ == "__main__":
     # Define input and output paths
-    pdf_path = "TQDN_2.pdf"
+    pdf_path = "TayDuKy.pdf"
     output_dir = "output"
     
     # Extract images from PDF

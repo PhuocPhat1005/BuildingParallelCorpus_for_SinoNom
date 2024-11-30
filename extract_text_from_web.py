@@ -12,6 +12,7 @@ from multiprocessing import Pool
 import json
 import pandas as pd
 import difflib
+import csv
 
 
 
@@ -67,14 +68,14 @@ def clean_text(raw_text_path="./data/raw_text.txt", clean_text_path = "./data/cl
 
 
 
-def are_similar(char_a, char_b, SinoNom_similar_Dictionary):
-    setA = set(SinoNom_similar_Dictionary.get(char_a, [char_a]))
-    setB = set(SinoNom_similar_Dictionary.get(char_b, [char_b]))
-    return not setA.isdisjoint(setB) 
+# def are_similar(char_a, char_b, SinoNom_similar_Dictionary):
+#     setA = set(SinoNom_similar_Dictionary.get(char_a, [char_a]))
+#     setB = set(SinoNom_similar_Dictionary.get(char_b, [char_b]))
+#     return not setA.isdisjoint(setB) 
 
 
 
-def calculate_match_score(ocr_text, candidate, SinoNom_similar_Dictionary):
+def calculate_match_score(ocr_text, candidate):
     sequence_matcher = difflib.SequenceMatcher(None, ocr_text, candidate)
     
     matching_blocks = sequence_matcher.get_matching_blocks()
@@ -90,7 +91,7 @@ def calculate_match_score(ocr_text, candidate, SinoNom_similar_Dictionary):
 
 
 
-def find_best_match_rapidfuzz(ocr_text, ground_text, start_idx, SinoNom_similar_Dictionary):
+def find_best_match_rapidfuzz(ocr_text, ground_text, start_idx):
     best_match_text = ""
     best_match_score = 0
     best_match_idx = 0
@@ -98,7 +99,7 @@ def find_best_match_rapidfuzz(ocr_text, ground_text, start_idx, SinoNom_similar_
     i = 0
     while i < len(ground_text):
         candidate = ground_text[i:i + len(ocr_text)]
-        score = calculate_match_score(ocr_text, candidate, SinoNom_similar_Dictionary)  # RapidFuzz ratio: 0 đến 1
+        score = calculate_match_score(ocr_text, candidate)  # RapidFuzz ratio: 0 đến 1
 
         if score > best_match_score:
             best_match_text = candidate
@@ -126,7 +127,7 @@ def find_best_match_rapidfuzz(ocr_text, ground_text, start_idx, SinoNom_similar_
 
 
 
-def align_bboxes_with_true_text(listBBox, true_ground_text, SinoNom_similar_Dictionary):
+def align_bboxes_with_true_text(listBBox, true_ground_text):
 
     list_pair_boxes = []
     current_index = 0
@@ -138,47 +139,12 @@ def align_bboxes_with_true_text(listBBox, true_ground_text, SinoNom_similar_Dict
         else:
             max_search_len = len(ocr_text) + 170
         ground_text = true_ground_text[current_index:current_index+max_search_len]
-        best_match, new_index = find_best_match_rapidfuzz(ocr_text, ground_text, current_index, SinoNom_similar_Dictionary)
+        best_match, new_index = find_best_match_rapidfuzz(ocr_text, ground_text, current_index)
         list_pair_boxes.append((box, best_match))
         current_index = new_index
     
 
     return list_pair_boxes
-
-
-def dump_aligned_boxes_to_json(aligned_pairs):
-    enriched_boxes = []
-
-    for bbox, true_text in aligned_pairs:
-        enriched_box = {
-            "page_name": bbox.get_page_name(),
-            "id_page": bbox.get_id_page(),
-            "id_box": bbox.get_id_box(),  
-            "position": bbox.get_position(),
-            "ocr_text": bbox.get_base_text(),
-            "aligned_text": true_text
-        }
-        enriched_boxes.append(enriched_box)
-    
-
-    with open("output_text.json", 'w', encoding='utf-8') as json_file:
-        json.dump(enriched_boxes, json_file, ensure_ascii=False, indent=4)
-
-
-def load_SinoNom_similar_pairs(file_path="SinoNom_similar_Dic.xlsx"):
-    df = pd.read_excel(file_path, engine='openpyxl')
-    sinonim_dict = {}
-
-    for _, row in df.iterrows():
-        key = row[df.columns[0]]  
-        try:
-            values = ast.literal_eval(row[df.columns[1]]) 
-        except (ValueError, SyntaxError):
-            values = []  
-
-        sinonim_dict[key] = values  
-
-    return sinonim_dict
 
 
 
@@ -204,6 +170,38 @@ def align_strings(str1, str2):
     return None, None
 
 
+def dump_aligned_boxes_to_json(aligned_pairs, output_text_json = "output_text.json"):
+    enriched_boxes = []
+
+    for bbox, true_text in aligned_pairs:
+        if true_text == "":
+            continue
+        enriched_box = {
+            "page_name": bbox.get_page_name(),
+            "id_page": bbox.get_id_page(),
+            "id_box": bbox.get_id_box(),  
+            "position": bbox.get_position(),
+            "ocr_text": bbox.get_base_text(),
+            "aligned_text": true_text
+        }
+        enriched_boxes.append(enriched_box)
+    
+
+    with open(output_text_json, 'w', encoding='utf-8') as json_file:
+        json.dump(enriched_boxes, json_file, ensure_ascii=False, indent=4)
+
+def dump_aligned_boxes_to_csv(aligned_pairs, output_file = "ocr_corrections.csv"):
+    with open(output_file, mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        
+        writer.writerow(["OCR Text", "Ground Text"])
+        
+        for bbox, true_text in aligned_pairs:
+            if true_text == "":
+                continue  
+            
+            writer.writerow([bbox.get_cleaned_text(), true_text])
+
 
 
 
@@ -215,10 +213,8 @@ def main():
     # crawl_text_from_web("./data/raw_text.txt")
     # clean_text(raw_text_path = "./data/raw_text.txt", clean_text_path="./data/clean_text.txt")
 
-    SinoNom_dict_path = "SinoNom_similar_Dic.xlsx"
-    SinoNom_similar_Dictionary = load_SinoNom_similar_pairs(SinoNom_dict_path)
-
-
+    # SinoNom_dict_path = "SinoNom_similar_Dic.xlsx"
+    # SinoNom_similar_Dictionary = load_SinoNom_similar_pairs(SinoNom_dict_path)
 
     with open("./data/clean_text.txt", 'r', encoding='utf-8') as cleanText:
         true_ground_text = cleanText.read()
@@ -235,10 +231,13 @@ def main():
     # for _bbox in listBBox:
     #     print(_bbox.get_position(), _bbox.get_cleaned_text())
 
-    aligned_boxes = align_bboxes_with_true_text(listBBox, true_ground_text, SinoNom_similar_Dictionary)
+    aligned_boxes = align_bboxes_with_true_text(listBBox, true_ground_text)
+
+    # aligned_text_json = "output_text.json"
+    # dump_aligned_boxes_to_json(aligned_boxes, output_text_json=aligned_text_json)
 
 
-    dump_aligned_boxes_to_json(aligned_boxes)
+    dump_aligned_boxes_to_csv(aligned_boxes)
 
 
 
