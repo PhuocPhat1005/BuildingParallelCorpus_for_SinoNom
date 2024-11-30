@@ -43,18 +43,29 @@ class TextAlignment:
     def __init__(self, sinonom_dict, alignment_bbox_results):
         self.sinonom_dict = sinonom_dict
         self.alignment_bbox_results = alignment_bbox_results
-        self.converter = opencc.OpenCC('t2s')
+        self.converter = opencc.OpenCC('t2s') # chuyển đổi từ giản thể sang phồn thể
 
     def get_similar_set(self, sinonom_char):
         return self.sinonom_dict.get(sinonom_char, set())
+
+    def to_traditional(self, char):
+        if not char:
+            return ""
+        return self.converter.convert(char)
+
+    def are_characters_equal(self, char1, char2):
+        if not char1 or not char2:
+            return False
+        traditional_char1 = self.to_traditional(char1)
+        traditional_char2 = self.to_traditional(char2)
+        return traditional_char1 == traditional_char2
 
     def preprocess_text(self, text):
         if not text:
             return ""
         chinese_only = re.findall(r"[\u4e00-\u9fa5]+", text)
         chinese_text = ''.join(chinese_only)
-        simplified_text = self.converter.convert(chinese_text)
-        return simplified_text
+        return chinese_text
 
     def align_characters(self, china_ocr_text, china_origin_text):
         # Xử lý trường hợp chuỗi rỗng
@@ -82,7 +93,7 @@ class TextAlignment:
 
         for i in range(1, m + 1):
             for j in range(1, n + 1):
-                if ocr_char[i - 1] == origin_char[j - 1]:
+                if self.are_characters_equal(ocr_char[i - 1], origin_char[j - 1]):
                     dp[i][j] = dp[i - 1][j - 1]
                     operations[i][j] = "match"
                 else:

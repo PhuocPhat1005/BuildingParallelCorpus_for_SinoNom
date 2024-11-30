@@ -68,13 +68,6 @@ def clean_text(raw_text_path="./data/raw_text.txt", clean_text_path = "./data/cl
 
 
 
-# def are_similar(char_a, char_b, SinoNom_similar_Dictionary):
-#     setA = set(SinoNom_similar_Dictionary.get(char_a, [char_a]))
-#     setB = set(SinoNom_similar_Dictionary.get(char_b, [char_b]))
-#     return not setA.isdisjoint(setB) 
-
-
-
 def calculate_match_score(ocr_text, candidate):
     sequence_matcher = difflib.SequenceMatcher(None, ocr_text, candidate)
     
@@ -213,17 +206,15 @@ def main():
     # crawl_text_from_web("./data/raw_text.txt")
     # clean_text(raw_text_path = "./data/raw_text.txt", clean_text_path="./data/clean_text.txt")
 
-    # SinoNom_dict_path = "SinoNom_similar_Dic.xlsx"
-    # SinoNom_similar_Dictionary = load_SinoNom_similar_pairs(SinoNom_dict_path)
-
     with open("./data/clean_text.txt", 'r', encoding='utf-8') as cleanText:
         true_ground_text = cleanText.read()
     listBBox = []
-    directory = '.'
+    directory = 'assets/json/'
     pattern = r'^TayDuKy_page\d{3}\.json$'
     for filename in os.listdir(directory):
-        if re.match(pattern, filename):  # Kiểm tra xem file có khớp với mẫu hay không
-            with open(filename, "rb") as json_file:
+        if re.match(pattern, filename):
+            full_file_path = os.path.join(directory, filename)
+            with open(full_file_path, "rb") as json_file:
                 temp = BBoxes_of_JSON(json_file.read(), filename)
                 listBBox += temp
 
@@ -233,20 +224,13 @@ def main():
 
     aligned_boxes = align_bboxes_with_true_text(listBBox, true_ground_text)
 
-    # aligned_text_json = "output_text.json"
-    # dump_aligned_boxes_to_json(aligned_boxes, output_text_json=aligned_text_json)
+    aligned_text_json = "output_text.json"
+    dump_aligned_boxes_to_json(aligned_boxes, output_text_json=aligned_text_json)
 
 
-    dump_aligned_boxes_to_csv(aligned_boxes)
+    align_text_csv = "ocr_corrections.csv"
+    dump_aligned_boxes_to_csv(aligned_boxes, align_text_csv)
 
-
-
-    # ocr_text =    "有星有辰日月星辰谓之四象故曰天开于子又经五"  
-    # ground_text = "有星有辰日月星辰謂之四象故曰天開於子又經五千四百"
-    # best_match_text, match_end_idx = find_best_match_rapidfuzz(ocr_text, ground_text, 0, SinoNom_similar_Dictionary)
-
-    # print("Best Match Text:", best_match_text)  
-    # print("Match End Index:", match_end_idx)  
 
 if __name__ == "__main__":
     main()

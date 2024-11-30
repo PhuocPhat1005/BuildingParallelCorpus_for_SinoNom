@@ -5,6 +5,7 @@ import cv2
 import numpy as np
 from PIL import Image
 import os
+from bs4 import BeautifulSoup
 
 
 
@@ -75,6 +76,54 @@ def resize_image(image_path, max_size=1000, output_file=None):
 
 
 
+URL_WEBSITE = "https://nhasachmienphi.com/doc-online/hong-lau-mong-{}"
+
+
+def crawl_text_from_web(start_page=168179, end_page=168296, raw_text_dir="./raw_text"):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+
+    # Tạo thư mục lưu trữ nếu chưa tồn tại
+    if not os.path.exists(raw_text_dir):
+        os.makedirs(raw_text_dir)
+
+    # Lặp qua các trang từ start_page đến end_page
+    for page_num in range(start_page, end_page + 1):
+        url = URL_WEBSITE.format(page_num)
+        print(f"Đang thu thập dữ liệu từ: {url}")
+
+        response = requests.get(url, headers=headers)
+        if response.status_code != 200:
+            print(f"Không thể lấy dữ liệu từ {url}")
+            continue
+
+        soup = BeautifulSoup(response.content, "html.parser")
+        content_div = soup.find("div", class_="content_p fs-16 content_p_al")
+        
+        if content_div:
+            p_tags = content_div.find_all("p")
+            text = "\n".join([p.get_text(strip=True) for p in p_tags])
+
+            raw_text_path = os.path.join(raw_text_dir, f"hong-lau-mong{page_num}.txt")
+            with open(raw_text_path, "w", encoding="utf-8") as file:
+                file.write(text)
+            
+            print(f"Dữ liệu trang {page_num} đã được lưu vào {raw_text_path}")
+        else:
+            print(f"Không tìm thấy div với class 'content_p fs-16 content_p_al' trên trang {page_num}")
+
+
+
+
+
+def main():
+    pass
+
+
+if __name__ == "__main__":
+    main()
+
 
 
 
@@ -118,3 +167,4 @@ def resize_image(image_path, max_size=1000, output_file=None):
 #     print("Response saved to temp.json")
 # else:
 #     print(f"Error: {response.status_code}, {response.text}")
+

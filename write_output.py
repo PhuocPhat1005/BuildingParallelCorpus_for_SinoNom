@@ -45,10 +45,10 @@ class ExcelExporterProcessing:
                 {**self.china_font, 'bold': True, 'align': 'center', 'valign': 'vcenter'}))
 
         # Đặt độ rộng cho các cột (nếu cần thiết)
-        self.worksheet.set_column('A:A', 30)  # ID
-        self.worksheet.set_column('B:B', 40)  # Image Box
-        self.worksheet.set_column('C:C', 80)  # Text OCR
-        self.worksheet.set_column('D:D', 80)  # Text Char
+        self.worksheet.set_column('A:A', 16)  # ID
+        self.worksheet.set_column('B:B', 47)  # Image Box
+        self.worksheet.set_column('C:C', 60)  # Text OCR
+        self.worksheet.set_column('D:D', 60)  # Text Char
 
     @staticmethod
     def format_bounding_box(bbox):
