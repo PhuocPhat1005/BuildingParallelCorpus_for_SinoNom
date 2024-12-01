@@ -3,6 +3,22 @@
 import json
 import re
 
+def clean_text(input_text):
+    return ''.join([char for char in input_text if is_cjk(char)])
+
+def is_cjk(char):
+    # Exclude '冫' (U+51AB) while still checking for other CJK characters
+    if char == '冫' or char == "“" or char == "”":
+        return False
+    return any([
+        '\u4E00' <= char <= '\u9FFF',    # CJK Unified Ideographs
+        '\u3400' <= char <= '\u4DBF',    # CJK Unified Ideographs Extension A
+        '\u20000' <= char <= '\u2A6DF',  # CJK Unified Ideographs Extension B
+        '\u2A700' <= char <= '\u2EBEF',  # CJK Unified Ideographs Extension C-F
+        '\uF900' <= char <= '\uFAFF',    # CJK Compatibility Ideographs
+    ])
+
+
 
 class Words:
     def __init__(self,box_word) -> None:
@@ -34,7 +50,7 @@ class Words:
 class BBox:
     def __init__(self, box, page_name, id_page, id_box) -> None:
         self._base_text = box["text"]
-        self._cleaned_text = re.sub(r'[^\u4E00-\u9FFF\u3400-\u4DBF\u2000-\u2A6D\u2A70-\u2EBE\uF900-\uFAFF“”]', '', box["text"])
+        self._cleaned_text = clean_text(box["text"])
         self._position = box["position"]
         self._words = [ Words(box_word) for box_word in box["words"] if box_word["text"] in self._cleaned_text ]
         self._page_name = page_name
