@@ -71,11 +71,7 @@ def extract_images(pdf_path, output_dir):
             image_bytes = base_image["image"]
             
             # Save image to file
-<<<<<<< HEAD
             image_path = f"{output_dir}/page_{page_num + 1}.png"
-=======
-            image_path = f"{output_dir}/TayDuKy_page{str(page_num).zfill(3)}.png"
->>>>>>> f6d710a130c8586c23bcb027721aea302b61c3e6
             with open(image_path, "wb") as image_file:
                 image_file.write(image_bytes)
             
