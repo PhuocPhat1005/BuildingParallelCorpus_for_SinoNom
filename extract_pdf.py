@@ -85,13 +85,8 @@ def extract_images(pdf_path, output_dir):
 # Test main
 if __name__ == "__main__":
     # Define input and output paths
-<<<<<<< HEAD
-    pdf_path = "西游记_1.pdf"
-    output_dir = r"TayDuKy\images"
-=======
     pdf_path = "TayDuKy.pdf"
     output_dir = "output"
->>>>>>> f6d710a130c8586c23bcb027721aea302b61c3e6
     
     # Extract images from PDF
     extract_images(pdf_path, output_dir)
