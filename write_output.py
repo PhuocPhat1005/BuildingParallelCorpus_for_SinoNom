@@ -38,17 +38,18 @@ class ExcelExporterProcessing:
         self.default_format = self.workbook.add_format(self.china_font)  # Định dạng mặc định
 
     def setup_headers(self):
-        headers = ["ID", "Image Box", "Text OCR", "Text Char"]
+        headers = ["Image_name", "ID", "Image Box", "Text OCR", "Text Char"]
         for col_num, header in enumerate(headers):
             # Sử dụng cả định dạng in đậm và căn giữa cho header
             self.worksheet.write(0, col_num, header, self.workbook.add_format(
                 {**self.china_font, 'bold': True, 'align': 'center', 'valign': 'vcenter'}))
 
         # Đặt độ rộng cho các cột (nếu cần thiết)
-        self.worksheet.set_column('A:A', 16)  # ID
-        self.worksheet.set_column('B:B', 47)  # Image Box
-        self.worksheet.set_column('C:C', 60)  # Text OCR
-        self.worksheet.set_column('D:D', 60)  # Text Char
+        self.worksheet.set_column('A:A', 25)  # ID
+        self.worksheet.set_column('B:B', 16)  # ID
+        self.worksheet.set_column('C:C', 47)  # Image Box
+        self.worksheet.set_column('D:D', 60)  # Text OCR
+        self.worksheet.set_column('E:E', 60)  # Text Char
 
     @staticmethod
     def format_bounding_box(bbox):
@@ -108,18 +109,22 @@ class ExcelExporterProcessing:
             formatted_id_box = str(id_box).zfill(3) if id_box is not None else "000"
             alignment_box = alignment["alignment"]
 
-            # Column 1: ID
+            # Column 1: Image_name
+            image_name = f"{page_name}_page{formatted_id_page}.png"
+            self.worksheet.write(row_num, 0, image_name)
+
+            # Column 2: ID
             file_id = f"{page_name}.{formatted_id_page}.{formatted_id_box}"
-            self.worksheet.write(row_num, 0, file_id)
+            self.worksheet.write(row_num, 1, file_id)
 
             # Column 2: Image Box
-            self.worksheet.write(row_num, 1, str(formatted_bbox))
+            self.worksheet.write(row_num, 2, str(formatted_bbox))
 
             # Column 3: Text OCR
-            self.write_china_ocr(row_num, 2, ocr_text, alignment_box)
+            self.write_china_ocr(row_num, 3, ocr_text, alignment_box)
 
             # Column 4: Text Char
-            self.worksheet.write(row_num, 3, aligned_text, self.default_format)
+            self.worksheet.write(row_num, 4, aligned_text, self.default_format)
 
             row_num += 1
 
