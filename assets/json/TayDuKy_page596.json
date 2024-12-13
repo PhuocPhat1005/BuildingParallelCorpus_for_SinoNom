@@ -1,0 +1,226 @@
+{
+    "data": {
+        "height": 1440,
+        "text_angel": 0,
+        "text_angel_confidence": 1.0,
+        "text_lines": [
+            {
+                "position": [
+                    [
+                        85,
+                        1137
+                    ],
+                    [
+                        309,
+                        1137
+                    ],
+                    [
+                        309,
+                        1156
+                    ],
+                    [
+                        85,
+                        1156
+                    ]
+                ],
+                "text": "15日、,一02一00087’一〇",
+                "words": [
+                    {
+                        "confidence": 0.864,
+                        "det_confidence": 0.5553,
+                        "position": [
+                            85,
+                            1137,
+                            94,
+                            1156
+                        ],
+                        "text": "1"
+                    },
+                    {
+                        "confidence": 0.529,
+                        "det_confidence": 0.5951,
+                        "position": [
+                            95,
+                            1137,
+                            106,
+                            1156
+                        ],
+                        "text": "5"
+                    },
+                    {
+                        "confidence": 0.879,
+                        "det_confidence": 0.6783,
+                        "position": [
+                            107,
+                            1137,
+                            120,
+                            1156
+                        ],
+                        "text": "日"
+                    },
+                    {
+                        "confidence": 0.967,
+                        "det_confidence": 0.6931,
+                        "position": [
+                            121,
+                            1138,
+                            135,
+                            1155
+                        ],
+                        "text": "、"
+                    },
+                    {
+                        "confidence": 0.724,
+                        "det_confidence": 0.635,
+                        "position": [
+                            142,
+                            1137,
+                            154,
+                            1155
+                        ],
+                        "text": ","
+                    },
+                    {
+                        "confidence": 0.963,
+                        "det_confidence": 0.539,
+                        "position": [
+                            155,
+                            1138,
+                            167,
+                            1155
+                        ],
+                        "text": "一"
+                    },
+                    {
+                        "confidence": 0.972,
+                        "det_confidence": 0.6242,
+                        "position": [
+                            167,
+                            1137,
+                            180,
+                            1156
+                        ],
+                        "text": "0"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.5862,
+                        "position": [
+                            180,
+                            1137,
+                            192,
+                            1156
+                        ],
+                        "text": "2"
+                    },
+                    {
+                        "confidence": 0.926,
+                        "det_confidence": 0.4732,
+                        "position": [
+                            192,
+                            1138,
+                            205,
+                            1155
+                        ],
+                        "text": "一"
+                    },
+                    {
+                        "confidence": 0.99,
+                        "det_confidence": 0.5892,
+                        "position": [
+                            205,
+                            1137,
+                            218,
+                            1156
+                        ],
+                        "text": "0"
+                    },
+                    {
+                        "confidence": 0.982,
+                        "det_confidence": 0.6102,
+                        "position": [
+                            219,
+                            1137,
+                            231,
+                            1156
+                        ],
+                        "text": "0"
+                    },
+                    {
+                        "confidence": 0.981,
+                        "det_confidence": 0.6401,
+                        "position": [
+                            232,
+                            1137,
+                            243,
+                            1156
+                        ],
+                        "text": "0"
+                    },
+                    {
+                        "confidence": 0.702,
+                        "det_confidence": 0.6127,
+                        "position": [
+                            244,
+                            1138,
+                            257,
+                            1156
+                        ],
+                        "text": "8"
+                    },
+                    {
+                        "confidence": 0.953,
+                        "det_confidence": 0.5505,
+                        "position": [
+                            258,
+                            1137,
+                            270,
+                            1156
+                        ],
+                        "text": "7"
+                    },
+                    {
+                        "confidence": 0.505,
+                        "det_confidence": 0.5447,
+                        "position": [
+                            270,
+                            1137,
+                            283,
+                            1156
+                        ],
+                        "text": "’"
+                    },
+                    {
+                        "confidence": 0.962,
+                        "det_confidence": 0.3418,
+                        "position": [
+                            283,
+                            1138,
+                            295,
+                            1156
+                        ],
+                        "text": "一"
+                    },
+                    {
+                        "confidence": 0.439,
+                        "det_confidence": 0.5777,
+                        "position": [
+                            296,
+                            1137,
+                            309,
+                            1156
+                        ],
+                        "text": "〇"
+                    }
+                ]
+            }
+        ],
+        "texts": [
+            "15日、,一02一00087’一〇"
+        ],
+        "width": 983
+    },
+    "id": "6f011b62-5611-4abc-b981-98b918cbf7e7",
+    "info": "",
+    "message": "success"
+}

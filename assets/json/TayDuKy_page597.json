@@ -1,0 +1,425 @@
+{
+    "data": {
+        "height": 2336,
+        "text_angel": 0,
+        "text_angel_confidence": 1.0,
+        "text_lines": [
+            {
+                "position": [
+                    [
+                        649,
+                        420
+                    ],
+                    [
+                        699,
+                        420
+                    ],
+                    [
+                        699,
+                        482
+                    ],
+                    [
+                        649,
+                        482
+                    ]
+                ],
+                "text": "＠",
+                "words": [
+                    {
+                        "confidence": 0.455,
+                        "det_confidence": 0.4564,
+                        "position": [
+                            649,
+                            420,
+                            699,
+                            482
+                        ],
+                        "text": "＠"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        853,
+                        420
+                    ],
+                    [
+                        954,
+                        420
+                    ],
+                    [
+                        954,
+                        490
+                    ],
+                    [
+                        853,
+                        490
+                    ]
+                ],
+                "text": "@石",
+                "words": [
+                    {
+                        "confidence": 0.951,
+                        "det_confidence": 0.4921,
+                        "position": [
+                            853,
+                            442,
+                            901,
+                            490
+                        ],
+                        "text": "@"
+                    },
+                    {
+                        "confidence": 0.649,
+                        "det_confidence": 0.6289,
+                        "position": [
+                            899,
+                            420,
+                            954,
+                            482
+                        ],
+                        "text": "石"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        700,
+                        640
+                    ],
+                    [
+                        765,
+                        640
+                    ],
+                    [
+                        765,
+                        705
+                    ],
+                    [
+                        700,
+                        705
+                    ]
+                ],
+                "text": "S",
+                "words": [
+                    {
+                        "confidence": 0.425,
+                        "det_confidence": 0.3024,
+                        "position": [
+                            700,
+                            640,
+                            765,
+                            705
+                        ],
+                        "text": "S"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        551,
+                        887
+                    ],
+                    [
+                        1010,
+                        887
+                    ],
+                    [
+                        1010,
+                        943
+                    ],
+                    [
+                        551,
+                        943
+                    ]
+                ],
+                "text": "中国古典文学读本丛书",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8687,
+                        "position": [
+                            551,
+                            887,
+                            594,
+                            943
+                        ],
+                        "text": "中"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8716,
+                        "position": [
+                            597,
+                            889,
+                            641,
+                            943
+                        ],
+                        "text": "国"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.882,
+                        "position": [
+                            642,
+                            887,
+                            688,
+                            943
+                        ],
+                        "text": "古"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8861,
+                        "position": [
+                            688,
+                            887,
+                            733,
+                            943
+                        ],
+                        "text": "典"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8896,
+                        "position": [
+                            734,
+                            887,
+                            779,
+                            943
+                        ],
+                        "text": "文"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8989,
+                        "position": [
+                            779,
+                            887,
+                            825,
+                            942
+                        ],
+                        "text": "学"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.895,
+                        "position": [
+                            826,
+                            887,
+                            871,
+                            942
+                        ],
+                        "text": "读"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8898,
+                        "position": [
+                            871,
+                            887,
+                            918,
+                            942
+                        ],
+                        "text": "本"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8786,
+                        "position": [
+                            918,
+                            887,
+                            965,
+                            942
+                        ],
+                        "text": "丛"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8825,
+                        "position": [
+                            965,
+                            887,
+                            1010,
+                            943
+                        ],
+                        "text": "书"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        487,
+                        1101
+                    ],
+                    [
+                        487,
+                        965
+                    ],
+                    [
+                        1077,
+                        965
+                    ],
+                    [
+                        1077,
+                        1101
+                    ]
+                ],
+                "text": "西遊記",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.7855,
+                        "position": [
+                            488,
+                            978,
+                            621,
+                            1094
+                        ],
+                        "text": "西"
+                    },
+                    {
+                        "confidence": 0.837,
+                        "det_confidence": 0.9213,
+                        "position": [
+                            709,
+                            967,
+                            856,
+                            1102
+                        ],
+                        "text": "遊"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9082,
+                        "position": [
+                            916,
+                            971,
+                            1078,
+                            1091
+                        ],
+                        "text": "記"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        756,
+                        1143
+                    ],
+                    [
+                        815,
+                        1143
+                    ],
+                    [
+                        815,
+                        1203
+                    ],
+                    [
+                        756,
+                        1203
+                    ]
+                ],
+                "text": "下",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.7871,
+                        "position": [
+                            756,
+                            1143,
+                            815,
+                            1203
+                        ],
+                        "text": "下"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        625,
+                        1250
+                    ],
+                    [
+                        949,
+                        1250
+                    ],
+                    [
+                        949,
+                        1309
+                    ],
+                    [
+                        625,
+                        1309
+                    ]
+                ],
+                "text": "吴承恩著",
+                "words": [
+                    {
+                        "confidence": 0.984,
+                        "det_confidence": 0.8957,
+                        "position": [
+                            625,
+                            1252,
+                            680,
+                            1308
+                        ],
+                        "text": "吴"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.897,
+                        "position": [
+                            703,
+                            1252,
+                            761,
+                            1308
+                        ],
+                        "text": "承"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8817,
+                        "position": [
+                            786,
+                            1250,
+                            840,
+                            1309
+                        ],
+                        "text": "恩"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8885,
+                        "position": [
+                            895,
+                            1250,
+                            949,
+                            1308
+                        ],
+                        "text": "著"
+                    }
+                ]
+            }
+        ],
+        "texts": [
+            "＠",
+            "@石",
+            "S",
+            "中国古典文学读本丛书",
+            "西遊記",
+            "下",
+            "吴承恩著"
+        ],
+        "width": 1602
+    },
+    "id": "c4999eff-9ff7-4818-a60b-9e289fe7e950",
+    "info": "",
+    "message": "success"
+}

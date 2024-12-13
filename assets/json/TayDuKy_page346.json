@@ -1,0 +1,5339 @@
+{
+    "data": {
+        "height": 2336,
+        "text_angel": 0,
+        "text_angel_confidence": 1.0,
+        "text_lines": [
+            {
+                "position": [
+                    [
+                        579,
+                        565
+                    ],
+                    [
+                        959,
+                        562
+                    ],
+                    [
+                        961,
+                        629
+                    ],
+                    [
+                        580,
+                        630
+                    ]
+                ],
+                "text": "第二十九回",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8986,
+                        "position": [
+                            580,
+                            565,
+                            638,
+                            630
+                        ],
+                        "text": "第"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8645,
+                        "position": [
+                            663,
+                            571,
+                            721,
+                            624
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 0.997,
+                        "det_confidence": 0.8971,
+                        "position": [
+                            744,
+                            566,
+                            800,
+                            630
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8999,
+                        "position": [
+                            825,
+                            563,
+                            886,
+                            629
+                        ],
+                        "text": "九"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8874,
+                        "position": [
+                            908,
+                            568,
+                            961,
+                            627
+                        ],
+                        "text": "回"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        401,
+                        711
+                    ],
+                    [
+                        1146,
+                        711
+                    ],
+                    [
+                        1146,
+                        763
+                    ],
+                    [
+                        401,
+                        763
+                    ]
+                ],
+                "text": "脱难江流来国土承恩八戒转山林",
+                "words": [
+                    {
+                        "confidence": 0.996,
+                        "det_confidence": 0.8954,
+                        "position": [
+                            401,
+                            714,
+                            450,
+                            763
+                        ],
+                        "text": "脱"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9033,
+                        "position": [
+                            451,
+                            714,
+                            499,
+                            763
+                        ],
+                        "text": "难"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8973,
+                        "position": [
+                            501,
+                            714,
+                            549,
+                            761
+                        ],
+                        "text": "江"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8935,
+                        "position": [
+                            551,
+                            714,
+                            598,
+                            763
+                        ],
+                        "text": "流"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8967,
+                        "position": [
+                            601,
+                            713,
+                            649,
+                            763
+                        ],
+                        "text": "来"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8918,
+                        "position": [
+                            652,
+                            713,
+                            697,
+                            761
+                        ],
+                        "text": "国"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8873,
+                        "position": [
+                            700,
+                            713,
+                            747,
+                            761
+                        ],
+                        "text": "土"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9019,
+                        "position": [
+                            797,
+                            713,
+                            847,
+                            763
+                        ],
+                        "text": "承"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8942,
+                        "position": [
+                            848,
+                            713,
+                            897,
+                            761
+                        ],
+                        "text": "恩"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8833,
+                        "position": [
+                            898,
+                            714,
+                            946,
+                            761
+                        ],
+                        "text": "八"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8935,
+                        "position": [
+                            948,
+                            713,
+                            996,
+                            763
+                        ],
+                        "text": "戒"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9002,
+                        "position": [
+                            996,
+                            713,
+                            1046,
+                            763
+                        ],
+                        "text": "转"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8924,
+                        "position": [
+                            1049,
+                            713,
+                            1093,
+                            761
+                        ],
+                        "text": "山"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8941,
+                        "position": [
+                            1096,
+                            711,
+                            1146,
+                            763
+                        ],
+                        "text": "林"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        275,
+                        856
+                    ],
+                    [
+                        415,
+                        850
+                    ],
+                    [
+                        417,
+                        897
+                    ],
+                    [
+                        278,
+                        901
+                    ]
+                ],
+                "text": "诗曰0：",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8959,
+                        "position": [
+                            278,
+                            856,
+                            322,
+                            901
+                        ],
+                        "text": "诗"
+                    },
+                    {
+                        "confidence": 0.995,
+                        "det_confidence": 0.859,
+                        "position": [
+                            323,
+                            859,
+                            362,
+                            897
+                        ],
+                        "text": "曰"
+                    },
+                    {
+                        "confidence": 0.545,
+                        "det_confidence": 0.8538,
+                        "position": [
+                            366,
+                            853,
+                            398,
+                            892
+                        ],
+                        "text": "0"
+                    },
+                    {
+                        "confidence": 0.545,
+                        "det_confidence": 0.7749,
+                        "position": [
+                            400,
+                            856,
+                            417,
+                            893
+                        ],
+                        "text": "："
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        364,
+                        925
+                    ],
+                    [
+                        1358,
+                        921
+                    ],
+                    [
+                        1359,
+                        968
+                    ],
+                    [
+                        366,
+                        970
+                    ]
+                ],
+                "text": "妄想不复强灭，真如何必希求?本原自性佛前修迷悟",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8995,
+                        "position": [
+                            366,
+                            926,
+                            406,
+                            970
+                        ],
+                        "text": "妄"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.902,
+                        "position": [
+                            408,
+                            926,
+                            450,
+                            968
+                        ],
+                        "text": "想"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8976,
+                        "position": [
+                            451,
+                            926,
+                            493,
+                            968
+                        ],
+                        "text": "不"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9021,
+                        "position": [
+                            495,
+                            925,
+                            535,
+                            968
+                        ],
+                        "text": "复"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9009,
+                        "position": [
+                            537,
+                            926,
+                            579,
+                            968
+                        ],
+                        "text": "强"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8832,
+                        "position": [
+                            580,
+                            926,
+                            623,
+                            968
+                        ],
+                        "text": "灭"
+                    },
+                    {
+                        "confidence": 0.507,
+                        "det_confidence": 0.7614,
+                        "position": [
+                            624,
+                            926,
+                            640,
+                            970
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8934,
+                        "position": [
+                            644,
+                            925,
+                            688,
+                            968
+                        ],
+                        "text": "真"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8947,
+                        "position": [
+                            689,
+                            925,
+                            730,
+                            968
+                        ],
+                        "text": "如"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9019,
+                        "position": [
+                            732,
+                            925,
+                            774,
+                            968
+                        ],
+                        "text": "何"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8935,
+                        "position": [
+                            775,
+                            925,
+                            817,
+                            967
+                        ],
+                        "text": "必"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8953,
+                        "position": [
+                            819,
+                            925,
+                            861,
+                            968
+                        ],
+                        "text": "希"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8961,
+                        "position": [
+                            862,
+                            925,
+                            903,
+                            968
+                        ],
+                        "text": "求"
+                    },
+                    {
+                        "confidence": 0.746,
+                        "det_confidence": 0.8145,
+                        "position": [
+                            906,
+                            926,
+                            928,
+                            965
+                        ],
+                        "text": "?"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8976,
+                        "position": [
+                            946,
+                            925,
+                            990,
+                            968
+                        ],
+                        "text": "本"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8963,
+                        "position": [
+                            992,
+                            925,
+                            1035,
+                            968
+                        ],
+                        "text": "原"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8839,
+                        "position": [
+                            1040,
+                            925,
+                            1073,
+                            968
+                        ],
+                        "text": "自"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9066,
+                        "position": [
+                            1077,
+                            925,
+                            1121,
+                            968
+                        ],
+                        "text": "性"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9014,
+                        "position": [
+                            1121,
+                            925,
+                            1163,
+                            968
+                        ],
+                        "text": "佛"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8957,
+                        "position": [
+                            1165,
+                            925,
+                            1207,
+                            968
+                        ],
+                        "text": "前"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8961,
+                        "position": [
+                            1208,
+                            925,
+                            1250,
+                            968
+                        ],
+                        "text": "修"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8895,
+                        "position": [
+                            1270,
+                            923,
+                            1314,
+                            968
+                        ],
+                        "text": "迷"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8991,
+                        "position": [
+                            1316,
+                            925,
+                            1359,
+                            968
+                        ],
+                        "text": "悟"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        579,
+                        993
+                    ],
+                    [
+                        1361,
+                        993
+                    ],
+                    [
+                        1361,
+                        1038
+                    ],
+                    [
+                        579,
+                        1038
+                    ]
+                ],
+                "text": "悟即刹那成正，迷而万劫沉流。若能一念",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8943,
+                        "position": [
+                            579,
+                            993,
+                            624,
+                            1038
+                        ],
+                        "text": "悟"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9035,
+                        "position": [
+                            626,
+                            993,
+                            665,
+                            1037
+                        ],
+                        "text": "即"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9013,
+                        "position": [
+                            669,
+                            993,
+                            710,
+                            1037
+                        ],
+                        "text": "刹"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9061,
+                        "position": [
+                            713,
+                            993,
+                            756,
+                            1037
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9041,
+                        "position": [
+                            758,
+                            993,
+                            802,
+                            1037
+                        ],
+                        "text": "成"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8884,
+                        "position": [
+                            803,
+                            995,
+                            844,
+                            1037
+                        ],
+                        "text": "正"
+                    },
+                    {
+                        "confidence": 0.743,
+                        "det_confidence": 0.549,
+                        "position": [
+                            847,
+                            995,
+                            862,
+                            1037
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8952,
+                        "position": [
+                            869,
+                            993,
+                            912,
+                            1037
+                        ],
+                        "text": "迷"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8981,
+                        "position": [
+                            915,
+                            995,
+                            956,
+                            1035
+                        ],
+                        "text": "而"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8977,
+                        "position": [
+                            961,
+                            993,
+                            1001,
+                            1035
+                        ],
+                        "text": "万"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.903,
+                        "position": [
+                            1004,
+                            993,
+                            1045,
+                            1037
+                        ],
+                        "text": "劫"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.903,
+                        "position": [
+                            1049,
+                            995,
+                            1093,
+                            1037
+                        ],
+                        "text": "沉"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8979,
+                        "position": [
+                            1094,
+                            993,
+                            1137,
+                            1037
+                        ],
+                        "text": "流"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.6343,
+                        "position": [
+                            1138,
+                            995,
+                            1158,
+                            1037
+                        ],
+                        "text": "。"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.897,
+                        "position": [
+                            1180,
+                            993,
+                            1225,
+                            1037
+                        ],
+                        "text": "若"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9006,
+                        "position": [
+                            1227,
+                            993,
+                            1269,
+                            1037
+                        ],
+                        "text": "能"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.7496,
+                        "position": [
+                            1274,
+                            998,
+                            1316,
+                            1032
+                        ],
+                        "text": "一"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8997,
+                        "position": [
+                            1317,
+                            993,
+                            1361,
+                            1037
+                        ],
+                        "text": "念"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        278,
+                        1035
+                    ],
+                    [
+                        278,
+                        992
+                    ],
+                    [
+                        471,
+                        992
+                    ],
+                    [
+                        471,
+                        1035
+                    ]
+                ],
+                "text": "岂居前后？",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9013,
+                        "position": [
+                            280,
+                            993,
+                            320,
+                            1037
+                        ],
+                        "text": "岂"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9072,
+                        "position": [
+                            322,
+                            993,
+                            364,
+                            1037
+                        ],
+                        "text": "居"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9058,
+                        "position": [
+                            366,
+                            993,
+                            406,
+                            1037
+                        ],
+                        "text": "前"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8969,
+                        "position": [
+                            409,
+                            995,
+                            450,
+                            1037
+                        ],
+                        "text": "后"
+                    },
+                    {
+                        "confidence": 0.524,
+                        "det_confidence": 0.8197,
+                        "position": [
+                            451,
+                            995,
+                            473,
+                            1035
+                        ],
+                        "text": "？"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        277,
+                        1105
+                    ],
+                    [
+                        277,
+                        1060
+                    ],
+                    [
+                        708,
+                        1060
+                    ],
+                    [
+                        708,
+                        1105
+                    ]
+                ],
+                "text": "合真修，灭尽恒沙罪垢。",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8922,
+                        "position": [
+                            278,
+                            1063,
+                            320,
+                            1107
+                        ],
+                        "text": "合"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8931,
+                        "position": [
+                            322,
+                            1062,
+                            364,
+                            1105
+                        ],
+                        "text": "真"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8878,
+                        "position": [
+                            366,
+                            1062,
+                            408,
+                            1105
+                        ],
+                        "text": "修"
+                    },
+                    {
+                        "confidence": 0.683,
+                        "det_confidence": 0.4964,
+                        "position": [
+                            409,
+                            1065,
+                            425,
+                            1107
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8865,
+                        "position": [
+                            431,
+                            1063,
+                            473,
+                            1105
+                        ],
+                        "text": "灭"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.89,
+                        "position": [
+                            475,
+                            1062,
+                            515,
+                            1104
+                        ],
+                        "text": "尽"
+                    },
+                    {
+                        "confidence": 0.976,
+                        "det_confidence": 0.8881,
+                        "position": [
+                            517,
+                            1063,
+                            559,
+                            1105
+                        ],
+                        "text": "恒"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8883,
+                        "position": [
+                            562,
+                            1063,
+                            602,
+                            1105
+                        ],
+                        "text": "沙"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8958,
+                        "position": [
+                            604,
+                            1063,
+                            644,
+                            1105
+                        ],
+                        "text": "罪"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8994,
+                        "position": [
+                            646,
+                            1063,
+                            689,
+                            1105
+                        ],
+                        "text": "垢"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.813,
+                        "position": [
+                            691,
+                            1063,
+                            710,
+                            1105
+                        ],
+                        "text": "。"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        280,
+                        1129
+                    ],
+                    [
+                        1359,
+                        1129
+                    ],
+                    [
+                        1359,
+                        1175
+                    ],
+                    [
+                        280,
+                        1175
+                    ]
+                ],
+                "text": "却说那八戒、沙僧与怪斗经个三十回合，不分胜负。你道怎",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8934,
+                        "position": [
+                            280,
+                            1132,
+                            320,
+                            1174
+                        ],
+                        "text": "却"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9024,
+                        "position": [
+                            322,
+                            1130,
+                            366,
+                            1174
+                        ],
+                        "text": "说"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9076,
+                        "position": [
+                            367,
+                            1130,
+                            408,
+                            1174
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.891,
+                        "position": [
+                            409,
+                            1132,
+                            451,
+                            1172
+                        ],
+                        "text": "八"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8949,
+                        "position": [
+                            453,
+                            1130,
+                            495,
+                            1174
+                        ],
+                        "text": "戒"
+                    },
+                    {
+                        "confidence": 0.995,
+                        "det_confidence": 0.7806,
+                        "position": [
+                            498,
+                            1133,
+                            515,
+                            1174
+                        ],
+                        "text": "、"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8942,
+                        "position": [
+                            518,
+                            1130,
+                            559,
+                            1172
+                        ],
+                        "text": "沙"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8998,
+                        "position": [
+                            560,
+                            1130,
+                            602,
+                            1174
+                        ],
+                        "text": "僧"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8942,
+                        "position": [
+                            604,
+                            1130,
+                            644,
+                            1172
+                        ],
+                        "text": "与"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9045,
+                        "position": [
+                            646,
+                            1130,
+                            688,
+                            1172
+                        ],
+                        "text": "怪"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8986,
+                        "position": [
+                            691,
+                            1130,
+                            732,
+                            1174
+                        ],
+                        "text": "斗"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8944,
+                        "position": [
+                            733,
+                            1132,
+                            777,
+                            1172
+                        ],
+                        "text": "经"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8878,
+                        "position": [
+                            777,
+                            1130,
+                            819,
+                            1172
+                        ],
+                        "text": "个"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8746,
+                        "position": [
+                            820,
+                            1132,
+                            862,
+                            1171
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8954,
+                        "position": [
+                            864,
+                            1130,
+                            904,
+                            1174
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8877,
+                        "position": [
+                            909,
+                            1132,
+                            946,
+                            1172
+                        ],
+                        "text": "回"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8954,
+                        "position": [
+                            950,
+                            1129,
+                            990,
+                            1174
+                        ],
+                        "text": "合"
+                    },
+                    {
+                        "confidence": 0.669,
+                        "det_confidence": 0.5737,
+                        "position": [
+                            992,
+                            1132,
+                            1009,
+                            1175
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8887,
+                        "position": [
+                            1013,
+                            1130,
+                            1057,
+                            1174
+                        ],
+                        "text": "不"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8985,
+                        "position": [
+                            1057,
+                            1130,
+                            1099,
+                            1174
+                        ],
+                        "text": "分"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9011,
+                        "position": [
+                            1102,
+                            1130,
+                            1144,
+                            1172
+                        ],
+                        "text": "胜"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8968,
+                        "position": [
+                            1146,
+                            1130,
+                            1186,
+                            1174
+                        ],
+                        "text": "负"
+                    },
+                    {
+                        "confidence": 0.995,
+                        "det_confidence": 0.8194,
+                        "position": [
+                            1188,
+                            1132,
+                            1210,
+                            1174
+                        ],
+                        "text": "。"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8986,
+                        "position": [
+                            1232,
+                            1130,
+                            1274,
+                            1174
+                        ],
+                        "text": "你"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8953,
+                        "position": [
+                            1275,
+                            1130,
+                            1316,
+                            1172
+                        ],
+                        "text": "道"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8938,
+                        "position": [
+                            1319,
+                            1130,
+                            1359,
+                            1172
+                        ],
+                        "text": "怎"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        193,
+                        1241
+                    ],
+                    [
+                        194,
+                        1196
+                    ],
+                    [
+                        1361,
+                        1197
+                    ],
+                    [
+                        1359,
+                        1244
+                    ]
+                ],
+                "text": "么不分胜负?若论赌手段，莫说两个和尚，就是二十个,也敌不",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.894,
+                        "position": [
+                            194,
+                            1199,
+                            235,
+                            1241
+                        ],
+                        "text": "么"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8949,
+                        "position": [
+                            238,
+                            1200,
+                            278,
+                            1242
+                        ],
+                        "text": "不"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8962,
+                        "position": [
+                            280,
+                            1199,
+                            320,
+                            1242
+                        ],
+                        "text": "分"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9016,
+                        "position": [
+                            322,
+                            1199,
+                            366,
+                            1242
+                        ],
+                        "text": "胜"
+                    },
+                    {
+                        "confidence": 0.997,
+                        "det_confidence": 0.8962,
+                        "position": [
+                            367,
+                            1199,
+                            406,
+                            1242
+                        ],
+                        "text": "负"
+                    },
+                    {
+                        "confidence": 0.681,
+                        "det_confidence": 0.8259,
+                        "position": [
+                            409,
+                            1200,
+                            431,
+                            1241
+                        ],
+                        "text": "?"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8919,
+                        "position": [
+                            451,
+                            1197,
+                            495,
+                            1242
+                        ],
+                        "text": "若"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9018,
+                        "position": [
+                            496,
+                            1199,
+                            538,
+                            1241
+                        ],
+                        "text": "论"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8971,
+                        "position": [
+                            540,
+                            1199,
+                            580,
+                            1242
+                        ],
+                        "text": "赌"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9001,
+                        "position": [
+                            584,
+                            1199,
+                            626,
+                            1242
+                        ],
+                        "text": "手"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9018,
+                        "position": [
+                            627,
+                            1199,
+                            669,
+                            1241
+                        ],
+                        "text": "段"
+                    },
+                    {
+                        "confidence": 0.596,
+                        "det_confidence": 0.7731,
+                        "position": [
+                            671,
+                            1200,
+                            688,
+                            1242
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8982,
+                        "position": [
+                            694,
+                            1197,
+                            736,
+                            1242
+                        ],
+                        "text": "莫"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9036,
+                        "position": [
+                            738,
+                            1199,
+                            781,
+                            1242
+                        ],
+                        "text": "说"
+                    },
+                    {
+                        "confidence": 0.681,
+                        "det_confidence": 0.8923,
+                        "position": [
+                            783,
+                            1199,
+                            825,
+                            1241
+                        ],
+                        "text": "两"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8917,
+                        "position": [
+                            828,
+                            1199,
+                            869,
+                            1242
+                        ],
+                        "text": "个"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8847,
+                        "position": [
+                            872,
+                            1199,
+                            912,
+                            1242
+                        ],
+                        "text": "和"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8884,
+                        "position": [
+                            918,
+                            1199,
+                            956,
+                            1242
+                        ],
+                        "text": "尚"
+                    },
+                    {
+                        "confidence": 0.576,
+                        "det_confidence": 0.7779,
+                        "position": [
+                            959,
+                            1200,
+                            976,
+                            1242
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8928,
+                        "position": [
+                            982,
+                            1199,
+                            1026,
+                            1242
+                        ],
+                        "text": "就"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8974,
+                        "position": [
+                            1027,
+                            1199,
+                            1070,
+                            1242
+                        ],
+                        "text": "是"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8591,
+                        "position": [
+                            1073,
+                            1200,
+                            1115,
+                            1239
+                        ],
+                        "text": "二"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8963,
+                        "position": [
+                            1118,
+                            1197,
+                            1158,
+                            1242
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8823,
+                        "position": [
+                            1161,
+                            1199,
+                            1203,
+                            1242
+                        ],
+                        "text": "个"
+                    },
+                    {
+                        "confidence": 0.537,
+                        "det_confidence": 0.786,
+                        "position": [
+                            1205,
+                            1200,
+                            1222,
+                            1244
+                        ],
+                        "text": ","
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8924,
+                        "position": [
+                            1228,
+                            1199,
+                            1270,
+                            1242
+                        ],
+                        "text": "也"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8974,
+                        "position": [
+                            1274,
+                            1199,
+                            1316,
+                            1242
+                        ],
+                        "text": "敌"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8943,
+                        "position": [
+                            1319,
+                            1199,
+                            1361,
+                            1242
+                        ],
+                        "text": "不"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        191,
+                        1267
+                    ],
+                    [
+                        1359,
+                        1264
+                    ],
+                    [
+                        1361,
+                        1311
+                    ],
+                    [
+                        193,
+                        1312
+                    ]
+                ],
+                "text": "过那妖精。只为唐僧命不该死，暗中有那护法神祇保着他；空中",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9041,
+                        "position": [
+                            193,
+                            1269,
+                            235,
+                            1309
+                        ],
+                        "text": "过"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9034,
+                        "position": [
+                            238,
+                            1267,
+                            280,
+                            1311
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9044,
+                        "position": [
+                            280,
+                            1267,
+                            322,
+                            1311
+                        ],
+                        "text": "妖"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8977,
+                        "position": [
+                            323,
+                            1267,
+                            366,
+                            1311
+                        ],
+                        "text": "精"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8338,
+                        "position": [
+                            367,
+                            1269,
+                            387,
+                            1311
+                        ],
+                        "text": "。"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8955,
+                        "position": [
+                            412,
+                            1269,
+                            451,
+                            1311
+                        ],
+                        "text": "只"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9037,
+                        "position": [
+                            454,
+                            1267,
+                            495,
+                            1311
+                        ],
+                        "text": "为"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9004,
+                        "position": [
+                            496,
+                            1267,
+                            538,
+                            1311
+                        ],
+                        "text": "唐"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9011,
+                        "position": [
+                            540,
+                            1267,
+                            580,
+                            1311
+                        ],
+                        "text": "僧"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9031,
+                        "position": [
+                            584,
+                            1267,
+                            624,
+                            1311
+                        ],
+                        "text": "命"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9021,
+                        "position": [
+                            627,
+                            1267,
+                            668,
+                            1309
+                        ],
+                        "text": "不"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9027,
+                        "position": [
+                            671,
+                            1267,
+                            711,
+                            1311
+                        ],
+                        "text": "该"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8938,
+                        "position": [
+                            713,
+                            1267,
+                            755,
+                            1311
+                        ],
+                        "text": "死"
+                    },
+                    {
+                        "confidence": 0.556,
+                        "det_confidence": 0.8271,
+                        "position": [
+                            756,
+                            1269,
+                            772,
+                            1312
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.892,
+                        "position": [
+                            778,
+                            1267,
+                            820,
+                            1309
+                        ],
+                        "text": "暗"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8968,
+                        "position": [
+                            823,
+                            1267,
+                            862,
+                            1311
+                        ],
+                        "text": "中"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.905,
+                        "position": [
+                            864,
+                            1267,
+                            904,
+                            1311
+                        ],
+                        "text": "有"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8966,
+                        "position": [
+                            908,
+                            1267,
+                            950,
+                            1311
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8968,
+                        "position": [
+                            951,
+                            1267,
+                            992,
+                            1309
+                        ],
+                        "text": "护"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9092,
+                        "position": [
+                            993,
+                            1267,
+                            1035,
+                            1309
+                        ],
+                        "text": "法"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8982,
+                        "position": [
+                            1038,
+                            1267,
+                            1077,
+                            1311
+                        ],
+                        "text": "神"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9064,
+                        "position": [
+                            1080,
+                            1267,
+                            1122,
+                            1309
+                        ],
+                        "text": "祇"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9016,
+                        "position": [
+                            1124,
+                            1267,
+                            1166,
+                            1311
+                        ],
+                        "text": "保"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.898,
+                        "position": [
+                            1168,
+                            1267,
+                            1208,
+                            1311
+                        ],
+                        "text": "着"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8945,
+                        "position": [
+                            1210,
+                            1267,
+                            1252,
+                            1311
+                        ],
+                        "text": "他"
+                    },
+                    {
+                        "confidence": 0.755,
+                        "det_confidence": 0.8066,
+                        "position": [
+                            1255,
+                            1267,
+                            1272,
+                            1309
+                        ],
+                        "text": "；"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8869,
+                        "position": [
+                            1275,
+                            1266,
+                            1317,
+                            1309
+                        ],
+                        "text": "空"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8987,
+                        "position": [
+                            1320,
+                            1267,
+                            1361,
+                            1311
+                        ],
+                        "text": "中"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        196,
+                        1336
+                    ],
+                    [
+                        1361,
+                        1336
+                    ],
+                    [
+                        1361,
+                        1379
+                    ],
+                    [
+                        196,
+                        1379
+                    ]
+                ],
+                "text": "又有那六丁六甲、五方揭谛、四值功曹、一十八位护教伽蓝，助着",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8917,
+                        "position": [
+                            196,
+                            1337,
+                            236,
+                            1378
+                        ],
+                        "text": "又"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8947,
+                        "position": [
+                            238,
+                            1336,
+                            280,
+                            1379
+                        ],
+                        "text": "有"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8964,
+                        "position": [
+                            281,
+                            1336,
+                            323,
+                            1379
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8829,
+                        "position": [
+                            325,
+                            1337,
+                            367,
+                            1378
+                        ],
+                        "text": "六"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8935,
+                        "position": [
+                            370,
+                            1339,
+                            409,
+                            1378
+                        ],
+                        "text": "丁"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8963,
+                        "position": [
+                            411,
+                            1337,
+                            454,
+                            1378
+                        ],
+                        "text": "六"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8774,
+                        "position": [
+                            457,
+                            1336,
+                            495,
+                            1378
+                        ],
+                        "text": "甲"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8182,
+                        "position": [
+                            499,
+                            1339,
+                            518,
+                            1378
+                        ],
+                        "text": "、"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8879,
+                        "position": [
+                            520,
+                            1337,
+                            562,
+                            1378
+                        ],
+                        "text": "五"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8909,
+                        "position": [
+                            563,
+                            1337,
+                            604,
+                            1378
+                        ],
+                        "text": "方"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8956,
+                        "position": [
+                            605,
+                            1336,
+                            646,
+                            1378
+                        ],
+                        "text": "揭"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8901,
+                        "position": [
+                            649,
+                            1336,
+                            691,
+                            1378
+                        ],
+                        "text": "谛"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8097,
+                        "position": [
+                            694,
+                            1337,
+                            711,
+                            1378
+                        ],
+                        "text": "、"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8862,
+                        "position": [
+                            716,
+                            1337,
+                            753,
+                            1376
+                        ],
+                        "text": "四"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8948,
+                        "position": [
+                            756,
+                            1336,
+                            799,
+                            1379
+                        ],
+                        "text": "值"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.892,
+                        "position": [
+                            800,
+                            1336,
+                            842,
+                            1378
+                        ],
+                        "text": "功"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8837,
+                        "position": [
+                            845,
+                            1336,
+                            884,
+                            1379
+                        ],
+                        "text": "曹"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.7486,
+                        "position": [
+                            887,
+                            1337,
+                            906,
+                            1378
+                        ],
+                        "text": "、"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.7632,
+                        "position": [
+                            909,
+                            1340,
+                            951,
+                            1375
+                        ],
+                        "text": "一"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8901,
+                        "position": [
+                            953,
+                            1336,
+                            993,
+                            1378
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8904,
+                        "position": [
+                            995,
+                            1337,
+                            1037,
+                            1376
+                        ],
+                        "text": "八"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8929,
+                        "position": [
+                            1038,
+                            1336,
+                            1080,
+                            1378
+                        ],
+                        "text": "位"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8916,
+                        "position": [
+                            1082,
+                            1336,
+                            1122,
+                            1378
+                        ],
+                        "text": "护"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8963,
+                        "position": [
+                            1124,
+                            1336,
+                            1166,
+                            1378
+                        ],
+                        "text": "教"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8988,
+                        "position": [
+                            1168,
+                            1336,
+                            1210,
+                            1378
+                        ],
+                        "text": "伽"
+                    },
+                    {
+                        "confidence": 0.997,
+                        "det_confidence": 0.893,
+                        "position": [
+                            1213,
+                            1336,
+                            1253,
+                            1378
+                        ],
+                        "text": "蓝"
+                    },
+                    {
+                        "confidence": 0.6,
+                        "det_confidence": 0.7245,
+                        "position": [
+                            1255,
+                            1337,
+                            1270,
+                            1379
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8978,
+                        "position": [
+                            1277,
+                            1336,
+                            1317,
+                            1378
+                        ],
+                        "text": "助"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8834,
+                        "position": [
+                            1320,
+                            1336,
+                            1361,
+                            1378
+                        ],
+                        "text": "着"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        194,
+                        1404
+                    ],
+                    [
+                        411,
+                        1404
+                    ],
+                    [
+                        411,
+                        1448
+                    ],
+                    [
+                        194,
+                        1448
+                    ]
+                ],
+                "text": "八戒、沙僧。",
+                "words": [
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8875,
+                        "position": [
+                            194,
+                            1406,
+                            236,
+                            1445
+                        ],
+                        "text": "八"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8971,
+                        "position": [
+                            239,
+                            1404,
+                            281,
+                            1448
+                        ],
+                        "text": "戒"
+                    },
+                    {
+                        "confidence": 0.997,
+                        "det_confidence": 0.84,
+                        "position": [
+                            283,
+                            1406,
+                            302,
+                            1446
+                        ],
+                        "text": "、"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8936,
+                        "position": [
+                            303,
+                            1404,
+                            345,
+                            1446
+                        ],
+                        "text": "沙"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8946,
+                        "position": [
+                            345,
+                            1404,
+                            387,
+                            1446
+                        ],
+                        "text": "僧"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.8247,
+                        "position": [
+                            390,
+                            1406,
+                            411,
+                            1446
+                        ],
+                        "text": "。"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        283,
+                        1471
+                    ],
+                    [
+                        1362,
+                        1471
+                    ],
+                    [
+                        1362,
+                        1516
+                    ],
+                    [
+                        283,
+                        1516
+                    ]
+                ],
+                "text": "且不言他三人战斗。却说那长老在洞里悲啼，思量他那徒",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.889,
+                        "position": [
+                            283,
+                            1473,
+                            325,
+                            1516
+                        ],
+                        "text": "且"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8909,
+                        "position": [
+                            325,
+                            1473,
+                            367,
+                            1516
+                        ],
+                        "text": "不"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8926,
+                        "position": [
+                            369,
+                            1473,
+                            409,
+                            1516
+                        ],
+                        "text": "言"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8997,
+                        "position": [
+                            411,
+                            1473,
+                            453,
+                            1516
+                        ],
+                        "text": "他"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8874,
+                        "position": [
+                            454,
+                            1474,
+                            498,
+                            1515
+                        ],
+                        "text": "三"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8989,
+                        "position": [
+                            499,
+                            1473,
+                            542,
+                            1515
+                        ],
+                        "text": "人"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8983,
+                        "position": [
+                            543,
+                            1471,
+                            584,
+                            1516
+                        ],
+                        "text": "战"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8954,
+                        "position": [
+                            585,
+                            1473,
+                            626,
+                            1516
+                        ],
+                        "text": "斗"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.7966,
+                        "position": [
+                            629,
+                            1474,
+                            649,
+                            1516
+                        ],
+                        "text": "。"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8941,
+                        "position": [
+                            671,
+                            1471,
+                            713,
+                            1515
+                        ],
+                        "text": "却"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.894,
+                        "position": [
+                            716,
+                            1473,
+                            758,
+                            1516
+                        ],
+                        "text": "说"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9022,
+                        "position": [
+                            760,
+                            1471,
+                            803,
+                            1515
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9031,
+                        "position": [
+                            806,
+                            1473,
+                            847,
+                            1515
+                        ],
+                        "text": "长"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8995,
+                        "position": [
+                            848,
+                            1471,
+                            890,
+                            1516
+                        ],
+                        "text": "老"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9059,
+                        "position": [
+                            895,
+                            1473,
+                            937,
+                            1516
+                        ],
+                        "text": "在"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8972,
+                        "position": [
+                            940,
+                            1473,
+                            979,
+                            1516
+                        ],
+                        "text": "洞"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9007,
+                        "position": [
+                            985,
+                            1473,
+                            1026,
+                            1515
+                        ],
+                        "text": "里"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9049,
+                        "position": [
+                            1031,
+                            1471,
+                            1073,
+                            1515
+                        ],
+                        "text": "悲"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8916,
+                        "position": [
+                            1076,
+                            1471,
+                            1116,
+                            1515
+                        ],
+                        "text": "啼"
+                    },
+                    {
+                        "confidence": 0.643,
+                        "det_confidence": 0.7483,
+                        "position": [
+                            1118,
+                            1474,
+                            1133,
+                            1516
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8982,
+                        "position": [
+                            1143,
+                            1473,
+                            1183,
+                            1515
+                        ],
+                        "text": "思"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9019,
+                        "position": [
+                            1186,
+                            1473,
+                            1228,
+                            1516
+                        ],
+                        "text": "量"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.902,
+                        "position": [
+                            1230,
+                            1471,
+                            1274,
+                            1516
+                        ],
+                        "text": "他"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8967,
+                        "position": [
+                            1275,
+                            1471,
+                            1317,
+                            1515
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8984,
+                        "position": [
+                            1320,
+                            1471,
+                            1362,
+                            1516
+                        ],
+                        "text": "徒"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        196,
+                        1540
+                    ],
+                    [
+                        1362,
+                        1540
+                    ],
+                    [
+                        1362,
+                        1585
+                    ],
+                    [
+                        196,
+                        1585
+                    ]
+                ],
+                "text": "弟。眼中流泪道：悟能啊，不知你在那个村中逢了善友，贪着斋",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9005,
+                        "position": [
+                            196,
+                            1540,
+                            238,
+                            1585
+                        ],
+                        "text": "弟"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.819,
+                        "position": [
+                            241,
+                            1543,
+                            260,
+                            1585
+                        ],
+                        "text": "。"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9025,
+                        "position": [
+                            283,
+                            1541,
+                            323,
+                            1585
+                        ],
+                        "text": "眼"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8956,
+                        "position": [
+                            328,
+                            1541,
+                            367,
+                            1585
+                        ],
+                        "text": "中"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9018,
+                        "position": [
+                            369,
+                            1541,
+                            411,
+                            1585
+                        ],
+                        "text": "流"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8937,
+                        "position": [
+                            412,
+                            1541,
+                            451,
+                            1585
+                        ],
+                        "text": "泪"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8932,
+                        "position": [
+                            454,
+                            1541,
+                            498,
+                            1583
+                        ],
+                        "text": "道"
+                    },
+                    {
+                        "confidence": 0.68,
+                        "det_confidence": 0.722,
+                        "position": [
+                            501,
+                            1543,
+                            517,
+                            1583
+                        ],
+                        "text": "："
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9006,
+                        "position": [
+                            542,
+                            1540,
+                            584,
+                            1585
+                        ],
+                        "text": "悟"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8998,
+                        "position": [
+                            585,
+                            1541,
+                            627,
+                            1585
+                        ],
+                        "text": "能"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8943,
+                        "position": [
+                            629,
+                            1541,
+                            669,
+                            1583
+                        ],
+                        "text": "啊"
+                    },
+                    {
+                        "confidence": 0.6,
+                        "det_confidence": 0.7765,
+                        "position": [
+                            672,
+                            1543,
+                            688,
+                            1585
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8935,
+                        "position": [
+                            694,
+                            1541,
+                            735,
+                            1583
+                        ],
+                        "text": "不"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9014,
+                        "position": [
+                            736,
+                            1541,
+                            778,
+                            1583
+                        ],
+                        "text": "知"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8986,
+                        "position": [
+                            781,
+                            1540,
+                            822,
+                            1583
+                        ],
+                        "text": "你"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9074,
+                        "position": [
+                            823,
+                            1540,
+                            865,
+                            1583
+                        ],
+                        "text": "在"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8956,
+                        "position": [
+                            867,
+                            1540,
+                            908,
+                            1583
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8903,
+                        "position": [
+                            909,
+                            1541,
+                            950,
+                            1583
+                        ],
+                        "text": "个"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9046,
+                        "position": [
+                            951,
+                            1540,
+                            995,
+                            1583
+                        ],
+                        "text": "村"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8904,
+                        "position": [
+                            998,
+                            1540,
+                            1037,
+                            1583
+                        ],
+                        "text": "中"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8961,
+                        "position": [
+                            1038,
+                            1541,
+                            1082,
+                            1583
+                        ],
+                        "text": "逢"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8921,
+                        "position": [
+                            1085,
+                            1541,
+                            1121,
+                            1583
+                        ],
+                        "text": "了"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9017,
+                        "position": [
+                            1126,
+                            1541,
+                            1168,
+                            1585
+                        ],
+                        "text": "善"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9004,
+                        "position": [
+                            1169,
+                            1541,
+                            1211,
+                            1585
+                        ],
+                        "text": "友"
+                    },
+                    {
+                        "confidence": 0.816,
+                        "det_confidence": 0.3861,
+                        "position": [
+                            1211,
+                            1541,
+                            1228,
+                            1585
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8941,
+                        "position": [
+                            1235,
+                            1540,
+                            1275,
+                            1585
+                        ],
+                        "text": "贪"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8976,
+                        "position": [
+                            1278,
+                            1540,
+                            1317,
+                            1583
+                        ],
+                        "text": "着"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9016,
+                        "position": [
+                            1320,
+                            1540,
+                            1362,
+                            1585
+                        ],
+                        "text": "斋"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        196,
+                        1608
+                    ],
+                    [
+                        1364,
+                        1608
+                    ],
+                    [
+                        1364,
+                        1653
+                    ],
+                    [
+                        196,
+                        1653
+                    ]
+                ],
+                "text": "供；悟净啊，你又不知在那里寻他,可能得会?岂知我遇妖魔，在",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8863,
+                        "position": [
+                            196,
+                            1610,
+                            239,
+                            1653
+                        ],
+                        "text": "供"
+                    },
+                    {
+                        "confidence": 0.867,
+                        "det_confidence": 0.7192,
+                        "position": [
+                            242,
+                            1611,
+                            258,
+                            1653
+                        ],
+                        "text": "；"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8763,
+                        "position": [
+                            261,
+                            1610,
+                            302,
+                            1653
+                        ],
+                        "text": "悟"
+                    },
+                    {
+                        "confidence": 0.989,
+                        "det_confidence": 0.8884,
+                        "position": [
+                            305,
+                            1610,
+                            347,
+                            1652
+                        ],
+                        "text": "净"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8776,
+                        "position": [
+                            348,
+                            1611,
+                            389,
+                            1653
+                        ],
+                        "text": "啊"
+                    },
+                    {
+                        "confidence": 0.753,
+                        "det_confidence": 0.8107,
+                        "position": [
+                            390,
+                            1613,
+                            408,
+                            1653
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.887,
+                        "position": [
+                            414,
+                            1610,
+                            456,
+                            1653
+                        ],
+                        "text": "你"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8783,
+                        "position": [
+                            457,
+                            1611,
+                            496,
+                            1650
+                        ],
+                        "text": "又"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8928,
+                        "position": [
+                            499,
+                            1611,
+                            542,
+                            1652
+                        ],
+                        "text": "不"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8887,
+                        "position": [
+                            543,
+                            1611,
+                            584,
+                            1653
+                        ],
+                        "text": "知"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.893,
+                        "position": [
+                            587,
+                            1610,
+                            627,
+                            1652
+                        ],
+                        "text": "在"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8916,
+                        "position": [
+                            629,
+                            1610,
+                            671,
+                            1652
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8801,
+                        "position": [
+                            674,
+                            1610,
+                            714,
+                            1652
+                        ],
+                        "text": "里"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8932,
+                        "position": [
+                            716,
+                            1610,
+                            756,
+                            1652
+                        ],
+                        "text": "寻"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.884,
+                        "position": [
+                            758,
+                            1610,
+                            800,
+                            1653
+                        ],
+                        "text": "他"
+                    },
+                    {
+                        "confidence": 0.533,
+                        "det_confidence": 0.7812,
+                        "position": [
+                            802,
+                            1611,
+                            819,
+                            1653
+                        ],
+                        "text": ","
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8798,
+                        "position": [
+                            823,
+                            1610,
+                            864,
+                            1652
+                        ],
+                        "text": "可"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8894,
+                        "position": [
+                            867,
+                            1610,
+                            908,
+                            1652
+                        ],
+                        "text": "能"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.889,
+                        "position": [
+                            909,
+                            1610,
+                            951,
+                            1652
+                        ],
+                        "text": "得"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8822,
+                        "position": [
+                            953,
+                            1608,
+                            995,
+                            1652
+                        ],
+                        "text": "会"
+                    },
+                    {
+                        "confidence": 0.751,
+                        "det_confidence": 0.8054,
+                        "position": [
+                            996,
+                            1610,
+                            1018,
+                            1650
+                        ],
+                        "text": "?"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.87,
+                        "position": [
+                            1041,
+                            1610,
+                            1080,
+                            1652
+                        ],
+                        "text": "岂"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8791,
+                        "position": [
+                            1084,
+                            1610,
+                            1124,
+                            1653
+                        ],
+                        "text": "知"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8898,
+                        "position": [
+                            1127,
+                            1610,
+                            1168,
+                            1652
+                        ],
+                        "text": "我"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8865,
+                        "position": [
+                            1169,
+                            1610,
+                            1211,
+                            1652
+                        ],
+                        "text": "遇"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8943,
+                        "position": [
+                            1213,
+                            1610,
+                            1255,
+                            1652
+                        ],
+                        "text": "妖"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8834,
+                        "position": [
+                            1256,
+                            1608,
+                            1297,
+                            1652
+                        ],
+                        "text": "魔"
+                    },
+                    {
+                        "confidence": 0.527,
+                        "det_confidence": 0.7538,
+                        "position": [
+                            1300,
+                            1610,
+                            1316,
+                            1653
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8843,
+                        "position": [
+                            1320,
+                            1608,
+                            1364,
+                            1653
+                        ],
+                        "text": "在"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        196,
+                        1677
+                    ],
+                    [
+                        1359,
+                        1677
+                    ],
+                    [
+                        1359,
+                        1722
+                    ],
+                    [
+                        196,
+                        1722
+                    ]
+                ],
+                "text": "此受难！几时得会你们脱了大难，早赴灵山！”正当悲啼烦恼，",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8985,
+                        "position": [
+                            196,
+                            1678,
+                            239,
+                            1720
+                        ],
+                        "text": "此"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9058,
+                        "position": [
+                            241,
+                            1678,
+                            281,
+                            1722
+                        ],
+                        "text": "受"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8926,
+                        "position": [
+                            283,
+                            1678,
+                            325,
+                            1722
+                        ],
+                        "text": "难"
+                    },
+                    {
+                        "confidence": 0.61,
+                        "det_confidence": 0.7617,
+                        "position": [
+                            327,
+                            1680,
+                            344,
+                            1720
+                        ],
+                        "text": "！"
+                    },
+                    {
+                        "confidence": 0.992,
+                        "det_confidence": 0.8852,
+                        "position": [
+                            369,
+                            1680,
+                            411,
+                            1720
+                        ],
+                        "text": "几"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8923,
+                        "position": [
+                            414,
+                            1678,
+                            454,
+                            1720
+                        ],
+                        "text": "时"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9004,
+                        "position": [
+                            456,
+                            1678,
+                            498,
+                            1722
+                        ],
+                        "text": "得"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9022,
+                        "position": [
+                            499,
+                            1678,
+                            542,
+                            1720
+                        ],
+                        "text": "会"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8991,
+                        "position": [
+                            545,
+                            1678,
+                            585,
+                            1722
+                        ],
+                        "text": "你"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.886,
+                        "position": [
+                            587,
+                            1678,
+                            627,
+                            1720
+                        ],
+                        "text": "们"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.889,
+                        "position": [
+                            652,
+                            1678,
+                            696,
+                            1722
+                        ],
+                        "text": "脱"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8878,
+                        "position": [
+                            699,
+                            1678,
+                            736,
+                            1720
+                        ],
+                        "text": "了"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9011,
+                        "position": [
+                            741,
+                            1678,
+                            783,
+                            1722
+                        ],
+                        "text": "大"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8978,
+                        "position": [
+                            786,
+                            1678,
+                            828,
+                            1722
+                        ],
+                        "text": "难"
+                    },
+                    {
+                        "confidence": 0.599,
+                        "det_confidence": 0.8068,
+                        "position": [
+                            830,
+                            1678,
+                            845,
+                            1722
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8913,
+                        "position": [
+                            853,
+                            1677,
+                            894,
+                            1722
+                        ],
+                        "text": "早"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9019,
+                        "position": [
+                            897,
+                            1678,
+                            939,
+                            1720
+                        ],
+                        "text": "赴"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8956,
+                        "position": [
+                            942,
+                            1678,
+                            984,
+                            1720
+                        ],
+                        "text": "灵"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8797,
+                        "position": [
+                            989,
+                            1678,
+                            1027,
+                            1719
+                        ],
+                        "text": "山"
+                    },
+                    {
+                        "confidence": 0.674,
+                        "det_confidence": 0.7427,
+                        "position": [
+                            1031,
+                            1678,
+                            1046,
+                            1720
+                        ],
+                        "text": "！"
+                    },
+                    {
+                        "confidence": 0.836,
+                        "det_confidence": 0.7403,
+                        "position": [
+                            1051,
+                            1680,
+                            1073,
+                            1719
+                        ],
+                        "text": "”"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8822,
+                        "position": [
+                            1077,
+                            1680,
+                            1118,
+                            1720
+                        ],
+                        "text": "正"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8944,
+                        "position": [
+                            1122,
+                            1678,
+                            1161,
+                            1720
+                        ],
+                        "text": "当"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9002,
+                        "position": [
+                            1166,
+                            1677,
+                            1208,
+                            1720
+                        ],
+                        "text": "悲"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9002,
+                        "position": [
+                            1211,
+                            1678,
+                            1253,
+                            1720
+                        ],
+                        "text": "啼"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8993,
+                        "position": [
+                            1255,
+                            1677,
+                            1297,
+                            1720
+                        ],
+                        "text": "烦"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8902,
+                        "position": [
+                            1300,
+                            1678,
+                            1342,
+                            1720
+                        ],
+                        "text": "恼"
+                    },
+                    {
+                        "confidence": 0.502,
+                        "det_confidence": 0.7944,
+                        "position": [
+                            1344,
+                            1680,
+                            1359,
+                            1722
+                        ],
+                        "text": "，"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        197,
+                        1745
+                    ],
+                    [
+                        1365,
+                        1745
+                    ],
+                    [
+                        1365,
+                        1790
+                    ],
+                    [
+                        197,
+                        1790
+                    ]
+                ],
+                "text": "忽见那洞里走出一个妇人来，扶着定魂桩,叫道：“那长老,你从",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.897,
+                        "position": [
+                            197,
+                            1747,
+                            239,
+                            1790
+                        ],
+                        "text": "忽"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9001,
+                        "position": [
+                            242,
+                            1748,
+                            281,
+                            1789
+                        ],
+                        "text": "见"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8971,
+                        "position": [
+                            283,
+                            1747,
+                            325,
+                            1790
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8909,
+                        "position": [
+                            327,
+                            1747,
+                            367,
+                            1790
+                        ],
+                        "text": "洞"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8916,
+                        "position": [
+                            370,
+                            1747,
+                            411,
+                            1789
+                        ],
+                        "text": "里"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8968,
+                        "position": [
+                            414,
+                            1747,
+                            454,
+                            1790
+                        ],
+                        "text": "走"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.889,
+                        "position": [
+                            457,
+                            1747,
+                            496,
+                            1789
+                        ],
+                        "text": "出"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.7969,
+                        "position": [
+                            499,
+                            1750,
+                            542,
+                            1784
+                        ],
+                        "text": "一"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8871,
+                        "position": [
+                            543,
+                            1745,
+                            587,
+                            1789
+                        ],
+                        "text": "个"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8947,
+                        "position": [
+                            588,
+                            1745,
+                            630,
+                            1789
+                        ],
+                        "text": "妇"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8976,
+                        "position": [
+                            633,
+                            1747,
+                            675,
+                            1789
+                        ],
+                        "text": "人"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8935,
+                        "position": [
+                            677,
+                            1745,
+                            719,
+                            1789
+                        ],
+                        "text": "来"
+                    },
+                    {
+                        "confidence": 0.706,
+                        "det_confidence": 0.817,
+                        "position": [
+                            721,
+                            1747,
+                            736,
+                            1790
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.897,
+                        "position": [
+                            742,
+                            1745,
+                            785,
+                            1789
+                        ],
+                        "text": "扶"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9043,
+                        "position": [
+                            788,
+                            1745,
+                            828,
+                            1789
+                        ],
+                        "text": "着"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9008,
+                        "position": [
+                            831,
+                            1745,
+                            873,
+                            1789
+                        ],
+                        "text": "定"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9047,
+                        "position": [
+                            876,
+                            1747,
+                            918,
+                            1789
+                        ],
+                        "text": "魂"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8946,
+                        "position": [
+                            922,
+                            1747,
+                            964,
+                            1790
+                        ],
+                        "text": "桩"
+                    },
+                    {
+                        "confidence": 0.646,
+                        "det_confidence": 0.7611,
+                        "position": [
+                            964,
+                            1748,
+                            981,
+                            1790
+                        ],
+                        "text": ","
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8666,
+                        "position": [
+                            989,
+                            1747,
+                            1027,
+                            1789
+                        ],
+                        "text": "叫"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8894,
+                        "position": [
+                            1031,
+                            1747,
+                            1074,
+                            1789
+                        ],
+                        "text": "道"
+                    },
+                    {
+                        "confidence": 0.619,
+                        "det_confidence": 0.6869,
+                        "position": [
+                            1077,
+                            1748,
+                            1093,
+                            1787
+                        ],
+                        "text": "："
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.6866,
+                        "position": [
+                            1096,
+                            1748,
+                            1118,
+                            1784
+                        ],
+                        "text": "“"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8975,
+                        "position": [
+                            1121,
+                            1745,
+                            1163,
+                            1789
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8968,
+                        "position": [
+                            1166,
+                            1745,
+                            1207,
+                            1789
+                        ],
+                        "text": "长"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8921,
+                        "position": [
+                            1210,
+                            1745,
+                            1252,
+                            1789
+                        ],
+                        "text": "老"
+                    },
+                    {
+                        "confidence": 0.514,
+                        "det_confidence": 0.7633,
+                        "position": [
+                            1253,
+                            1747,
+                            1270,
+                            1790
+                        ],
+                        "text": ","
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8932,
+                        "position": [
+                            1278,
+                            1745,
+                            1320,
+                            1790
+                        ],
+                        "text": "你"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9025,
+                        "position": [
+                            1322,
+                            1745,
+                            1365,
+                            1790
+                        ],
+                        "text": "从"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        197,
+                        1814
+                    ],
+                    [
+                        1365,
+                        1814
+                    ],
+                    [
+                        1365,
+                        1859
+                    ],
+                    [
+                        197,
+                        1859
+                    ]
+                ],
+                "text": "何来?为何被他缚在此处實长老闻言，泪眼偷看，那妇人约有三",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8937,
+                        "position": [
+                            197,
+                            1814,
+                            241,
+                            1859
+                        ],
+                        "text": "何"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8971,
+                        "position": [
+                            242,
+                            1814,
+                            283,
+                            1857
+                        ],
+                        "text": "来"
+                    },
+                    {
+                        "confidence": 0.748,
+                        "det_confidence": 0.8132,
+                        "position": [
+                            285,
+                            1815,
+                            308,
+                            1856
+                        ],
+                        "text": "?"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8932,
+                        "position": [
+                            330,
+                            1815,
+                            369,
+                            1857
+                        ],
+                        "text": "为"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8967,
+                        "position": [
+                            372,
+                            1814,
+                            414,
+                            1859
+                        ],
+                        "text": "何"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9012,
+                        "position": [
+                            415,
+                            1814,
+                            457,
+                            1857
+                        ],
+                        "text": "被"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9045,
+                        "position": [
+                            459,
+                            1814,
+                            499,
+                            1857
+                        ],
+                        "text": "他"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.902,
+                        "position": [
+                            501,
+                            1814,
+                            543,
+                            1857
+                        ],
+                        "text": "缚"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9003,
+                        "position": [
+                            545,
+                            1814,
+                            587,
+                            1857
+                        ],
+                        "text": "在"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9031,
+                        "position": [
+                            588,
+                            1814,
+                            630,
+                            1857
+                        ],
+                        "text": "此"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8994,
+                        "position": [
+                            632,
+                            1814,
+                            672,
+                            1856
+                        ],
+                        "text": "处"
+                    },
+                    {
+                        "confidence": 0.283,
+                        "det_confidence": 0.8558,
+                        "position": [
+                            675,
+                            1815,
+                            714,
+                            1856
+                        ],
+                        "text": "實"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8962,
+                        "position": [
+                            718,
+                            1814,
+                            758,
+                            1857
+                        ],
+                        "text": "长"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9021,
+                        "position": [
+                            761,
+                            1814,
+                            802,
+                            1857
+                        ],
+                        "text": "老"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8926,
+                        "position": [
+                            805,
+                            1814,
+                            845,
+                            1857
+                        ],
+                        "text": "闻"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8889,
+                        "position": [
+                            848,
+                            1814,
+                            887,
+                            1857
+                        ],
+                        "text": "言"
+                    },
+                    {
+                        "confidence": 0.604,
+                        "det_confidence": 0.7888,
+                        "position": [
+                            890,
+                            1815,
+                            908,
+                            1859
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8854,
+                        "position": [
+                            912,
+                            1814,
+                            951,
+                            1857
+                        ],
+                        "text": "泪"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9005,
+                        "position": [
+                            956,
+                            1814,
+                            996,
+                            1857
+                        ],
+                        "text": "眼"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8962,
+                        "position": [
+                            999,
+                            1814,
+                            1040,
+                            1857
+                        ],
+                        "text": "偷"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8922,
+                        "position": [
+                            1041,
+                            1814,
+                            1084,
+                            1857
+                        ],
+                        "text": "看"
+                    },
+                    {
+                        "confidence": 0.652,
+                        "det_confidence": 0.821,
+                        "position": [
+                            1085,
+                            1815,
+                            1102,
+                            1859
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.887,
+                        "position": [
+                            1107,
+                            1814,
+                            1149,
+                            1857
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8928,
+                        "position": [
+                            1151,
+                            1814,
+                            1193,
+                            1857
+                        ],
+                        "text": "妇"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8994,
+                        "position": [
+                            1196,
+                            1814,
+                            1235,
+                            1857
+                        ],
+                        "text": "人"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8961,
+                        "position": [
+                            1236,
+                            1814,
+                            1278,
+                            1856
+                        ],
+                        "text": "约"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.9011,
+                        "position": [
+                            1280,
+                            1814,
+                            1320,
+                            1857
+                        ],
+                        "text": "有"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8838,
+                        "position": [
+                            1323,
+                            1814,
+                            1365,
+                            1856
+                        ],
+                        "text": "三"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        199,
+                        1882
+                    ],
+                    [
+                        1364,
+                        1882
+                    ],
+                    [
+                        1364,
+                        1927
+                    ],
+                    [
+                        199,
+                        1927
+                    ]
+                ],
+                "text": "十年纪。遂道冫“女菩萨,不消问了。我已是该死的,走进你家门",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8905,
+                        "position": [
+                            199,
+                            1884,
+                            239,
+                            1927
+                        ],
+                        "text": "十"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8914,
+                        "position": [
+                            241,
+                            1884,
+                            283,
+                            1927
+                        ],
+                        "text": "年"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8871,
+                        "position": [
+                            286,
+                            1885,
+                            327,
+                            1927
+                        ],
+                        "text": "纪"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8061,
+                        "position": [
+                            330,
+                            1885,
+                            348,
+                            1927
+                        ],
+                        "text": "。"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8861,
+                        "position": [
+                            370,
+                            1882,
+                            414,
+                            1926
+                        ],
+                        "text": "遂"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.874,
+                        "position": [
+                            415,
+                            1884,
+                            457,
+                            1927
+                        ],
+                        "text": "道"
+                    },
+                    {
+                        "confidence": 0.751,
+                        "det_confidence": 0.4239,
+                        "position": [
+                            461,
+                            1885,
+                            478,
+                            1926
+                        ],
+                        "text": "冫"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.5334,
+                        "position": [
+                            478,
+                            1885,
+                            499,
+                            1926
+                        ],
+                        "text": "“"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8838,
+                        "position": [
+                            503,
+                            1884,
+                            543,
+                            1927
+                        ],
+                        "text": "女"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8898,
+                        "position": [
+                            545,
+                            1882,
+                            587,
+                            1927
+                        ],
+                        "text": "菩"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8824,
+                        "position": [
+                            588,
+                            1882,
+                            630,
+                            1926
+                        ],
+                        "text": "萨"
+                    },
+                    {
+                        "confidence": 0.572,
+                        "det_confidence": 0.5513,
+                        "position": [
+                            630,
+                            1884,
+                            647,
+                            1927
+                        ],
+                        "text": ","
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8833,
+                        "position": [
+                            654,
+                            1882,
+                            694,
+                            1926
+                        ],
+                        "text": "不"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8947,
+                        "position": [
+                            697,
+                            1882,
+                            738,
+                            1926
+                        ],
+                        "text": "消"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8774,
+                        "position": [
+                            741,
+                            1884,
+                            780,
+                            1926
+                        ],
+                        "text": "问"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8679,
+                        "position": [
+                            785,
+                            1882,
+                            822,
+                            1926
+                        ],
+                        "text": "了"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.7799,
+                        "position": [
+                            825,
+                            1884,
+                            847,
+                            1926
+                        ],
+                        "text": "。"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8902,
+                        "position": [
+                            869,
+                            1882,
+                            911,
+                            1926
+                        ],
+                        "text": "我"
+                    },
+                    {
+                        "confidence": 0.995,
+                        "det_confidence": 0.8749,
+                        "position": [
+                            915,
+                            1884,
+                            953,
+                            1924
+                        ],
+                        "text": "已"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.892,
+                        "position": [
+                            956,
+                            1882,
+                            996,
+                            1926
+                        ],
+                        "text": "是"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8903,
+                        "position": [
+                            999,
+                            1882,
+                            1041,
+                            1926
+                        ],
+                        "text": "该"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8937,
+                        "position": [
+                            1043,
+                            1884,
+                            1084,
+                            1926
+                        ],
+                        "text": "死"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.881,
+                        "position": [
+                            1087,
+                            1882,
+                            1126,
+                            1926
+                        ],
+                        "text": "的"
+                    },
+                    {
+                        "confidence": 0.592,
+                        "det_confidence": 0.7676,
+                        "position": [
+                            1129,
+                            1884,
+                            1144,
+                            1927
+                        ],
+                        "text": ","
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8861,
+                        "position": [
+                            1151,
+                            1882,
+                            1191,
+                            1926
+                        ],
+                        "text": "走"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8909,
+                        "position": [
+                            1194,
+                            1882,
+                            1236,
+                            1926
+                        ],
+                        "text": "进"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.889,
+                        "position": [
+                            1239,
+                            1882,
+                            1278,
+                            1926
+                        ],
+                        "text": "你"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8955,
+                        "position": [
+                            1280,
+                            1882,
+                            1322,
+                            1926
+                        ],
+                        "text": "家"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8733,
+                        "position": [
+                            1325,
+                            1882,
+                            1364,
+                            1927
+                        ],
+                        "text": "门"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        200,
+                        1951
+                    ],
+                    [
+                        1367,
+                        1951
+                    ],
+                    [
+                        1367,
+                        1996
+                    ],
+                    [
+                        200,
+                        1996
+                    ]
+                ],
+                "text": "来也。要吃就吃了罢，又问怎的@那妇人道:“我不是吃人的。",
+                "words": [
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.899,
+                        "position": [
+                            200,
+                            1952,
+                            241,
+                            1996
+                        ],
+                        "text": "来"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8885,
+                        "position": [
+                            242,
+                            1954,
+                            283,
+                            1996
+                        ],
+                        "text": "也"
+                    },
+                    {
+                        "confidence": 0.998,
+                        "det_confidence": 0.8069,
+                        "position": [
+                            286,
+                            1956,
+                            306,
+                            1996
+                        ],
+                        "text": "。"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8977,
+                        "position": [
+                            328,
+                            1954,
+                            370,
+                            1996
+                        ],
+                        "text": "要"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.899,
+                        "position": [
+                            373,
+                            1952,
+                            414,
+                            1994
+                        ],
+                        "text": "吃"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.896,
+                        "position": [
+                            414,
+                            1952,
+                            457,
+                            1996
+                        ],
+                        "text": "就"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8947,
+                        "position": [
+                            461,
+                            1952,
+                            503,
+                            1994
+                        ],
+                        "text": "吃"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8859,
+                        "position": [
+                            507,
+                            1952,
+                            545,
+                            1994
+                        ],
+                        "text": "了"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8932,
+                        "position": [
+                            551,
+                            1952,
+                            593,
+                            1994
+                        ],
+                        "text": "罢"
+                    },
+                    {
+                        "confidence": 0.611,
+                        "det_confidence": 0.5393,
+                        "position": [
+                            594,
+                            1954,
+                            612,
+                            1996
+                        ],
+                        "text": "，"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8796,
+                        "position": [
+                            621,
+                            1954,
+                            661,
+                            1994
+                        ],
+                        "text": "又"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8887,
+                        "position": [
+                            666,
+                            1952,
+                            705,
+                            1994
+                        ],
+                        "text": "问"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8907,
+                        "position": [
+                            711,
+                            1952,
+                            752,
+                            1994
+                        ],
+                        "text": "怎"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8931,
+                        "position": [
+                            756,
+                            1952,
+                            797,
+                            1994
+                        ],
+                        "text": "的"
+                    },
+                    {
+                        "confidence": 0.407,
+                        "det_confidence": 0.8176,
+                        "position": [
+                            802,
+                            1952,
+                            842,
+                            1991
+                        ],
+                        "text": "@"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8928,
+                        "position": [
+                            845,
+                            1951,
+                            889,
+                            1994
+                        ],
+                        "text": "那"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8925,
+                        "position": [
+                            892,
+                            1952,
+                            934,
+                            1994
+                        ],
+                        "text": "妇"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.891,
+                        "position": [
+                            939,
+                            1952,
+                            979,
+                            1993
+                        ],
+                        "text": "人"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8881,
+                        "position": [
+                            982,
+                            1951,
+                            1024,
+                            1994
+                        ],
+                        "text": "道"
+                    },
+                    {
+                        "confidence": 0.384,
+                        "det_confidence": 0.4491,
+                        "position": [
+                            1029,
+                            1954,
+                            1046,
+                            1991
+                        ],
+                        "text": ":"
+                    },
+                    {
+                        "confidence": 0.999,
+                        "det_confidence": 0.7464,
+                        "position": [
+                            1051,
+                            1954,
+                            1073,
+                            1990
+                        ],
+                        "text": "“"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8948,
+                        "position": [
+                            1076,
+                            1952,
+                            1118,
+                            1994
+                        ],
+                        "text": "我"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8991,
+                        "position": [
+                            1121,
+                            1952,
+                            1163,
+                            1994
+                        ],
+                        "text": "不"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8993,
+                        "position": [
+                            1166,
+                            1951,
+                            1208,
+                            1994
+                        ],
+                        "text": "是"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8998,
+                        "position": [
+                            1213,
+                            1951,
+                            1253,
+                            1993
+                        ],
+                        "text": "吃"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8917,
+                        "position": [
+                            1258,
+                            1951,
+                            1298,
+                            1993
+                        ],
+                        "text": "人"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8952,
+                        "position": [
+                            1303,
+                            1951,
+                            1342,
+                            1994
+                        ],
+                        "text": "的"
+                    },
+                    {
+                        "confidence": 0.987,
+                        "det_confidence": 0.8296,
+                        "position": [
+                            1347,
+                            1954,
+                            1367,
+                            1996
+                        ],
+                        "text": "。"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        261,
+                        2127
+                    ],
+                    [
+                        261,
+                        2091
+                    ],
+                    [
+                        640,
+                        2091
+                    ],
+                    [
+                        640,
+                        2127
+                    ]
+                ],
+                "text": "0按所载为<西江月〉词。",
+                "words": [
+                    {
+                        "confidence": 0.649,
+                        "det_confidence": 0.8751,
+                        "position": [
+                            263,
+                            2093,
+                            299,
+                            2128
+                        ],
+                        "text": "0"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8859,
+                        "position": [
+                            328,
+                            2094,
+                            361,
+                            2127
+                        ],
+                        "text": "按"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8806,
+                        "position": [
+                            362,
+                            2094,
+                            394,
+                            2127
+                        ],
+                        "text": "所"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8881,
+                        "position": [
+                            395,
+                            2094,
+                            426,
+                            2127
+                        ],
+                        "text": "载"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8781,
+                        "position": [
+                            429,
+                            2094,
+                            459,
+                            2127
+                        ],
+                        "text": "为"
+                    },
+                    {
+                        "confidence": 0.631,
+                        "det_confidence": 0.7846,
+                        "position": [
+                            461,
+                            2094,
+                            478,
+                            2127
+                        ],
+                        "text": "<"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8578,
+                        "position": [
+                            478,
+                            2094,
+                            507,
+                            2127
+                        ],
+                        "text": "西"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8841,
+                        "position": [
+                            509,
+                            2094,
+                            542,
+                            2127
+                        ],
+                        "text": "江"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8715,
+                        "position": [
+                            543,
+                            2094,
+                            571,
+                            2127
+                        ],
+                        "text": "月"
+                    },
+                    {
+                        "confidence": 0.873,
+                        "det_confidence": 0.8513,
+                        "position": [
+                            573,
+                            2094,
+                            590,
+                            2127
+                        ],
+                        "text": "〉"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8787,
+                        "position": [
+                            591,
+                            2094,
+                            623,
+                            2127
+                        ],
+                        "text": "词"
+                    },
+                    {
+                        "confidence": 0.946,
+                        "det_confidence": 0.7623,
+                        "position": [
+                            626,
+                            2097,
+                            641,
+                            2128
+                        ],
+                        "text": "。"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    [
+                        241,
+                        2156
+                    ],
+                    [
+                        300,
+                        2156
+                    ],
+                    [
+                        300,
+                        2184
+                    ],
+                    [
+                        241,
+                        2184
+                    ]
+                ],
+                "text": "346",
+                "words": [
+                    {
+                        "confidence": 0.992,
+                        "det_confidence": 0.8204,
+                        "position": [
+                            241,
+                            2156,
+                            261,
+                            2184
+                        ],
+                        "text": "3"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8154,
+                        "position": [
+                            261,
+                            2156,
+                            278,
+                            2184
+                        ],
+                        "text": "4"
+                    },
+                    {
+                        "confidence": 1.0,
+                        "det_confidence": 0.8536,
+                        "position": [
+                            278,
+                            2156,
+                            300,
+                            2184
+                        ],
+                        "text": "6"
+                    }
+                ]
+            }
+        ],
+        "texts": [
+            "第二十九回",
+            "脱难江流来国土承恩八戒转山林",
+            "诗曰0：",
+            "妄想不复强灭，真如何必希求?本原自性佛前修迷悟",
+            "悟即刹那成正，迷而万劫沉流。若能一念",
+            "岂居前后？",
+            "合真修，灭尽恒沙罪垢。",
+            "却说那八戒、沙僧与怪斗经个三十回合，不分胜负。你道怎",
+            "么不分胜负?若论赌手段，莫说两个和尚，就是二十个,也敌不",
+            "过那妖精。只为唐僧命不该死，暗中有那护法神祇保着他；空中",
+            "又有那六丁六甲、五方揭谛、四值功曹、一十八位护教伽蓝，助着",
+            "八戒、沙僧。",
+            "且不言他三人战斗。却说那长老在洞里悲啼，思量他那徒",
+            "弟。眼中流泪道：悟能啊，不知你在那个村中逢了善友，贪着斋",
+            "供；悟净啊，你又不知在那里寻他,可能得会?岂知我遇妖魔，在",
+            "此受难！几时得会你们脱了大难，早赴灵山！”正当悲啼烦恼，",
+            "忽见那洞里走出一个妇人来，扶着定魂桩,叫道：“那长老,你从",
+            "何来?为何被他缚在此处實长老闻言，泪眼偷看，那妇人约有三",
+            "十年纪。遂道冫“女菩萨,不消问了。我已是该死的,走进你家门",
+            "来也。要吃就吃了罢，又问怎的@那妇人道:“我不是吃人的。",
+            "0按所载为<西江月〉词。",
+            "346"
+        ],
+        "width": 1570
+    },
+    "id": "420d53a0-11ac-4ce9-a30f-2554f664381d",
+    "info": "",
+    "message": "success"
+}
