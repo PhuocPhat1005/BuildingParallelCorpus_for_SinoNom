@@ -2,7 +2,7 @@ import os
 import re
 
 # Specify the folder containing your files
-folder_path = r"TayDuKy\json"
+folder_path = r"assets\json"
 
 # Specify the book name as the prefix
 book_name = "TayDuKy"

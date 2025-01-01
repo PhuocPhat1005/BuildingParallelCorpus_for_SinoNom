@@ -118,26 +118,26 @@ def BBoxes_of_JSON(json_file, file_name):
 
 
 
-#testing 
-def main():
-    res = []
-    file_name = "TayDuKy_page048.json"
-    with open(file_name, "rb") as json_file:
-        res = BBoxes_of_JSON(json_file.read(), file_name)
+# #testing 
+# def main():
+#     res = []
+#     file_name = "TayDuKy_page048.json"
+#     with open(file_name, "rb") as json_file:
+#         res = BBoxes_of_JSON(json_file.read(), file_name)
 
-    for _sentence in res:
-        print(_sentence.get_base_text())
-        print(_sentence.get_cleaned_text())
-        print(_sentence.get_position())
-        print(_sentence.get_height())
-        print(_sentence.get_page_name())
-        print(_sentence.get_id_page())
-        print(_sentence.get_id_box())
-        print("=====================")
+#     for _sentence in res:
+#         print(_sentence.get_base_text())
+#         print(_sentence.get_cleaned_text())
+#         print(_sentence.get_position())
+#         print(_sentence.get_height())
+#         print(_sentence.get_page_name())
+#         print(_sentence.get_id_page())
+#         print(_sentence.get_id_box())
+#         print("=====================")
 
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 
 
