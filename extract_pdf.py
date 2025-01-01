@@ -7,6 +7,7 @@ import fitz
 import cv2
 from PIL import Image
 import numpy as np
+import os
 
 # Function to enhance images' quality
 def enhance_image(
@@ -78,7 +79,7 @@ def extract_images(pdf_path, output_dir):
             image_bytes = base_image["image"]
             
             # Save image to file
-            image_path = f"{output_dir}/page_{page_num + 1}.png"
+            image_path = f"{output_dir}/TayDuKy_page{page_num + 1}.png"
             with open(image_path, "wb") as image_file:
                 image_file.write(image_bytes)
             
