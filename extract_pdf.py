@@ -52,6 +52,13 @@ def enhance_image(
 
 # Function to extract images from PDF
 def extract_images(pdf_path, output_dir):
+
+
+    # Make sure the image dir is created before store in it
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+
     # Open PDF file
     pdf_file = fitz.open(pdf_path)
     
@@ -86,7 +93,7 @@ def extract_images(pdf_path, output_dir):
 if __name__ == "__main__":
     # Define input and output paths
     pdf_path = "TayDuKy.pdf"
-    output_dir = "output"
+    output_dir = r"assets\images"
     
     # Extract images from PDF
     extract_images(pdf_path, output_dir)

@@ -42,5 +42,5 @@ def sort_files_in_zip(zip_path, output_dir):
 if __name__ == "__main__":
     # Example usage
     zip_file_path = r"data.zip"  
-    output_directory = "assets"  
+    output_directory = r"assets\images"  
     sort_files_in_zip(zip_file_path, output_directory)

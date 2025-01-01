@@ -5,7 +5,12 @@ import requests
 import os
 from BBox import clean_text
 
+
+# These lines are used to crawl all the text of "TayDuKy"
+
+
 URL_WEBSITE = "https://www.gutenberg.org/cache/epub/23962/pg23962-images.html"
+
 
 
 def crawl_text_from_web(raw_text_path="./data/raw_text.txt"):

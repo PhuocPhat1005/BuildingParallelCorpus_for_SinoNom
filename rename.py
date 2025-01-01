@@ -5,7 +5,7 @@ import re
 folder_path = r"TayDuKy\json"
 
 # Specify the book name as the prefix
-book_name = "TayDuKy_"
+book_name = "TayDuKy"
 
 # Iterate over all files in the folder
 for filename in os.listdir(folder_path):
