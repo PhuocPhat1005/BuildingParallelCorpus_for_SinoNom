@@ -15,7 +15,7 @@ def rename_json(folder_path):
         # Skip directories
         if os.path.isfile(old_file_path):
             # Add the book name as a prefix and reformat "page_xx" to "pageXXX"
-            new_filename = re.sub(r'TayDuKy_page(\d+)', lambda m: f"_page{int(m.group(1)):03}", filename)
+            new_filename = re.sub(r'_page(\d+)', lambda m: f"_page{int(m.group(1)):03}", filename)
             new_filename = new_filename
             new_file_path = os.path.join(folder_path, new_filename)
 
