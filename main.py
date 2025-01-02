@@ -5,6 +5,7 @@ from align_boxes import align_bboxes_with_true_text, dump_aligned_boxes_to_csv, 
 from alignment_process import DictionaryLoader, TextAlignment
 from write_output import load_alignment_results, ExcelExporterProcessing
 from BBox import BBox, BBoxes_of_JSON
+from rename import rename_json
 import os, re
 
 
@@ -14,6 +15,9 @@ def main():
     pdf_path = "TayDuKy.pdf"
     img_dir = r"assets\images"
     aligned_text_json = "output_text.json"
+
+    folder_json = r'assets\json'
+
 
     # Get ground text from web
     os.makedirs(dir_name, exist_ok=True) 
@@ -27,7 +31,10 @@ def main():
     print("Images extracted successfully!")
 
     # Get OCR results
-    get_json(img_dir, r"assets\json")
+    get_json(img_dir, folder_json)
+
+    rename_json(folder_json)
+
 
     #Align OCR strings with Ground strings
     print("Aligning OCR strings with Ground strings...")
