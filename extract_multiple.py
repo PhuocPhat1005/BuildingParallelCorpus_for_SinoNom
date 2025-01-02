@@ -60,5 +60,5 @@ def get_json(image_folder, json_folder, max_workers=5):
             except Exception as e:
                 print(f"Error in thread: {e}")
 
-if __name__ == "__main__":
-    get_json(r"assets\images", r"assets\json")
+# if __name__ == "__main__":
+#     get_json(r"assets\images", r"assets\json")

@@ -168,18 +168,18 @@ class TextAlignment:
 
         return alignment_results
 
-def main():
-    json_file_path = "output_text.json"
-    alignment_bbox_results = load_alignment_results(json_file_path)
+# def main():
+#     json_file_path = "output_text.json"
+#     alignment_bbox_results = load_alignment_results(json_file_path)
 
-    sinonom_dict_filename = "SinoNom_similar_Dic.xlsx"
-    dictionaries = DictionaryLoader(sinonom_dict_filename)
-    sinonom_dict = dictionaries.load_dictionaries()
+#     sinonom_dict_filename = "SinoNom_similar_Dic.xlsx"
+#     dictionaries = DictionaryLoader(sinonom_dict_filename)
+#     sinonom_dict = dictionaries.load_dictionaries()
 
-    text_alignment_processor = TextAlignment(sinonom_dict, alignment_bbox_results)
-    char_alignment_results = text_alignment_processor.calculate_alignment()
+#     text_alignment_processor = TextAlignment(sinonom_dict, alignment_bbox_results)
+#     char_alignment_results = text_alignment_processor.calculate_alignment()
 
-    print("DONE")
+#     print("DONE")
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()

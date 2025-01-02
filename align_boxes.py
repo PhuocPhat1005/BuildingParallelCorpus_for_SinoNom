@@ -147,30 +147,30 @@ def dump_aligned_boxes_to_csv(aligned_pairs, output_file = "ocr_corrections.csv"
 
 
 
-def main():
-    with open("./data/clean_text.txt", 'r', encoding='utf-8') as cleanText:
-        true_ground_text = cleanText.read()
+# def main():
+#     with open("./data/clean_text.txt", 'r', encoding='utf-8') as cleanText:
+#         true_ground_text = cleanText.read()
 
 
-    listBBox = []
-    directory = 'assets/json/'
-    pattern = r'^TayDuKy_page\d{3}\.json$'
-    for filename in os.listdir(directory):
-        if re.match(pattern, filename):
-            full_file_path = os.path.join(directory, filename)
-            with open(full_file_path, "rb") as json_file:
-                listBBox += BBoxes_of_JSON(json_file.read(), filename)
+#     listBBox = []
+#     directory = 'assets/json/'
+#     pattern = r'^TayDuKy_page\d{3}\.json$'
+#     for filename in os.listdir(directory):
+#         if re.match(pattern, filename):
+#             full_file_path = os.path.join(directory, filename)
+#             with open(full_file_path, "rb") as json_file:
+#                 listBBox += BBoxes_of_JSON(json_file.read(), filename)
 
 
-    aligned_boxes = align_bboxes_with_true_text(listBBox, true_ground_text)
+#     aligned_boxes = align_bboxes_with_true_text(listBBox, true_ground_text)
 
-    aligned_text_json = "output_text.json"
-    dump_aligned_boxes_to_json(aligned_boxes, output_text_json=aligned_text_json)
-
-
-    align_text_csv = "ocr_corrections.csv"
-    dump_aligned_boxes_to_csv(aligned_boxes, align_text_csv)
+#     aligned_text_json = "output_text.json"
+#     dump_aligned_boxes_to_json(aligned_boxes, output_text_json=aligned_text_json)
 
 
-if __name__ == "__main__":
-    main()
+#     align_text_csv = "ocr_corrections.csv"
+#     dump_aligned_boxes_to_csv(aligned_boxes, align_text_csv)
+
+
+# if __name__ == "__main__":
+#     main()

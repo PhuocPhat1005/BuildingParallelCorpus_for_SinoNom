@@ -91,11 +91,11 @@ def extract_images(pdf_path, output_dir):
     pdf_file.close()
 
 # Test main
-if __name__ == "__main__":
-    # Define input and output paths
-    pdf_path = "TayDuKy.pdf"
-    output_dir = r"assets\images"
+# if __name__ == "__main__":
+#     # Define input and output paths
+#     pdf_path = "TayDuKy.pdf"
+#     output_dir = r"assets\images"
     
-    # Extract images from PDF
-    extract_images(pdf_path, output_dir)
-    print("Images extracted successfully!")
+#     # Extract images from PDF
+#     extract_images(pdf_path, output_dir)
+#     print("Images extracted successfully!")
