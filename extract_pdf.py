@@ -96,12 +96,21 @@ def enhance_image(
 
 
 def process_and_save_image(args):
-    output_dir, page_num, image_index, image_bytes = args
+    output_dir, pdf_name, page_num, image_index, image_bytes = args
     try:
         # Tạo tên file duy nhất cho mỗi hình ảnh
-        image_path = os.path.join(
-            output_dir, f"TayDuKy_page{page_num + 1}.png"
-        )
+        if page_num + 1 < 10:
+            image_path = os.path.join(
+                output_dir, f"{pdf_name}_page00{page_num + 1}.png"
+            )
+        elif page_num + 1 < 100:
+            image_path = os.path.join(
+                output_dir, f"{pdf_name}_page0{page_num + 1}.png"
+            )
+        else:
+            image_path = os.path.join(
+                output_dir, f"{pdf_name}_page{page_num + 1}.png"
+            )
 
         # Lưu hình ảnh gốc vào file
         with open(image_path, "wb") as image_file:
@@ -118,18 +127,21 @@ def process_and_save_image(args):
         print(f"Lỗi khi xử lý hình ảnh trang {page_num + 1}, hình {image_index + 1}: {e}")
 
 # Hàm rút trích hình ảnh từ PDF sử dụng multiprocessing
-def extract_images(pdf_path, output_dir):
+def extract_images(pdf_path, output_dir, num_of_pages=None):
     # Đảm bảo thư mục lưu hình ảnh tồn tại
     os.makedirs(output_dir, exist_ok=True)
 
     # Mở tệp PDF
     pdf_file = fitz.open(pdf_path)
+    pages = pdf_file.page_count
+    if num_of_pages != None and num_of_pages >= 1 or num_of_pages <= pdf_file.page_count:
+        pages = num_of_pages
 
     # Tạo danh sách các tác vụ xử lý hình ảnh
     tasks = []
 
     # Lặp qua từng trang
-    for page_num in range(pdf_file.page_count):
+    for page_num in range(pages):
         page = pdf_file[page_num]
         image_list = page.get_images(full=True)
 
@@ -140,7 +152,7 @@ def extract_images(pdf_path, output_dir):
             image_bytes = base_image["image"]
 
             # Thêm vào danh sách các tác vụ
-            tasks.append((output_dir, page_num, image_index, image_bytes))
+            tasks.append((output_dir, pdf_path[:-4], page_num, image_index, image_bytes))
 
     pdf_file.close()
 

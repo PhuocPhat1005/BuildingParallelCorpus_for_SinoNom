@@ -99,7 +99,7 @@ def BBoxes_of_JSON(json_file, file_name):
         print("Không xử lý được file json.")
         return
     
-    page_name = file_name[:7]
+    page_name = file_name[:-13]
     id_page = int(file_name[-8:-5])
 
     result = []

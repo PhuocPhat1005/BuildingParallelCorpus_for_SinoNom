@@ -12,7 +12,8 @@ import os, re
 def main():
     # Directories
     dir_name = "data"
-    pdf_path = "TayDuKy.pdf"
+    pdf_path = "test.pdf"
+    pdf_name = pdf_path[:-4]
     img_dir = r"assets\images"
     aligned_text_json = "output_text.json"
 
@@ -21,29 +22,31 @@ def main():
 
     # Get ground text from web
     os.makedirs(dir_name, exist_ok=True) 
-    print(f"Directory '{dir_name}' created successfully.")
+    print(f"Tạo thư mục '{dir_name}' thành công.")
     crawl_text_from_web("./data/raw_text.txt")
     clean_text(raw_text_path = "./data/raw_text.txt", clean_text_path="./data/clean_text.txt")
 
     # Get images from pdf
-    print("Extracting images... (1.5 seconds/1 page)")
+    print("Thực hiện trích xuất hình ảnh... (1.5 giây/1 trang)")
+
+    # IMPORTANT!!!!!!: add a 3rd parameter for number of pages to extract if necessary, default is all pages 
     extract_images(pdf_path, img_dir)
-    print("Images extracted successfully!")
+
+    print("Trích xuất ảnh thành công!")
 
     # Get OCR results
+    print("Thực hiện OCR hình ảnh... (1.5 giây/1 ảnh)")
     get_json(img_dir, folder_json)
-
-    rename_json(folder_json)
 
 
     #Align OCR strings with Ground strings
-    print("Aligning OCR strings with Ground strings...")
+    print("Thực hiện dóng hàng chuỗi OCR với chuỗi chuẩn...")
     with open("./data/clean_text.txt", 'r', encoding='utf-8') as cleanText:
         true_ground_text = cleanText.read()
 
     listBBox = []
     directory = 'assets/json/'
-    pattern = r'^TayDuKy_page\d{3}\.json$'
+    pattern = r'^' + pdf_name + r'_page' + r'\d{3}\.json$'
     for filename in os.listdir(directory):
         if re.match(pattern, filename):
             full_file_path = os.path.join(directory, filename)
@@ -57,10 +60,10 @@ def main():
     align_text_csv = "ocr_corrections.csv"
     dump_aligned_boxes_to_csv(aligned_boxes, align_text_csv)
 
-    print("Finished aligning strings!")
+    print("Dóng hàng thành công!")
 
     # Align characters
-    print("Aligning characters...")
+    print("Thực hiện dóng hàng các ký tự...")
     alignment_bbox_results = load_alignment_results(aligned_text_json)
 
     sinonom_dict_filename = "SinoNom_similar_Dic.xlsx"
@@ -70,7 +73,7 @@ def main():
     text_alignment_processor = TextAlignment(sinonom_dict, alignment_bbox_results)
     char_alignment_results = text_alignment_processor.calculate_alignment()
 
-    print("Finished aligning characters!")
+    print("Dóng hàng thành công!")
 
     # Output results to Excel
     json_file_path = "align_text.json"
@@ -83,7 +86,7 @@ def main():
     excel_exporter.generate_output_excel()
     excel_exporter.close()
 
-    print(f"Results save to {output_file_path}")
+    print(f"Kết quả đã được lưu vào {output_file_path}")
 
 if __name__ == "__main__":
     main()
