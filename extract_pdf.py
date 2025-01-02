@@ -8,6 +8,10 @@ import cv2
 from PIL import Image
 import numpy as np
 import os
+from multiprocessing import Pool, cpu_count
+
+
+
 
 # Function to enhance images' quality
 def enhance_image(
@@ -51,44 +55,112 @@ def enhance_image(
     return pil_image
 
 
-# Function to extract images from PDF
-def extract_images(pdf_path, output_dir):
+# # Function to extract images from PDF
+# def extract_images(pdf_path, output_dir):
 
 
-    # Make sure the image dir is created before store in it
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+#     # Make sure the image dir is created before store in it
+#     if not os.path.exists(output_dir):
+#         os.makedirs(output_dir)
 
 
-    # Open PDF file
-    pdf_file = fitz.open(pdf_path)
+#     # Open PDF file
+#     pdf_file = fitz.open(pdf_path)
     
-    # Iterate through each page
+#     # Iterate through each page
+#     for page_num in range(pdf_file.page_count):
+#         # Get page object
+#         page = pdf_file[page_num]
+        
+#         # Get image list
+#         image_list = page.get_images(full=True)
+        
+#         # Iterate through each image
+#         for image_index, image in enumerate(image_list):
+#             # Get image data
+#             xref = image[0]
+#             base_image = pdf_file.extract_image(xref)
+#             image_bytes = base_image["image"]
+            
+#             # Save image to file
+#             image_path = f"{output_dir}/TayDuKy_page{page_num + 1}.png"
+#             with open(image_path, "wb") as image_file:
+#                 image_file.write(image_bytes)
+            
+#             # Enhance image quality
+#             enhanced_image = enhance_image(image_path)
+#             enhanced_image.save(image_path)
+    
+#     # Close PDF file
+#     pdf_file.close()
+
+
+def process_and_save_image(args):
+    output_dir, page_num, image_index, image_bytes = args
+    try:
+        # Tạo tên file duy nhất cho mỗi hình ảnh
+        image_path = os.path.join(
+            output_dir, f"TayDuKy_page{page_num + 1}.png"
+        )
+
+        # Lưu hình ảnh gốc vào file
+        with open(image_path, "wb") as image_file:
+            image_file.write(image_bytes)
+
+        # Gọi hàm enhance_image để tăng cường chất lượng hình ảnh
+        enhanced_image = enhance_image(image_path)
+
+        # Lưu hình ảnh đã được tăng cường trở lại file
+        enhanced_image.save(image_path)
+
+        print(f"Lưu hình ảnh: {image_path}")
+    except Exception as e:
+        print(f"Lỗi khi xử lý hình ảnh trang {page_num + 1}, hình {image_index + 1}: {e}")
+
+# Hàm rút trích hình ảnh từ PDF sử dụng multiprocessing
+def extract_images(pdf_path, output_dir):
+    # Đảm bảo thư mục lưu hình ảnh tồn tại
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Mở tệp PDF
+    pdf_file = fitz.open(pdf_path)
+
+    # Tạo danh sách các tác vụ xử lý hình ảnh
+    tasks = []
+
+    # Lặp qua từng trang
     for page_num in range(pdf_file.page_count):
-        # Get page object
         page = pdf_file[page_num]
-        
-        # Get image list
         image_list = page.get_images(full=True)
-        
-        # Iterate through each image
-        for image_index, image in enumerate(image_list):
-            # Get image data
-            xref = image[0]
+
+        # Lặp qua từng hình ảnh trong trang
+        for image_index, img in enumerate(image_list):
+            xref = img[0]
             base_image = pdf_file.extract_image(xref)
             image_bytes = base_image["image"]
-            
-            # Save image to file
-            image_path = f"{output_dir}/TayDuKy_page{page_num + 1}.png"
-            with open(image_path, "wb") as image_file:
-                image_file.write(image_bytes)
-            
-            # Enhance image quality
-            enhanced_image = enhance_image(image_path)
-            enhanced_image.save(image_path)
-    
-    # Close PDF file
+
+            # Thêm vào danh sách các tác vụ
+            tasks.append((output_dir, page_num, image_index, image_bytes))
+
     pdf_file.close()
+
+    if not tasks:
+        print("Không tìm thấy hình ảnh nào trong tệp PDF.")
+        return
+
+    # Xác định số tiến trình tối đa
+    num_processes = min(cpu_count(), len(tasks))
+
+    # Sử dụng multiprocessing Pool để xử lý các hình ảnh song song
+    with Pool(processes=num_processes) as pool:
+        pool.map(process_and_save_image, tasks)
+
+    print("Hoàn thành việc rút trích và xử lý hình ảnh.")
+
+
+
+
+
 
 # Test main
 # if __name__ == "__main__":
