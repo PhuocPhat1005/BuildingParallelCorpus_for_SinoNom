@@ -22,13 +22,15 @@ def main():
     clean_text(raw_text_path = "./data/raw_text.txt", clean_text_path="./data/clean_text.txt")
 
     # Get images from pdf
+    print("Extracting images... (1.5 seconds/1 page)")
     extract_images(pdf_path, img_dir)
     print("Images extracted successfully!")
 
     # Get OCR results
     get_json(img_dir, r"assets\json")
 
-    # Align OCR strings with Ground strings
+    #Align OCR strings with Ground strings
+    print("Aligning OCR strings with Ground strings...")
     with open("./data/clean_text.txt", 'r', encoding='utf-8') as cleanText:
         true_ground_text = cleanText.read()
 
@@ -51,6 +53,7 @@ def main():
     print("Finished aligning strings!")
 
     # Align characters
+    print("Aligning characters...")
     alignment_bbox_results = load_alignment_results(aligned_text_json)
 
     sinonom_dict_filename = "SinoNom_similar_Dic.xlsx"
