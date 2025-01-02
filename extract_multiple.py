@@ -11,7 +11,7 @@ url = "https://ocr.kandianguji.com/ocr_api"
 
 # API payload and headers
 payload_template = {
-    "token": "467d35f5-62c7-481b-b386-c4ae9836c78d", 
+    "token": "75a4c37d-e5fc-4a63-ad48-ae390268aa66", 
     "email": "nguyenkimson159357@gmail.com", 
     "image": None,
     "char_ocr": False,
