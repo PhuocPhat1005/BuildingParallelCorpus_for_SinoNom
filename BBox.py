@@ -123,7 +123,7 @@ def BBoxes_of_JSON(json_file, file_name):
     for idx, text_line in enumerate(data["data"]["text_lines"]):
         temp = BBox(text_line,page_name,id_page, i)
         # print(temp.get_height())
-        if temp.get_height() >= 40 and temp.get_height() <= 47 and temp.get_length() > 3:
+        if temp.get_height() >= 40 and temp.get_height() <= 47 and temp.get_length() >= 6:
             result.append(temp)
         i += 1
 
