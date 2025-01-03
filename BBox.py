@@ -1,5 +1,6 @@
 # @Contributors: $VoThinhVuong$
 
+import numpy as np
 import json
 import re
 
@@ -18,7 +19,22 @@ def is_cjk(char):
         '\uF900' <= char <= '\uFAFF',    # CJK Compatibility Ideographs
     ])
 
+def sort_box(points):
+    points = np.array(points)  # Chuyển sang numpy array
+    sorted_indices = np.lexsort((points[:, 0], points[:, 1]))  # Sắp xếp theo y trước, sau đó x
+    top_two = points[sorted_indices[:2]]  # Lấy 2 điểm trên cùng
+    bottom_two = points[sorted_indices[2:]]  # Lấy 2 điểm dưới cùng
 
+    # Xác định top-left và top-right
+    top_two = top_two[np.argsort(top_two[:, 0])]  # Sắp xếp theo x
+    top_left, top_right = top_two[0], top_two[1]
+
+    # Xác định bottom-left và bottom-right
+    bottom_two = bottom_two[np.argsort(bottom_two[:, 0])]  # Sắp xếp theo x
+    bottom_left, bottom_right = bottom_two[0], bottom_two[1]
+
+    # Kết hợp theo quy tắc
+    return [top_left.tolist(), top_right.tolist(), bottom_right.tolist(), bottom_left.tolist()]
 
 class Words:
     def __init__(self,box_word) -> None:
@@ -51,7 +67,7 @@ class BBox:
     def __init__(self, box, page_name, id_page, id_box) -> None:
         self._base_text = box["text"]
         self._cleaned_text = clean_text(box["text"])
-        self._position = box["position"]
+        self._position = sort_box(box["position"])
         self._words = [ Words(box_word) for box_word in box["words"] if box_word["text"] in self._cleaned_text ]
         self._page_name = page_name
         # self._id_page = f".{id_page}"
@@ -112,6 +128,8 @@ def BBoxes_of_JSON(json_file, file_name):
         i += 1
 
     return result
+
+
 
 
 
