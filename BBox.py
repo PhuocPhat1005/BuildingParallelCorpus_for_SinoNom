@@ -131,10 +131,34 @@ def BBoxes_of_JSON(json_file, file_name):
 
 
 
+def most_frequent_by_height(obj_list):
+    # Create a dictionary to count occurrences of each height
+    height_count = {}
+    for obj in obj_list:
+        height = obj.get_height()
+        height_count[height] = height_count.get(height, 0) + 1
+    
+    # Find the height with the maximum count
+    most_frequent_height = max(height_count, key=height_count.get)
+    
+    return most_frequent_height
 
+def remove_trash_boxes_by_height(listBBox, lower_bound = 5, higher_bound = 5):
+    base_height = most_frequent_by_height(listBBox)
+    
+    min_height = base_height - lower_bound
+    max_height = base_height + higher_bound
+    if min_height > max_height:
+        min_height = base_height - 5
+        max_height = base_height + 5
 
+    result = []
 
-
+    for box in listBBox:
+        if box.get_height() in range(min_height, max_height + 1):
+            result.append(box)
+    
+    return result
 
 # #testing 
 # def main():

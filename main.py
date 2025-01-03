@@ -4,7 +4,7 @@ from extract_multiple import get_json
 from align_boxes import align_bboxes_with_true_text, dump_aligned_boxes_to_csv, dump_aligned_boxes_to_json
 from alignment_process import DictionaryLoader, TextAlignment
 from write_output import load_alignment_results, ExcelExporterProcessing
-from BBox import BBox, BBoxes_of_JSON
+from BBox import BBox, BBoxes_of_JSON, remove_trash_boxes_by_height
 from rename import rename_json
 import os, re
 
@@ -12,7 +12,7 @@ import os, re
 def main():
     # Directories
     dir_name = "data"
-    pdf_path = "TayDuKy.pdf"
+    pdf_path = "test.pdf"
     pdf_name = pdf_path[:-4]
     img_dir = r"assets\images"
     aligned_text_json = "output_text.json"
@@ -28,17 +28,17 @@ def main():
     # # crawl_text_from_web(folder_raw_txt)
     clean_text(raw_text_path =folder_raw_txt , clean_text_path=folder_clean_txt)
 
-    # # Get images from pdf
-    # print("Thực hiện trích xuất hình ảnh... (1.5 giây/1 trang)")
+    # Get images from pdf
+    print("Thực hiện trích xuất hình ảnh... (1.5 giây/1 trang)")
 
-    # # IMPORTANT!!!!!!: add a 3rd parameter for number of pages to extract if necessary, default is all pages 
-    # extract_images(pdf_path, img_dir, num_of_pages=300, start_page=600)
+    # IMPORTANT!!!!!!: add a 3rd parameter for number of pages to extract if necessary, default is all pages 
+    extract_images(pdf_path, img_dir, num_of_pages=100, start_page=600)
 
-    # print("Trích xuất ảnh thành công!")
+    print("Trích xuất ảnh thành công!")
 
-    # # Get OCR results
-    # print("Thực hiện OCR hình ảnh... (1.5 giây/1 ảnh)")
-    # get_json(img_dir, folder_json)
+    # Get OCR results
+    print("Thực hiện OCR hình ảnh... (1.5 giây/1 ảnh)")
+    get_json(img_dir, folder_json)
 
 
     #Align OCR strings with Ground strings
@@ -55,6 +55,12 @@ def main():
             with open(full_file_path, "rb") as json_file:
                 listBBox += BBoxes_of_JSON(json_file.read(), filename)
     print(len(listBBox))
+
+
+    listBBox = remove_trash_boxes_by_height(listBBox,5,5)
+
+    print(len(listBBox))
+
     aligned_boxes = align_bboxes_with_true_text(listBBox, true_ground_text)
 
     dump_aligned_boxes_to_json(aligned_boxes, output_text_json=aligned_text_json)
