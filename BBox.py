@@ -143,14 +143,14 @@ def most_frequent_by_height(obj_list):
     
     return most_frequent_height
 
-def remove_trash_boxes_by_height(listBBox, lower_bound = 5, higher_bound = 5):
+def remove_trash_boxes_by_height(listBBox, threshhold = 5):
     base_height = most_frequent_by_height(listBBox)
     
-    min_height = base_height - lower_bound
-    max_height = base_height + higher_bound
-    if min_height > max_height:
-        min_height = base_height - 5
-        max_height = base_height + 5
+    min_height = base_height - threshhold
+    max_height = base_height + threshhold
+    # if min_height > max_height:
+    #     min_height = base_height - 5
+    #     max_height = base_height + 5e
 
     result = []
 

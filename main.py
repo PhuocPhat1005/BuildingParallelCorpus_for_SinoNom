@@ -10,17 +10,31 @@ import os, re
 
 
 def main():
-    # Directories
+
+    pdf_path = "ThuyHu.pdf"
+
+    # Folder chứa data bản txt (trước khi xử lý)
+    folder_raw_txt = r"./data/raw_text.txt"
+
+
+
+
+
+    # Mặc định thư mục chứa data
     dir_name = "data"
-    pdf_path = "test.pdf"
     pdf_name = pdf_path[:-4]
     img_dir = r"assets\images"
     aligned_text_json = "output_text.json"
 
     folder_json = r'assets\json'
 
-    folder_raw_txt = r"./data/raw_text.txt"
+    # Chỉ định Folder chứa data bản txt (sau khi xử lý)
     folder_clean_txt = r"./data/clean_text.txt"
+
+    # Ngưỡng để check bounding box
+    _threshhold = 5
+
+
 
     # Get ground text from web
     # os.makedirs(dir_name, exist_ok=True) 
@@ -32,7 +46,7 @@ def main():
     print("Thực hiện trích xuất hình ảnh... (1.5 giây/1 trang)")
 
     # IMPORTANT!!!!!!: add a 3rd parameter for number of pages to extract if necessary, default is all pages 
-    extract_images(pdf_path, img_dir, num_of_pages=100, start_page=600)
+    extract_images(pdf_path, img_dir, num_of_pages=300, start_page=600)
 
     print("Trích xuất ảnh thành công!")
 
@@ -57,7 +71,7 @@ def main():
     print(len(listBBox))
 
 
-    listBBox = remove_trash_boxes_by_height(listBBox,5,5)
+    listBBox = remove_trash_boxes_by_height(listBBox,_threshhold)
 
     print(len(listBBox))
 
