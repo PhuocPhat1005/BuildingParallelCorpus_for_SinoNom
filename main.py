@@ -12,36 +12,38 @@ import os, re
 def main():
     # Directories
     dir_name = "data"
-    pdf_path = "test.pdf"
+    pdf_path = "TayDuKy.pdf"
     pdf_name = pdf_path[:-4]
     img_dir = r"assets\images"
     aligned_text_json = "output_text.json"
 
     folder_json = r'assets\json'
 
+    folder_raw_txt = r"./data/raw_text.txt"
+    folder_clean_txt = r"./data/clean_text.txt"
 
     # Get ground text from web
-    os.makedirs(dir_name, exist_ok=True) 
-    print(f"Tạo thư mục '{dir_name}' thành công.")
-    crawl_text_from_web("./data/raw_text.txt")
-    clean_text(raw_text_path = "./data/raw_text.txt", clean_text_path="./data/clean_text.txt")
+    # os.makedirs(dir_name, exist_ok=True) 
+    # print(f"Tạo thư mục '{dir_name}' thành công.")
+    # # crawl_text_from_web(folder_raw_txt)
+    clean_text(raw_text_path =folder_raw_txt , clean_text_path=folder_clean_txt)
 
-    # Get images from pdf
-    print("Thực hiện trích xuất hình ảnh... (1.5 giây/1 trang)")
+    # # Get images from pdf
+    # print("Thực hiện trích xuất hình ảnh... (1.5 giây/1 trang)")
 
-    # IMPORTANT!!!!!!: add a 3rd parameter for number of pages to extract if necessary, default is all pages 
-    extract_images(pdf_path, img_dir)
+    # # IMPORTANT!!!!!!: add a 3rd parameter for number of pages to extract if necessary, default is all pages 
+    # extract_images(pdf_path, img_dir, num_of_pages=300, start_page=600)
 
-    print("Trích xuất ảnh thành công!")
+    # print("Trích xuất ảnh thành công!")
 
-    # Get OCR results
-    print("Thực hiện OCR hình ảnh... (1.5 giây/1 ảnh)")
-    get_json(img_dir, folder_json)
+    # # Get OCR results
+    # print("Thực hiện OCR hình ảnh... (1.5 giây/1 ảnh)")
+    # get_json(img_dir, folder_json)
 
 
     #Align OCR strings with Ground strings
     print("Thực hiện dóng hàng chuỗi OCR với chuỗi chuẩn...")
-    with open("./data/clean_text.txt", 'r', encoding='utf-8') as cleanText:
+    with open(folder_clean_txt, 'r', encoding='utf-8') as cleanText:
         true_ground_text = cleanText.read()
 
     listBBox = []
@@ -52,7 +54,7 @@ def main():
             full_file_path = os.path.join(directory, filename)
             with open(full_file_path, "rb") as json_file:
                 listBBox += BBoxes_of_JSON(json_file.read(), filename)
-
+    print(len(listBBox))
     aligned_boxes = align_bboxes_with_true_text(listBBox, true_ground_text)
 
     dump_aligned_boxes_to_json(aligned_boxes, output_text_json=aligned_text_json)

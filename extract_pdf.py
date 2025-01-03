@@ -127,21 +127,82 @@ def process_and_save_image(args):
         print(f"Lỗi khi xử lý hình ảnh trang {page_num + 1}, hình {image_index + 1}: {e}")
 
 # Hàm rút trích hình ảnh từ PDF sử dụng multiprocessing
-def extract_images(pdf_path, output_dir, num_of_pages=None):
+# def extract_images(pdf_path, output_dir, num_of_pages=None):
+#     # Đảm bảo thư mục lưu hình ảnh tồn tại
+#     os.makedirs(output_dir, exist_ok=True)
+
+#     # Mở tệp PDF
+#     pdf_file = fitz.open(pdf_path)
+#     pages = pdf_file.page_count
+#     if num_of_pages != None and (num_of_pages >= 1 or num_of_pages <= pdf_file.page_count):
+#         pages = num_of_pages
+
+#     # Tạo danh sách các tác vụ xử lý hình ảnh
+#     tasks = []
+
+#     # Lặp qua từng trang
+#     for page_num in range(pages):
+#         page = pdf_file[page_num]
+#         image_list = page.get_images(full=True)
+
+#         # Lặp qua từng hình ảnh trong trang
+#         for image_index, img in enumerate(image_list):
+#             xref = img[0]
+#             base_image = pdf_file.extract_image(xref)
+#             image_bytes = base_image["image"]
+
+#             # Thêm vào danh sách các tác vụ
+#             tasks.append((output_dir, pdf_path[:-4], page_num, image_index, image_bytes))
+
+#     pdf_file.close()
+
+#     if not tasks:
+#         print("Không tìm thấy hình ảnh nào trong tệp PDF.")
+#         return
+
+#     # Xác định số tiến trình tối đa
+#     num_processes = min(cpu_count(), len(tasks))
+
+#     # Sử dụng multiprocessing Pool để xử lý các hình ảnh song song
+#     with Pool(processes=num_processes) as pool:
+#         pool.map(process_and_save_image, tasks)
+
+#     print("Hoàn thành việc rút trích và xử lý hình ảnh.")
+
+
+
+
+
+# Hàm rút trích hình ảnh từ PDF sử dụng multiprocessing
+def extract_images(pdf_path, output_dir, num_of_pages=None, start_page=0):
     # Đảm bảo thư mục lưu hình ảnh tồn tại
     os.makedirs(output_dir, exist_ok=True)
 
     # Mở tệp PDF
     pdf_file = fitz.open(pdf_path)
-    pages = pdf_file.page_count
-    if num_of_pages != None and num_of_pages >= 1 or num_of_pages <= pdf_file.page_count:
-        pages = num_of_pages
+    total_pages = pdf_file.page_count
+
+    # Kiểm tra hợp lệ cho start_page
+    if start_page < 0 or start_page >= total_pages:
+        print(f"start_page {start_page} không hợp lệ. Tổng số trang: {total_pages}.")
+        pdf_file.close()
+        return
+
+    # Tính toán trang kết thúc dựa trên num_of_pages
+    if num_of_pages is not None:
+        if num_of_pages < 1:
+            print("num_of_pages phải ít nhất là 1.")
+            pdf_file.close()
+            return
+        end_page = min(start_page + num_of_pages, total_pages)
+    else:
+        end_page = total_pages
 
     # Tạo danh sách các tác vụ xử lý hình ảnh
     tasks = []
 
-    # Lặp qua từng trang
-    for page_num in range(pages):
+    # Lặp qua từng trang trong phạm vi đã xác định
+    for page_num in range(start_page, end_page):
         page = pdf_file[page_num]
         image_list = page.get_images(full=True)
 
@@ -168,6 +229,7 @@ def extract_images(pdf_path, output_dir, num_of_pages=None):
         pool.map(process_and_save_image, tasks)
 
     print("Hoàn thành việc rút trích và xử lý hình ảnh.")
+
 
 
 

@@ -88,7 +88,7 @@ class BBox:
         return self._words
     
     def get_length(self):
-        return len(self._cleaned_text_text)
+        return len(self._cleaned_text)
     
     def get_id_box(self):
         return self._id_box
@@ -123,8 +123,8 @@ def BBoxes_of_JSON(json_file, file_name):
     for idx, text_line in enumerate(data["data"]["text_lines"]):
         temp = BBox(text_line,page_name,id_page, i)
         # print(temp.get_height())
-        # if temp.get_height() >= 65:
-        result.append(temp)
+        if temp.get_height() >= 40 and temp.get_height() <= 47 and temp.get_length() > 3:
+            result.append(temp)
         i += 1
 
     return result
