@@ -9,6 +9,7 @@ from difflib import SequenceMatcher
 import csv
 import json
 import opencc
+from rapidfuzz import fuzz
 
 converter = opencc.OpenCC('t2s.json') 
 
@@ -88,49 +89,6 @@ def align_strings(str1, str2):
 
 
 
-from rapidfuzz import fuzz
-
-# def find_best_match_rapidfuzz(ocr_text, ground_text, start_idx):
-#     """
-#     Find the best match of ocr_text in ground_text using RapidFuzz.
-
-#     Args:
-#         ocr_text (str): Text from OCR.
-#         ground_text (str): Ground truth text.
-#         start_idx (int): Starting index in the ground_text.
-
-#     Returns:
-#         tuple: (best_match_text, best_match_end_idx)
-#     """
-#     hanzi_ocr_text = convert_hanzi_strings(ocr_text)
-#     hanzi_ground_text = convert_hanzi_strings(ground_text)
-#     best_match_text = ""
-#     best_match_score = 0
-#     best_match_idx = -1
-
-#     # Sử dụng RapidFuzz để tìm match tốt nhất
-#     for i in range(len(hanzi_ground_text) - len(hanzi_ocr_text) + 1):
-#         candidate = hanzi_ground_text[i:i + len(hanzi_ocr_text)]
-#         score = fuzz.ratio(hanzi_ocr_text, candidate) / 100  # RapidFuzz ratio từ 0 đến 1
-
-#         if score > best_match_score:
-#             best_match_text = candidate
-#             best_match_score = score
-#             best_match_idx = i
-
-#     if best_match_score > 0.65 and best_match_idx != -1:
-#         pos1, pos2 = align_strings(hanzi_ocr_text, best_match_text)
-#         if pos1 is None or pos2 is None:
-#             return "", start_idx
-#         number_of_redundant_char = 0
-#         new_pos_best_match_text = pos2 + number_of_redundant_char
-#         # Tính vị trí kết thúc của match trong toàn bộ ground_text
-#         best_match_end_idx = start_idx + best_match_idx + new_pos_best_match_text + 1
-#         return best_match_text, best_match_end_idx
-#     else:
-#         return "", 0
-
-
 def find_best_match_rapidfuzz(ocr_text, ground_text, start_idx):
     """
     Find the best match of ocr_text in ground_text using RapidFuzz.
@@ -175,28 +133,6 @@ def find_best_match_rapidfuzz(ocr_text, ground_text, start_idx):
         return "", 0
 
 
-
-
-
-
-
-
-# def align_bboxes_with_true_text(listBBox, true_ground_text):
-
-#     list_pair_boxes = []
-#     current_index = 0
-#     for box in listBBox:
-#         ocr_text = box.get_cleaned_text()
-#         if len(ocr_text) < 15:
-#             max_search_len = len(ocr_text) + 50
-#         else:
-#             max_search_len = len(ocr_text) + 250
-#         ground_text = true_ground_text[current_index:current_index+max_search_len]
-#         best_match, new_index = find_best_match_rapidfuzz(ocr_text, ground_text, current_index)
-#         list_pair_boxes.append((box, best_match))
-#         current_index = new_index
-
-#     return list_pair_boxes
 
 
 def align_bboxes_with_true_text(listBBox, true_ground_text):
@@ -274,17 +210,32 @@ def align_bboxes_with_true_text(listBBox, true_ground_text):
 
             if not match_found:
                 # Nếu sau khi tăng temp_index mà vẫn không tìm thấy match
-                list_pair_boxes.append((box, ""))
-                print(f"    No match found for bbox {idx +1}.")
-                # Cập nhật current_index để tránh vòng lặp vô hạn nếu cần thiết
-                current_index = min(start_index, total_length)
+                # list_pair_boxes.append((box, ""))
+                # print(f"    No match found for bbox {idx +1}.")
+                # # Cập nhật current_index để tránh vòng lặp vô hạn nếu cần thiết
+                # current_index = min(start_index, total_length)
+
+                # Nếu sau khi tăng temp_index mà vẫn không tìm thấy match
+                print(f"    No match found for bbox {idx +1}. Attempting secondary search from start to previous start_index.")
+                # Thực hiện tìm kiếm phụ từ đầu chuỗi đến start_index
+                secondary_ground_text = true_ground_text[0:start_index]
+                best_match_sec, new_index_sec = find_best_match_rapidfuzz(ocr_text, secondary_ground_text, 0)
+                print(f"      Secondary search best match: '{best_match_sec}', new_index_sec: {new_index_sec}")
+
+                if best_match_sec and new_index_sec !=0:
+                    # Nếu tìm thấy match trong tìm kiếm phụ
+                    list_pair_boxes.append((box, best_match_sec))
+                    current_index = new_index_sec
+                    print(f"        Match found in secondary search: '{best_match_sec}' at index {new_index_sec}")
+                else:
+                    # Nếu không tìm thấy match trong cả tìm kiếm chính và phụ
+                    list_pair_boxes.append((box, ""))
+                    print(f"        No suitable match found for bbox {idx +1}. Continuing to next bbox.")
+                    # Không thay đổi current_index để quay lại vị trí của bbox trước đó
+
+
 
     return list_pair_boxes
-
-
-
-
-
 
 
 
