@@ -37,7 +37,7 @@ Từ tập tin json đó, ta bắt đầu đóng hàng chữ giữa các chuỗi
 ### **3.1. Điều kiện kiểm tra sự giống nhau của hai câu**
 Để xác định hai câu OCR và văn bản chuẩn có giống nhau hay không, chúng ta áp dụng các điều kiện sau:
 1. Chuyển đổi ký tự Hán tự đơn giản hóa: Trước khi so sánh, các chuỗi ký tự Hán tự của cả hai nguồn (OCR và văn bản chuẩn) được chuyển đổi sang dạng đơn giản hóa bằng hàm convert_hanzi_strings. Điều này giúp giảm thiểu sự khác biệt về dạng chữ viết.
-2. Tính điểm số so khớp: Sử dụng thuật toán SequenceMatcher để xác định các khối ký tự giống nhau giữa hai chuỗi. Điểm số so khớp được tính bằng tỷ lệ số ký tự giống nhau so với độ dài của chuỗi OCR. Công thức tính điểm số: $$\text{score} = \displaystyle \frac{\text{matching_chars}}{\text{len(ocr_text)}}$$
+2. Tính điểm số so khớp: Sử dụng thuật toán SequenceMatcher để xác định các khối ký tự giống nhau giữa hai chuỗi. Điểm số so khớp được tính bằng tỷ lệ số ký tự giống nhau so với độ dài của chuỗi OCR. Công thức tính điểm số: $$\text{score} = \displaystyle \frac{\text{matching chars}}{\text{len(ocr text)}}$$
 
 Nếu độ giống nhau vượt qua ngưỡng tối thiểu là 0.35, hai câu được xem là giống nhau.
 3. Xác định vị trí khớp: Sau khi xác định được chuỗi con giống nhất, ta tìm vị trí bắt đầu của các ký tự giống nhau trong cả hai chuỗi bằng cách sử dụng hàm align_strings. Nếu không tìm được vị trí khớp, chuỗi OCR hiện tại sẽ không được đóng hàng và quá trình tiếp tục với chuỗi tiếp theo.
